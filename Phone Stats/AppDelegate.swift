@@ -57,7 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
                 case CTRadioAccessTechnologyHSDPA:
                     return "3G"
                 case CTRadioAccessTechnologyHSUPA:
-                    return "4G"
+                    return "3G"
                 case CTRadioAccessTechnologyWCDMA:
                     return "3G"
                 case CTRadioAccessTechnologyCDMA1x:
