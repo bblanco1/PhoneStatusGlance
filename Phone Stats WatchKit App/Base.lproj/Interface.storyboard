@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Phone_Stats_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Label" id="w5R-WV-ZOh"/>
+                        <label alignment="left" text="Label" id="kQ6-F7-m1z"/>
+                    </items>
+                    <connections>
+                        <outlet property="batteryLabel" destination="w5R-WV-ZOh" id="FF1-te-38D"/>
+                        <outlet property="signalLabel" destination="kQ6-F7-m1z" id="mOh-lg-AXt"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="164" y="217"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="rjY-Ar-IMT">
+            <objects>
+                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="Phone_Stats_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="gv7-I2-MZq">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="Phone Status" textAlignment="left" id="vGW-gP-Oz1">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group alignment="left" layout="vertical" id="eew-Gs-W6Y">
+                            <items>
+                                <group width="1" height="0.40000000000000002" alignment="left" id="NBf-pD-dwn">
+                                    <items>
+                                        <imageView width="0.40000000000000002" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="9wu-hh-D75"/>
+                                        <label width="0.59999999999999998" alignment="left" verticalAlignment="center" text="0%" textAlignment="center" id="cjl-Yb-3Od"/>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.40000000000000002" alignment="left" verticalAlignment="bottom" id="n48-9U-vPw">
+                                    <items>
+                                        <imageView width="0.40000000000000002" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="QGB-zk-Ro0">
+                                            <color key="tintColor" red="1" green="0.97811951842906675" blue="0.98805006657708505" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                        <label width="0.59999999999999998" alignment="center" verticalAlignment="center" text="0" textAlignment="center" id="TEg-cc-uPa"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="batteryLabel" destination="cjl-Yb-3Od" id="nYF-aj-gUI"/>
+                        <outlet property="signalLabel" destination="TEg-cc-uPa" id="Q6k-NS-gjj"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="164" y="514"/>
+        </scene>
+    </scenes>
+</document>
