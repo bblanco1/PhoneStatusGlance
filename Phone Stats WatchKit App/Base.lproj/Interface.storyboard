@@ -10,8 +10,18 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Phone_Stats_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="Label" id="w5R-WV-ZOh"/>
-                        <label alignment="left" text="Label" id="kQ6-F7-m1z"/>
+                        <group width="1" height="0.40000000000000002" alignment="left" id="m6D-4o-Wjq">
+                            <items>
+                                <imageView width="0.5" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="f97-dc-OUm"/>
+                                <label width="0.5" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="w5R-WV-ZOh"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.40000000000000002" alignment="left" verticalAlignment="bottom" id="tb6-yi-x4d">
+                            <items>
+                                <imageView width="0.5" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="BFc-0t-mbT"/>
+                                <label width="0.5" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="kQ6-F7-m1z"/>
+                            </items>
+                        </group>
                     </items>
                     <connections>
                         <outlet property="batteryLabel" destination="w5R-WV-ZOh" id="FF1-te-38D"/>
@@ -38,7 +48,7 @@
                                 <group width="1" height="0.40000000000000002" alignment="left" id="NBf-pD-dwn">
                                     <items>
                                         <imageView width="0.40000000000000002" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="9wu-hh-D75"/>
-                                        <label width="0.59999999999999998" alignment="left" verticalAlignment="center" text="0%" textAlignment="center" id="cjl-Yb-3Od"/>
+                                        <label width="0.59999999999999998" alignment="left" verticalAlignment="center" text="..." textAlignment="center" id="cjl-Yb-3Od"/>
                                     </items>
                                 </group>
                                 <group width="1" height="0.40000000000000002" alignment="left" verticalAlignment="bottom" id="n48-9U-vPw">
@@ -46,7 +56,7 @@
                                         <imageView width="0.40000000000000002" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="QGB-zk-Ro0">
                                             <color key="tintColor" red="1" green="0.97811951842906675" blue="0.98805006657708505" alpha="1" colorSpace="calibratedRGB"/>
                                         </imageView>
-                                        <label width="0.59999999999999998" alignment="center" verticalAlignment="center" text="0" textAlignment="center" id="TEg-cc-uPa"/>
+                                        <label width="0.59999999999999998" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="TEg-cc-uPa"/>
                                     </items>
                                 </group>
                             </items>
