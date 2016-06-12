@@ -16,7 +16,6 @@
 		E25F79641D0A391B00B46652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79631D0A391B00B46652 /* AppDelegate.swift */; };
 		E25F79661D0A391B00B46652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79651D0A391B00B46652 /* ViewController.swift */; };
 		E25F79691D0A391B00B46652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25F79671D0A391B00B46652 /* Main.storyboard */; };
-		E25F796B1D0A391B00B46652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25F796A1D0A391B00B46652 /* Assets.xcassets */; };
 		E25F796E1D0A391B00B46652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25F796C1D0A391B00B46652 /* LaunchScreen.storyboard */; };
 		E25F79791D0A391B00B46652 /* Phone_StatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79781D0A391B00B46652 /* Phone_StatsTests.swift */; };
 		E25F797E1D0A391B00B46652 /* Phone Stats WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E25F797D1D0A391B00B46652 /* Phone Stats WatchKit App.app */; };
@@ -30,6 +29,7 @@
 		E25F79AB1D0A397000B46652 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */; };
 		E2620DCD1D0B780C0071ACE7 /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7561D0B2208005F7F0A /* battery.png */; };
 		E2620DCE1D0B780F0071ACE7 /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7541D0B1FB8005F7F0A /* network.png */; };
+		E2C44AA81D0DE9A300BDA5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +98,6 @@
 		E25F79631D0A391B00B46652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E25F79651D0A391B00B46652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E25F79681D0A391B00B46652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E25F796A1D0A391B00B46652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25F796D1D0A391B00B46652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E25F796F1D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25F79741D0A391B00B46652 /* Phone StatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phone StatsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +114,7 @@
 		E25F79971D0A391B00B46652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25F79991D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93CC878D57BBA54A02CECD8 /* Pods_Phone_Stats_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Stats_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD90DD1BD17119860E54C47 /* Pods-Phone Stats WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats WatchKit Extension/Pods-Phone Stats WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,8 +208,8 @@
 				E25F79631D0A391B00B46652 /* AppDelegate.swift */,
 				E25F79651D0A391B00B46652 /* ViewController.swift */,
 				E25F79671D0A391B00B46652 /* Main.storyboard */,
-				E25F796A1D0A391B00B46652 /* Assets.xcassets */,
 				E25F796C1D0A391B00B46652 /* LaunchScreen.storyboard */,
+				E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */,
 				E25F796F1D0A391B00B46652 /* Info.plist */,
 			);
 			path = "Phone Stats";
@@ -401,8 +401,8 @@
 				E236D7551D0B1FB8005F7F0A /* network.png in Resources */,
 				E236D7571D0B2208005F7F0A /* battery.png in Resources */,
 				E25F796E1D0A391B00B46652 /* LaunchScreen.storyboard in Resources */,
-				E25F796B1D0A391B00B46652 /* Assets.xcassets in Resources */,
 				E25F79691D0A391B00B46652 /* Main.storyboard in Resources */,
+				E2C44AA81D0DE9A300BDA5C7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
