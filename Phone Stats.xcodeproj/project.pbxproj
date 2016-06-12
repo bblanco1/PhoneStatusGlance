@@ -30,6 +30,7 @@
 		E2620DCD1D0B780C0071ACE7 /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7561D0B2208005F7F0A /* battery.png */; };
 		E2620DCE1D0B780F0071ACE7 /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7541D0B1FB8005F7F0A /* network.png */; };
 		E2C44AA81D0DE9A300BDA5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */; };
+		E2C44AAC1D0DEB3D00BDA5C7 /* icon-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C44AAB1D0DEB3D00BDA5C7 /* icon-transparent.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		E25F79991D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
 		E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2C44AAB1D0DEB3D00BDA5C7 /* icon-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-transparent.png"; path = "assets/icon-transparent.png"; sourceTree = "<group>"; };
 		E93CC878D57BBA54A02CECD8 /* Pods_Phone_Stats_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Stats_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD90DD1BD17119860E54C47 /* Pods-Phone Stats WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats WatchKit Extension/Pods-Phone Stats WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 		E236D7531D0B1FA7005F7F0A /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				E2C44AAB1D0DEB3D00BDA5C7 /* icon-transparent.png */,
 				E236D7561D0B2208005F7F0A /* battery.png */,
 				E236D7541D0B1FB8005F7F0A /* network.png */,
 			);
@@ -401,6 +404,7 @@
 				E236D7551D0B1FB8005F7F0A /* network.png in Resources */,
 				E236D7571D0B2208005F7F0A /* battery.png in Resources */,
 				E25F796E1D0A391B00B46652 /* LaunchScreen.storyboard in Resources */,
+				E2C44AAC1D0DEB3D00BDA5C7 /* icon-transparent.png in Resources */,
 				E25F79691D0A391B00B46652 /* Main.storyboard in Resources */,
 				E2C44AA81D0DE9A300BDA5C7 /* Assets.xcassets in Resources */,
 			);
