@@ -18,10 +18,10 @@
 		E25F79691D0A391B00B46652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25F79671D0A391B00B46652 /* Main.storyboard */; };
 		E25F796E1D0A391B00B46652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25F796C1D0A391B00B46652 /* LaunchScreen.storyboard */; };
 		E25F79791D0A391B00B46652 /* Phone_StatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79781D0A391B00B46652 /* Phone_StatsTests.swift */; };
-		E25F797E1D0A391B00B46652 /* Phone Stats WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E25F797D1D0A391B00B46652 /* Phone Stats WatchKit App.app */; };
+		E25F797E1D0A391B00B46652 /* Phone Status Glance.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E25F797D1D0A391B00B46652 /* Phone Status Glance.app */; };
 		E25F79841D0A391B00B46652 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25F79821D0A391B00B46652 /* Interface.storyboard */; };
 		E25F79861D0A391B00B46652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25F79851D0A391B00B46652 /* Assets.xcassets */; };
-		E25F798D1D0A391B00B46652 /* Phone Stats WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E25F798C1D0A391B00B46652 /* Phone Stats WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E25F798D1D0A391B00B46652 /* Phone Status Glance.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E25F79921D0A391B00B46652 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79911D0A391B00B46652 /* InterfaceController.swift */; };
 		E25F79941D0A391B00B46652 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79931D0A391B00B46652 /* ExtensionDelegate.swift */; };
 		E25F79961D0A391B00B46652 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79951D0A391B00B46652 /* GlanceController.swift */; };
@@ -64,7 +64,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				E25F798D1D0A391B00B46652 /* Phone Stats WatchKit Extension.appex in Embed App Extensions */,
+				E25F798D1D0A391B00B46652 /* Phone Status Glance.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,7 +75,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				E25F797E1D0A391B00B46652 /* Phone Stats WatchKit App.app in Embed Watch Content */,
+				E25F797E1D0A391B00B46652 /* Phone Status Glance.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,20 +95,20 @@
 		BF7DABCAF39819AF8DD3C31C /* Pods-Phone StatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone StatsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone StatsTests/Pods-Phone StatsTests.release.xcconfig"; sourceTree = "<group>"; };
 		E236D7541D0B1FB8005F7F0A /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = network.png; path = images/network.png; sourceTree = "<group>"; };
 		E236D7561D0B2208005F7F0A /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = battery.png; path = images/battery.png; sourceTree = "<group>"; };
-		E25F79601D0A391B00B46652 /* Phone Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25F79601D0A391B00B46652 /* Phone Status Glance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Status Glance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F79631D0A391B00B46652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E25F79651D0A391B00B46652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E25F79681D0A391B00B46652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E25F796D1D0A391B00B46652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E25F796F1D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E25F79741D0A391B00B46652 /* Phone StatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phone StatsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25F79741D0A391B00B46652 /* Phone Status Glance.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phone Status Glance.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F79781D0A391B00B46652 /* Phone_StatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone_StatsTests.swift; sourceTree = "<group>"; };
 		E25F797A1D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E25F797D1D0A391B00B46652 /* Phone Stats WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Stats WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25F797D1D0A391B00B46652 /* Phone Status Glance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Status Glance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F79831D0A391B00B46652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		E25F79851D0A391B00B46652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25F79871D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E25F798C1D0A391B00B46652 /* Phone Stats WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Phone Stats WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Phone Status Glance.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F79911D0A391B00B46652 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		E25F79931D0A391B00B46652 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		E25F79951D0A391B00B46652 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
@@ -197,10 +197,10 @@
 		E25F79611D0A391B00B46652 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E25F79601D0A391B00B46652 /* Phone Stats.app */,
-				E25F79741D0A391B00B46652 /* Phone StatsTests.xctest */,
-				E25F797D1D0A391B00B46652 /* Phone Stats WatchKit App.app */,
-				E25F798C1D0A391B00B46652 /* Phone Stats WatchKit Extension.appex */,
+				E25F79601D0A391B00B46652 /* Phone Status Glance.app */,
+				E25F79741D0A391B00B46652 /* Phone Status Glance.xctest */,
+				E25F797D1D0A391B00B46652 /* Phone Status Glance.app */,
+				E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -267,9 +267,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E25F795F1D0A391B00B46652 /* Phone Stats */ = {
+		E25F795F1D0A391B00B46652 /* Phone Status Glance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E25F79A41D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Stats" */;
+			buildConfigurationList = E25F79A41D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status Glance" */;
 			buildPhases = (
 				A8686D192ABF7717C1512694 /* 📦 Check Pods Manifest.lock */,
 				E25F795C1D0A391B00B46652 /* Sources */,
@@ -284,14 +284,14 @@
 			dependencies = (
 				E25F79801D0A391B00B46652 /* PBXTargetDependency */,
 			);
-			name = "Phone Stats";
+			name = "Phone Status Glance";
 			productName = "Phone Stats";
-			productReference = E25F79601D0A391B00B46652 /* Phone Stats.app */;
+			productReference = E25F79601D0A391B00B46652 /* Phone Status Glance.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E25F79731D0A391B00B46652 /* Phone StatsTests */ = {
+		E25F79731D0A391B00B46652 /* Phone Status GlanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E25F79A71D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone StatsTests" */;
+			buildConfigurationList = E25F79A71D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status GlanceTests" */;
 			buildPhases = (
 				EEF1EB2E5A9C6051111B4114 /* 📦 Check Pods Manifest.lock */,
 				E25F79701D0A391B00B46652 /* Sources */,
@@ -305,14 +305,14 @@
 			dependencies = (
 				E25F79761D0A391B00B46652 /* PBXTargetDependency */,
 			);
-			name = "Phone StatsTests";
+			name = "Phone Status GlanceTests";
 			productName = "Phone StatsTests";
-			productReference = E25F79741D0A391B00B46652 /* Phone StatsTests.xctest */;
+			productReference = E25F79741D0A391B00B46652 /* Phone Status Glance.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E25F797C1D0A391B00B46652 /* Phone Stats WatchKit App */ = {
+		E25F797C1D0A391B00B46652 /* Phone Status Glance WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E25F79A01D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Stats WatchKit App" */;
+			buildConfigurationList = E25F79A01D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status Glance WatchKit App" */;
 			buildPhases = (
 				D4CB8853BA2FF58E3B575AE3 /* 📦 Check Pods Manifest.lock */,
 				E25F797B1D0A391B00B46652 /* Resources */,
@@ -325,14 +325,14 @@
 			dependencies = (
 				E25F798F1D0A391B00B46652 /* PBXTargetDependency */,
 			);
-			name = "Phone Stats WatchKit App";
+			name = "Phone Status Glance WatchKit App";
 			productName = "Phone Stats WatchKit App";
-			productReference = E25F797D1D0A391B00B46652 /* Phone Stats WatchKit App.app */;
+			productReference = E25F797D1D0A391B00B46652 /* Phone Status Glance.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		E25F798B1D0A391B00B46652 /* Phone Stats WatchKit Extension */ = {
+		E25F798B1D0A391B00B46652 /* Phone Status Glance WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E25F799C1D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Stats WatchKit Extension" */;
+			buildConfigurationList = E25F799C1D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status Glance WatchKit Extension" */;
 			buildPhases = (
 				B27D2B66BE56768FEBAD3588 /* 📦 Check Pods Manifest.lock */,
 				E25F79881D0A391B00B46652 /* Sources */,
@@ -345,9 +345,9 @@
 			);
 			dependencies = (
 			);
-			name = "Phone Stats WatchKit Extension";
+			name = "Phone Status Glance WatchKit Extension";
 			productName = "Phone Stats WatchKit Extension";
-			productReference = E25F798C1D0A391B00B46652 /* Phone Stats WatchKit Extension.appex */;
+			productReference = E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -375,7 +375,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E25F795B1D0A391B00B46652 /* Build configuration list for PBXProject "Phone Stats" */;
+			buildConfigurationList = E25F795B1D0A391B00B46652 /* Build configuration list for PBXProject "Phone Status Glance" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -388,10 +388,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E25F795F1D0A391B00B46652 /* Phone Stats */,
-				E25F79731D0A391B00B46652 /* Phone StatsTests */,
-				E25F797C1D0A391B00B46652 /* Phone Stats WatchKit App */,
-				E25F798B1D0A391B00B46652 /* Phone Stats WatchKit Extension */,
+				E25F795F1D0A391B00B46652 /* Phone Status Glance */,
+				E25F79731D0A391B00B46652 /* Phone Status GlanceTests */,
+				E25F797C1D0A391B00B46652 /* Phone Status Glance WatchKit App */,
+				E25F798B1D0A391B00B46652 /* Phone Status Glance WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -639,17 +639,17 @@
 /* Begin PBXTargetDependency section */
 		E25F79761D0A391B00B46652 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E25F795F1D0A391B00B46652 /* Phone Stats */;
+			target = E25F795F1D0A391B00B46652 /* Phone Status Glance */;
 			targetProxy = E25F79751D0A391B00B46652 /* PBXContainerItemProxy */;
 		};
 		E25F79801D0A391B00B46652 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E25F797C1D0A391B00B46652 /* Phone Stats WatchKit App */;
+			target = E25F797C1D0A391B00B46652 /* Phone Status Glance WatchKit App */;
 			targetProxy = E25F797F1D0A391B00B46652 /* PBXContainerItemProxy */;
 		};
 		E25F798F1D0A391B00B46652 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E25F798B1D0A391B00B46652 /* Phone Stats WatchKit Extension */;
+			target = E25F798B1D0A391B00B46652 /* Phone Status Glance WatchKit Extension */;
 			targetProxy = E25F798E1D0A391B00B46652 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -774,7 +774,7 @@
 				INFOPLIST_FILE = "Phone Stats WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -789,7 +789,7 @@
 				INFOPLIST_FILE = "Phone Stats WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -806,7 +806,7 @@
 				IBSC_MODULE = Phone_Stats_WatchKit_Extension;
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -823,7 +823,7 @@
 				IBSC_MODULE = Phone_Stats_WatchKit_Extension;
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -839,7 +839,7 @@
 				INFOPLIST_FILE = "Phone Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Phone Status Glance";
 			};
 			name = Debug;
 		};
@@ -851,7 +851,7 @@
 				INFOPLIST_FILE = "Phone Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Phone Status Glance";
 			};
 			name = Release;
 		};
@@ -863,8 +863,8 @@
 				INFOPLIST_FILE = "Phone StatsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-StatsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Stats.app/Phone Stats";
+				PRODUCT_NAME = "Phone Status Glance";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Status Glance.app/Phone Status Glance";
 			};
 			name = Debug;
 		};
@@ -876,15 +876,15 @@
 				INFOPLIST_FILE = "Phone StatsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-StatsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Stats.app/Phone Stats";
+				PRODUCT_NAME = "Phone Status Glance";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Status Glance.app/Phone Status Glance";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E25F795B1D0A391B00B46652 /* Build configuration list for PBXProject "Phone Stats" */ = {
+		E25F795B1D0A391B00B46652 /* Build configuration list for PBXProject "Phone Status Glance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E25F799A1D0A391B00B46652 /* Debug */,
@@ -893,7 +893,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E25F799C1D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Stats WatchKit Extension" */ = {
+		E25F799C1D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status Glance WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E25F799D1D0A391B00B46652 /* Debug */,
@@ -902,7 +902,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E25F79A01D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Stats WatchKit App" */ = {
+		E25F79A01D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status Glance WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E25F79A11D0A391B00B46652 /* Debug */,
@@ -911,7 +911,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E25F79A41D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Stats" */ = {
+		E25F79A41D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status Glance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E25F79A51D0A391B00B46652 /* Debug */,
@@ -920,7 +920,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E25F79A71D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone StatsTests" */ = {
+		E25F79A71D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status GlanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E25F79A81D0A391B00B46652 /* Debug */,

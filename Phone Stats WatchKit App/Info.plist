@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>io.telliott.Phone-Stats</string>
+	<string>io.telliott.Phone-Status-Glance</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
