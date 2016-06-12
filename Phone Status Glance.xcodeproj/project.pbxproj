@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085D2FF49560274F59007D4B /* Pods_Phone_Stats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4320AC49A1548E6C4D221F /* Pods_Phone_Stats.framework */; };
-		7175443155EC2A71DC442448 /* Pods_Phone_Stats_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93CC878D57BBA54A02CECD8 /* Pods_Phone_Stats_WatchKit_App.framework */; };
-		B3EE3E45089F89FF7A0A505F /* Pods_Phone_Stats_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264103601A24F8671264AEE1 /* Pods_Phone_Stats_WatchKit_Extension.framework */; };
+		072D49EAF77B092B062ED27B /* Pods_Phone_Status_Glance_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78225B98DDB14868C9CEBE2 /* Pods_Phone_Status_Glance_WatchKit_App.framework */; };
+		3A9AA401C95B153487A5648E /* Pods_Phone_Status_Glance_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74F024EAF70F10F2F0C889B /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */; };
+		81614C18082238FADDFB7778 /* Pods_Phone_Status_Glance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */; };
+		9FCB1777A7A8E8F340ADDBE4 /* Pods_Phone_Status_GlanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C454CD7BBAAAB95B565627 /* Pods_Phone_Status_GlanceTests.framework */; };
 		B4C5124EB85A3DBBCA7A262D /* Pods_Phone_StatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E77C091636FC0131D328CA /* Pods_Phone_StatsTests.framework */; };
 		E236D7551D0B1FB8005F7F0A /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7541D0B1FB8005F7F0A /* network.png */; };
 		E236D7571D0B2208005F7F0A /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7561D0B2208005F7F0A /* battery.png */; };
@@ -29,6 +30,8 @@
 		E25F79AB1D0A397000B46652 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */; };
 		E2620DCD1D0B780C0071ACE7 /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7561D0B2208005F7F0A /* battery.png */; };
 		E2620DCE1D0B780F0071ACE7 /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7541D0B1FB8005F7F0A /* network.png */; };
+		E27349AB1D0E29450097FA2C /* icon-transparent-50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349A91D0E29450097FA2C /* icon-transparent-50x50.png */; };
+		E27349AC1D0E29450097FA2C /* icon-transparent-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */; };
 		E2C44AA81D0DE9A300BDA5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */; };
 		E2C44AAC1D0DEB3D00BDA5C7 /* icon-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C44AAB1D0DEB3D00BDA5C7 /* icon-transparent.png */; };
 /* End PBXBuildFile section */
@@ -83,16 +86,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13C454CD7BBAAAB95B565627 /* Pods_Phone_Status_GlanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_GlanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E2ACF2028EF7FCC13F0CF0 /* Pods-Phone Stats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats/Pods-Phone Stats.release.xcconfig"; sourceTree = "<group>"; };
 		264103601A24F8671264AEE1 /* Pods_Phone_Stats_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Stats_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F861F777C87F86BF0D6FEFD /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		5126FB3CB4259F0402A8DBB0 /* Pods-Phone Status GlanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status GlanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		668AFE20474805F196119172 /* Pods-Phone Stats WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats WatchKit App/Pods-Phone Stats WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		67763F171448A355E98E7C41 /* Pods-Phone Stats WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats WatchKit App/Pods-Phone Stats WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		69F63DFBEC81FEC09AF04F82 /* Pods-Phone Status Glance WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C700166E8D7DCFF58551577 /* Pods-Phone Stats WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats WatchKit Extension/Pods-Phone Stats WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		759F6A93EAFFABF0D06B285D /* Pods-Phone Stats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats/Pods-Phone Stats.debug.xcconfig"; sourceTree = "<group>"; };
 		7B4320AC49A1548E6C4D221F /* Pods_Phone_Stats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Stats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E893C4AA67B75AF07F08903 /* Pods-Phone StatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone StatsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone StatsTests/Pods-Phone StatsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		98E77C091636FC0131D328CA /* Pods_Phone_StatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_StatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3EA8E8AB296ADD6FB692C5 /* Pods-Phone Status Glance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance.debug.xcconfig"; sourceTree = "<group>"; };
+		AD9D4D952FC4BDF797272D17 /* Pods-Phone Status Glance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance.release.xcconfig"; sourceTree = "<group>"; };
 		BF7DABCAF39819AF8DD3C31C /* Pods-Phone StatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone StatsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone StatsTests/Pods-Phone StatsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6F59E5531021272E2AA9A5C /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		DA53FAA9D8408E9B058E9ED7 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		E236D7541D0B1FB8005F7F0A /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = network.png; path = images/network.png; sourceTree = "<group>"; };
 		E236D7561D0B2208005F7F0A /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = battery.png; path = images/battery.png; sourceTree = "<group>"; };
 		E25F79601D0A391B00B46652 /* Phone Status Glance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Status Glance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,9 +127,14 @@
 		E25F79971D0A391B00B46652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25F79991D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		E27349A91D0E29450097FA2C /* icon-transparent-50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-transparent-50x50.png"; path = "assets/icon-transparent-50x50.png"; sourceTree = "<group>"; };
+		E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-transparent-50x50@2x.png"; path = "assets/icon-transparent-50x50@2x.png"; sourceTree = "<group>"; };
 		E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C44AAB1D0DEB3D00BDA5C7 /* icon-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-transparent.png"; path = "assets/icon-transparent.png"; sourceTree = "<group>"; };
+		E74F024EAF70F10F2F0C889B /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93CC878D57BBA54A02CECD8 /* Pods_Phone_Stats_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Stats_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1834A41DBC336BC50778458 /* Pods-Phone Status GlanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status GlanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		F78225B98DDB14868C9CEBE2 /* Pods_Phone_Status_Glance_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD90DD1BD17119860E54C47 /* Pods-Phone Stats WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats WatchKit Extension/Pods-Phone Stats WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7175443155EC2A71DC442448 /* Pods_Phone_Stats_WatchKit_App.framework in Frameworks */,
+				072D49EAF77B092B062ED27B /* Pods_Phone_Status_Glance_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25F79AB1D0A397000B46652 /* WatchConnectivity.framework in Frameworks */,
-				085D2FF49560274F59007D4B /* Pods_Phone_Stats.framework in Frameworks */,
+				81614C18082238FADDFB7778 /* Pods_Phone_Status_Glance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4C5124EB85A3DBBCA7A262D /* Pods_Phone_StatsTests.framework in Frameworks */,
+				9FCB1777A7A8E8F340ADDBE4 /* Pods_Phone_Status_GlanceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3EE3E45089F89FF7A0A505F /* Pods_Phone_Stats_WatchKit_Extension.framework in Frameworks */,
+				3A9AA401C95B153487A5648E /* Pods_Phone_Status_Glance_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +183,10 @@
 				E93CC878D57BBA54A02CECD8 /* Pods_Phone_Stats_WatchKit_App.framework */,
 				264103601A24F8671264AEE1 /* Pods_Phone_Stats_WatchKit_Extension.framework */,
 				98E77C091636FC0131D328CA /* Pods_Phone_StatsTests.framework */,
+				69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */,
+				F78225B98DDB14868C9CEBE2 /* Pods_Phone_Status_Glance_WatchKit_App.framework */,
+				E74F024EAF70F10F2F0C889B /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */,
+				13C454CD7BBAAAB95B565627 /* Pods_Phone_Status_GlanceTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,6 +194,8 @@
 		E236D7531D0B1FA7005F7F0A /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				E27349A91D0E29450097FA2C /* icon-transparent-50x50.png */,
+				E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */,
 				E2C44AAB1D0DEB3D00BDA5C7 /* icon-transparent.png */,
 				E236D7561D0B2208005F7F0A /* battery.png */,
 				E236D7541D0B1FB8005F7F0A /* network.png */,
@@ -260,6 +284,14 @@
 				FDD90DD1BD17119860E54C47 /* Pods-Phone Stats WatchKit Extension.release.xcconfig */,
 				7E893C4AA67B75AF07F08903 /* Pods-Phone StatsTests.debug.xcconfig */,
 				BF7DABCAF39819AF8DD3C31C /* Pods-Phone StatsTests.release.xcconfig */,
+				9B3EA8E8AB296ADD6FB692C5 /* Pods-Phone Status Glance.debug.xcconfig */,
+				AD9D4D952FC4BDF797272D17 /* Pods-Phone Status Glance.release.xcconfig */,
+				D6F59E5531021272E2AA9A5C /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */,
+				69F63DFBEC81FEC09AF04F82 /* Pods-Phone Status Glance WatchKit App.release.xcconfig */,
+				2F861F777C87F86BF0D6FEFD /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */,
+				DA53FAA9D8408E9B058E9ED7 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */,
+				5126FB3CB4259F0402A8DBB0 /* Pods-Phone Status GlanceTests.debug.xcconfig */,
+				F1834A41DBC336BC50778458 /* Pods-Phone Status GlanceTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -402,10 +434,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E236D7551D0B1FB8005F7F0A /* network.png in Resources */,
+				E27349AC1D0E29450097FA2C /* icon-transparent-50x50@2x.png in Resources */,
 				E236D7571D0B2208005F7F0A /* battery.png in Resources */,
 				E25F796E1D0A391B00B46652 /* LaunchScreen.storyboard in Resources */,
 				E2C44AAC1D0DEB3D00BDA5C7 /* icon-transparent.png in Resources */,
 				E25F79691D0A391B00B46652 /* Main.storyboard in Resources */,
+				E27349AB1D0E29450097FA2C /* icon-transparent-50x50.png in Resources */,
 				E2C44AA81D0DE9A300BDA5C7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,7 +485,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Stats WatchKit Extension/Pods-Phone Stats WatchKit Extension-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3F22B03B7148E2CD6C43682A /* 📦 Copy Pods Resources */ = {
@@ -466,7 +500,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Stats WatchKit Extension/Pods-Phone Stats WatchKit Extension-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5AFC3524BEC94C3F5402B22E /* 📦 Copy Pods Resources */ = {
@@ -481,7 +515,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Stats/Pods-Phone Stats-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		614E03ED517D8602A5871646 /* 📦 Copy Pods Resources */ = {
@@ -496,7 +530,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone StatsTests/Pods-Phone StatsTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8DF14AAA5F5C79169E0F7645 /* 📦 Embed Pods Frameworks */ = {
@@ -511,7 +545,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone StatsTests/Pods-Phone StatsTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A8686D192ABF7717C1512694 /* 📦 Check Pods Manifest.lock */ = {
@@ -556,7 +590,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Stats WatchKit App/Pods-Phone Stats WatchKit App-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D4CB8853BA2FF58E3B575AE3 /* 📦 Check Pods Manifest.lock */ = {
@@ -586,7 +620,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Stats/Pods-Phone Stats-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EEF1EB2E5A9C6051111B4114 /* 📦 Check Pods Manifest.lock */ = {
@@ -769,11 +803,11 @@
 		};
 		E25F799D1D0A391B00B46652 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C700166E8D7DCFF58551577 /* Pods-Phone Stats WatchKit Extension.debug.xcconfig */;
+			baseConfigurationReference = 2F861F777C87F86BF0D6FEFD /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Phone Stats WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -784,11 +818,11 @@
 		};
 		E25F799E1D0A391B00B46652 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDD90DD1BD17119860E54C47 /* Pods-Phone Stats WatchKit Extension.release.xcconfig */;
+			baseConfigurationReference = DA53FAA9D8408E9B058E9ED7 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Phone Stats WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -799,13 +833,13 @@
 		};
 		E25F79A11D0A391B00B46652 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67763F171448A355E98E7C41 /* Pods-Phone Stats WatchKit App.debug.xcconfig */;
+			baseConfigurationReference = D6F59E5531021272E2AA9A5C /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Phone_Stats_WatchKit_Extension;
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance.watchkitapp;
 				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -816,13 +850,13 @@
 		};
 		E25F79A21D0A391B00B46652 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 668AFE20474805F196119172 /* Pods-Phone Stats WatchKit App.release.xcconfig */;
+			baseConfigurationReference = 69F63DFBEC81FEC09AF04F82 /* Pods-Phone Status Glance WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Phone_Stats_WatchKit_Extension;
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance.watchkitapp;
 				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -833,31 +867,31 @@
 		};
 		E25F79A51D0A391B00B46652 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 759F6A93EAFFABF0D06B285D /* Pods-Phone Stats.debug.xcconfig */;
+			baseConfigurationReference = 9B3EA8E8AB296ADD6FB692C5 /* Pods-Phone Status Glance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Phone Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
+				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance;
 				PRODUCT_NAME = "Phone Status Glance";
 			};
 			name = Debug;
 		};
 		E25F79A61D0A391B00B46652 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19E2ACF2028EF7FCC13F0CF0 /* Pods-Phone Stats.release.xcconfig */;
+			baseConfigurationReference = AD9D4D952FC4BDF797272D17 /* Pods-Phone Status Glance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Phone Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
+				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance;
 				PRODUCT_NAME = "Phone Status Glance";
 			};
 			name = Release;
 		};
 		E25F79A81D0A391B00B46652 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E893C4AA67B75AF07F08903 /* Pods-Phone StatsTests.debug.xcconfig */;
+			baseConfigurationReference = 5126FB3CB4259F0402A8DBB0 /* Pods-Phone Status GlanceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Phone StatsTests/Info.plist";
@@ -870,7 +904,7 @@
 		};
 		E25F79A91D0A391B00B46652 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF7DABCAF39819AF8DD3C31C /* Pods-Phone StatsTests.release.xcconfig */;
+			baseConfigurationReference = F1834A41DBC336BC50778458 /* Pods-Phone Status GlanceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Phone StatsTests/Info.plist";

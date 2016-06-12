@@ -4,13 +4,12 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Phone_Stats" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Phone_Status_Glance" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -19,31 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="z9r-je-Xrx">
-                                <rect key="frame" x="30" y="150" width="540" height="300"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-transparent-50x50.png" translatesAutoresizingMaskIntoConstraints="NO" id="z9r-je-Xrx">
+                                <rect key="frame" x="30" y="30" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="1217" id="gIi-OG-LyC"/>
+                                    <constraint firstAttribute="width" constant="50" id="HbM-W7-4bV"/>
+                                    <constraint firstAttribute="height" constant="50" id="Vbf-RI-Lcx"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="gIi-OG-LyC"/>
-                                    </mask>
-                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="z9r-je-Xrx" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="54w-ww-vSS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="z9r-je-Xrx" secondAttribute="trailing" constant="10" id="AIF-TH-SzH"/>
-                            <constraint firstItem="z9r-je-Xrx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FfB-00-J14"/>
-                            <constraint firstItem="z9r-je-Xrx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IfM-5I-KWg"/>
+                            <constraint firstItem="z9r-je-Xrx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="UJI-ef-m63"/>
                             <constraint firstItem="z9r-je-Xrx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="hCu-KQ-iN0"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="FfB-00-J14"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -52,6 +39,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon-transparent.png" width="1217" height="1217"/>
+        <image name="icon-transparent-50x50.png" width="50" height="50"/>
     </resources>
 </document>

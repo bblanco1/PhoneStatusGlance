@@ -8,7 +8,7 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Phone_Stats_WatchKit_App" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Phone_Status_Glance" customModuleProvider="target">
                     <items>
                         <group width="1" height="0.40000000000000002" alignment="left" id="m6D-4o-Wjq">
                             <items>
@@ -34,10 +34,11 @@
         <!--Glance Interface Controller-->
         <scene sceneID="rjY-Ar-IMT">
             <objects>
-                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="Phone_Stats_WatchKit_App" customModuleProvider="target">
+                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="Phone_Status_Glance" customModuleProvider="target">
                     <items>
                         <group alignment="left" id="gv7-I2-MZq">
                             <items>
+                                <imageView alignment="left" id="Hd4-2D-72N"/>
                                 <label alignment="center" verticalAlignment="center" text="Phone Status" textAlignment="left" id="vGW-gP-Oz1">
                                     <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
                                 </label>

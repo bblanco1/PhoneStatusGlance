@@ -5,11 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Phone Stats WatchKit App</string>
+	<string>Phone Status Glance WatchKit App</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
-	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -28,7 +26,9 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>io.telliott.Phone-Status-Glance</string>
+	<string>io.telliott.PhoneStatusGlance</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.telliott.PhoneStatusGlance.watchkit</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

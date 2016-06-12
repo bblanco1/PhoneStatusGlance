@@ -1,6 +1,0 @@
-framework module Pods_Phone_Stats_WatchKit_App {
-  umbrella header "Pods-Phone Stats WatchKit App-umbrella.h"
-
-  export *
-  module * { export * }
-}
