@@ -1,0 +1,7 @@
+languages([
+  "en-US",
+])
+
+scheme "Phone Status Glance"
+
+clear_previous_screenshots true

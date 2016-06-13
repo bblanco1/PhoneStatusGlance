@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BFADC0FD4F3069ABE4E3D3F /* Pods_Phone_Status_Glance_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD344914C0C1168674180446 /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */; };
 		81614C18082238FADDFB7778 /* Pods_Phone_Status_Glance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */; };
+		870113CEFCC6D4875C65D9F1 /* Pods_Phone_Status_GlanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D48642D71329506B75CBA9 /* Pods_Phone_Status_GlanceTests.framework */; };
+		C52C956EA14F8F16E4D56720 /* Pods_Phone_Status_Glance_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4C652EA2F54887268CDAA9 /* Pods_Phone_Status_Glance_WatchKit_App.framework */; };
 		E21D76631D0E2D6700F245D2 /* icon-transparent-50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349A91D0E29450097FA2C /* icon-transparent-50x50.png */; };
 		E21D76641D0E2D6A00F245D2 /* icon-transparent-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */; };
 		E21D76661D0E37BA00F245D2 /* Watch-Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = E21D76651D0E37BA00F245D2 /* Watch-Screenshot.png */; };
 		E21D76681D0E3ED600F245D2 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E21D76671D0E3ED600F245D2 /* Acknowledgements.plist */; };
+		E2287D831D0ECF4A0051FFA7 /* Phone_Status_GlanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2287D821D0ECF4A0051FFA7 /* Phone_Status_GlanceUITests.swift */; };
+		E2287D8B1D0ECF700051FFA7 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2287D8A1D0ECF700051FFA7 /* SnapshotHelper.swift */; };
 		E236D7551D0B1FB8005F7F0A /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7541D0B1FB8005F7F0A /* network.png */; };
 		E236D7571D0B2208005F7F0A /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7561D0B2208005F7F0A /* battery.png */; };
 		E25F79641D0A391B00B46652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79631D0A391B00B46652 /* AppDelegate.swift */; };
@@ -37,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E2287D851D0ECF4A0051FFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25F79581D0A391B00B46652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25F795F1D0A391B00B46652;
+			remoteInfo = "Phone Status Glance";
+		};
 		E25F79751D0A391B00B46652 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E25F79581D0A391B00B46652 /* Project object */;
@@ -86,16 +98,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00D48642D71329506B75CBA9 /* Pods_Phone_Status_GlanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_GlanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F861F777C87F86BF0D6FEFD /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		5126FB3CB4259F0402A8DBB0 /* Pods-Phone Status GlanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status GlanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		69F63DFBEC81FEC09AF04F82 /* Pods-Phone Status Glance WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3EA8E8AB296ADD6FB692C5 /* Pods-Phone Status Glance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance.debug.xcconfig"; sourceTree = "<group>"; };
+		9D4C652EA2F54887268CDAA9 /* Pods_Phone_Status_Glance_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9D4D952FC4BDF797272D17 /* Pods-Phone Status Glance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance.release.xcconfig"; sourceTree = "<group>"; };
+		CD344914C0C1168674180446 /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F59E5531021272E2AA9A5C /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		DA53FAA9D8408E9B058E9ED7 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		E21D76651D0E37BA00F245D2 /* Watch-Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Watch-Screenshot.png"; path = "assets/Watch-Screenshot.png"; sourceTree = "<group>"; };
 		E21D76671D0E3ED600F245D2 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = "Phone Stats/Acknowledgements.plist"; sourceTree = "<group>"; };
+		E2287D801D0ECF4A0051FFA7 /* Phone Status GlanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phone Status GlanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2287D821D0ECF4A0051FFA7 /* Phone_Status_GlanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone_Status_GlanceUITests.swift; sourceTree = "<group>"; };
+		E2287D841D0ECF4A0051FFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2287D8A1D0ECF700051FFA7 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		E236D7541D0B1FB8005F7F0A /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = network.png; path = images/network.png; sourceTree = "<group>"; };
 		E236D7561D0B2208005F7F0A /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = battery.png; path = images/battery.png; sourceTree = "<group>"; };
 		E25F79601D0A391B00B46652 /* Phone Status Glance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Status Glance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +149,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52C956EA14F8F16E4D56720 /* Pods_Phone_Status_Glance_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2287D7D1D0ECF4A0051FFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870113CEFCC6D4875C65D9F1 /* Pods_Phone_Status_GlanceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +181,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BFADC0FD4F3069ABE4E3D3F /* Pods_Phone_Status_Glance_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,8 +192,21 @@
 			isa = PBXGroup;
 			children = (
 				69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */,
+				9D4C652EA2F54887268CDAA9 /* Pods_Phone_Status_Glance_WatchKit_App.framework */,
+				CD344914C0C1168674180446 /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */,
+				00D48642D71329506B75CBA9 /* Pods_Phone_Status_GlanceTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2287D811D0ECF4A0051FFA7 /* Phone Status GlanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2287D821D0ECF4A0051FFA7 /* Phone_Status_GlanceUITests.swift */,
+				E2287D8A1D0ECF700051FFA7 /* SnapshotHelper.swift */,
+				E2287D841D0ECF4A0051FFA7 /* Info.plist */,
+			);
+			path = "Phone Status GlanceUITests";
 			sourceTree = "<group>";
 		};
 		E236D7531D0B1FA7005F7F0A /* Icons */ = {
@@ -190,6 +232,7 @@
 				E25F79771D0A391B00B46652 /* Phone StatsTests */,
 				E25F79811D0A391B00B46652 /* Phone Stats WatchKit App */,
 				E25F79901D0A391B00B46652 /* Phone Stats WatchKit Extension */,
+				E2287D811D0ECF4A0051FFA7 /* Phone Status GlanceUITests */,
 				E25F79611D0A391B00B46652 /* Products */,
 				FA0D4E5EBD1293504E818203 /* Pods */,
 				53655D0F0A8EBE96D82D5C47 /* Frameworks */,
@@ -203,6 +246,7 @@
 				E25F79741D0A391B00B46652 /* Phone Status Glance.xctest */,
 				E25F797D1D0A391B00B46652 /* Phone Status Glance.app */,
 				E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */,
+				E2287D801D0ECF4A0051FFA7 /* Phone Status GlanceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,6 +313,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E2287D7F1D0ECF4A0051FFA7 /* Phone Status GlanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2287D891D0ECF4A0051FFA7 /* Build configuration list for PBXNativeTarget "Phone Status GlanceUITests" */;
+			buildPhases = (
+				E2287D7C1D0ECF4A0051FFA7 /* Sources */,
+				E2287D7D1D0ECF4A0051FFA7 /* Frameworks */,
+				E2287D7E1D0ECF4A0051FFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2287D861D0ECF4A0051FFA7 /* PBXTargetDependency */,
+			);
+			name = "Phone Status GlanceUITests";
+			productName = "Phone Status GlanceUITests";
+			productReference = E2287D801D0ECF4A0051FFA7 /* Phone Status GlanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		E25F795F1D0A391B00B46652 /* Phone Status Glance */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25F79A41D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status Glance" */;
@@ -362,6 +424,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Tom Elliott";
 				TargetAttributes = {
+					E2287D7F1D0ECF4A0051FFA7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E25F795F1D0A391B00B46652;
+					};
 					E25F795F1D0A391B00B46652 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -394,11 +460,19 @@
 				E25F79731D0A391B00B46652 /* Phone Status GlanceTests */,
 				E25F797C1D0A391B00B46652 /* Phone Status Glance WatchKit App */,
 				E25F798B1D0A391B00B46652 /* Phone Status Glance WatchKit Extension */,
+				E2287D7F1D0ECF4A0051FFA7 /* Phone Status GlanceUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E2287D7E1D0ECF4A0051FFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E25F795E1D0A391B00B46652 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -615,6 +689,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E2287D7C1D0ECF4A0051FFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2287D831D0ECF4A0051FFA7 /* Phone_Status_GlanceUITests.swift in Sources */,
+				E2287D8B1D0ECF700051FFA7 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E25F795C1D0A391B00B46652 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -645,6 +728,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E2287D861D0ECF4A0051FFA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25F795F1D0A391B00B46652 /* Phone Status Glance */;
+			targetProxy = E2287D851D0ECF4A0051FFA7 /* PBXContainerItemProxy */;
+		};
 		E25F79761D0A391B00B46652 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E25F795F1D0A391B00B46652 /* Phone Status Glance */;
@@ -690,6 +778,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E2287D871D0ECF4A0051FFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Phone Status GlanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Status-GlanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Phone Status Glance";
+			};
+			name = Debug;
+		};
+		E2287D881D0ECF4A0051FFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Phone Status GlanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Status-GlanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Phone Status Glance";
+			};
+			name = Release;
+		};
 		E25F799A1D0A391B00B46652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -892,6 +1002,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E2287D891D0ECF4A0051FFA7 /* Build configuration list for PBXNativeTarget "Phone Status GlanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2287D871D0ECF4A0051FFA7 /* Debug */,
+				E2287D881D0ECF4A0051FFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E25F795B1D0A391B00B46652 /* Build configuration list for PBXProject "Phone Status Glance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

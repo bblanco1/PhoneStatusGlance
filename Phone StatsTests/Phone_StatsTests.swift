@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Phone_Stats
 
 class Phone_StatsTests: XCTestCase {
     
