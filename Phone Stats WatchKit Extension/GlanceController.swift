@@ -38,6 +38,9 @@ class GlanceController: WKInterfaceController, WCSessionDelegate {
             self.batteryLabel?.setText(battery)
             let signal : String = response["signal"] as! String
             self.signalLabel?.setText(signal)
+            
+            self.batteryLabel?.setText("80%")
+            
             }, errorHandler: { (error: NSError) in
                 self.batteryLabel?.setText("Error!")
             }
