@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		072D49EAF77B092B062ED27B /* Pods_Phone_Status_Glance_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78225B98DDB14868C9CEBE2 /* Pods_Phone_Status_Glance_WatchKit_App.framework */; };
-		3A9AA401C95B153487A5648E /* Pods_Phone_Status_Glance_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74F024EAF70F10F2F0C889B /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */; };
 		81614C18082238FADDFB7778 /* Pods_Phone_Status_Glance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */; };
-		9FCB1777A7A8E8F340ADDBE4 /* Pods_Phone_Status_GlanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C454CD7BBAAAB95B565627 /* Pods_Phone_Status_GlanceTests.framework */; };
-		B4C5124EB85A3DBBCA7A262D /* Pods_Phone_StatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E77C091636FC0131D328CA /* Pods_Phone_StatsTests.framework */; };
 		E21D76631D0E2D6700F245D2 /* icon-transparent-50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349A91D0E29450097FA2C /* icon-transparent-50x50.png */; };
 		E21D76641D0E2D6A00F245D2 /* icon-transparent-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */; };
 		E21D76661D0E37BA00F245D2 /* Watch-Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = E21D76651D0E37BA00F245D2 /* Watch-Screenshot.png */; };
+		E21D76681D0E3ED600F245D2 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E21D76671D0E3ED600F245D2 /* Acknowledgements.plist */; };
 		E236D7551D0B1FB8005F7F0A /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7541D0B1FB8005F7F0A /* network.png */; };
 		E236D7571D0B2208005F7F0A /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7561D0B2208005F7F0A /* battery.png */; };
 		E25F79641D0A391B00B46652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79631D0A391B00B46652 /* AppDelegate.swift */; };
@@ -89,26 +86,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		13C454CD7BBAAAB95B565627 /* Pods_Phone_Status_GlanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_GlanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19E2ACF2028EF7FCC13F0CF0 /* Pods-Phone Stats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats/Pods-Phone Stats.release.xcconfig"; sourceTree = "<group>"; };
-		264103601A24F8671264AEE1 /* Pods_Phone_Stats_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Stats_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F861F777C87F86BF0D6FEFD /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		5126FB3CB4259F0402A8DBB0 /* Pods-Phone Status GlanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status GlanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		668AFE20474805F196119172 /* Pods-Phone Stats WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats WatchKit App/Pods-Phone Stats WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
-		67763F171448A355E98E7C41 /* Pods-Phone Stats WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats WatchKit App/Pods-Phone Stats WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		69F63DFBEC81FEC09AF04F82 /* Pods-Phone Status Glance WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C700166E8D7DCFF58551577 /* Pods-Phone Stats WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats WatchKit Extension/Pods-Phone Stats WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		759F6A93EAFFABF0D06B285D /* Pods-Phone Stats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats/Pods-Phone Stats.debug.xcconfig"; sourceTree = "<group>"; };
-		7B4320AC49A1548E6C4D221F /* Pods_Phone_Stats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Stats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E893C4AA67B75AF07F08903 /* Pods-Phone StatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone StatsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone StatsTests/Pods-Phone StatsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		98E77C091636FC0131D328CA /* Pods_Phone_StatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_StatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3EA8E8AB296ADD6FB692C5 /* Pods-Phone Status Glance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance.debug.xcconfig"; sourceTree = "<group>"; };
 		AD9D4D952FC4BDF797272D17 /* Pods-Phone Status Glance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance.release.xcconfig"; sourceTree = "<group>"; };
-		BF7DABCAF39819AF8DD3C31C /* Pods-Phone StatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone StatsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone StatsTests/Pods-Phone StatsTests.release.xcconfig"; sourceTree = "<group>"; };
 		D6F59E5531021272E2AA9A5C /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		DA53FAA9D8408E9B058E9ED7 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		E21D76651D0E37BA00F245D2 /* Watch-Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Watch-Screenshot.png"; path = "assets/Watch-Screenshot.png"; sourceTree = "<group>"; };
+		E21D76671D0E3ED600F245D2 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = "Phone Stats/Acknowledgements.plist"; sourceTree = "<group>"; };
 		E236D7541D0B1FB8005F7F0A /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = network.png; path = images/network.png; sourceTree = "<group>"; };
 		E236D7561D0B2208005F7F0A /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = battery.png; path = images/battery.png; sourceTree = "<group>"; };
 		E25F79601D0A391B00B46652 /* Phone Status Glance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Status Glance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,11 +122,7 @@
 		E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-transparent-50x50@2x.png"; path = "assets/icon-transparent-50x50@2x.png"; sourceTree = "<group>"; };
 		E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C44AAB1D0DEB3D00BDA5C7 /* icon-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-transparent.png"; path = "assets/icon-transparent.png"; sourceTree = "<group>"; };
-		E74F024EAF70F10F2F0C889B /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E93CC878D57BBA54A02CECD8 /* Pods_Phone_Stats_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Stats_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1834A41DBC336BC50778458 /* Pods-Phone Status GlanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status GlanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.release.xcconfig"; sourceTree = "<group>"; };
-		F78225B98DDB14868C9CEBE2 /* Pods_Phone_Status_Glance_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDD90DD1BD17119860E54C47 /* Pods-Phone Stats WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Stats WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Stats WatchKit Extension/Pods-Phone Stats WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +130,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072D49EAF77B092B062ED27B /* Pods_Phone_Status_Glance_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +146,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4C5124EB85A3DBBCA7A262D /* Pods_Phone_StatsTests.framework in Frameworks */,
-				9FCB1777A7A8E8F340ADDBE4 /* Pods_Phone_Status_GlanceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +153,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A9AA401C95B153487A5648E /* Pods_Phone_Status_Glance_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,14 +162,7 @@
 		53655D0F0A8EBE96D82D5C47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7B4320AC49A1548E6C4D221F /* Pods_Phone_Stats.framework */,
-				E93CC878D57BBA54A02CECD8 /* Pods_Phone_Stats_WatchKit_App.framework */,
-				264103601A24F8671264AEE1 /* Pods_Phone_Stats_WatchKit_Extension.framework */,
-				98E77C091636FC0131D328CA /* Pods_Phone_StatsTests.framework */,
 				69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */,
-				F78225B98DDB14868C9CEBE2 /* Pods_Phone_Status_Glance_WatchKit_App.framework */,
-				E74F024EAF70F10F2F0C889B /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */,
-				13C454CD7BBAAAB95B565627 /* Pods_Phone_Status_GlanceTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,6 +183,7 @@
 		E25F79571D0A391B00B46652 = {
 			isa = PBXGroup;
 			children = (
+				E21D76671D0E3ED600F245D2 /* Acknowledgements.plist */,
 				E236D7531D0B1FA7005F7F0A /* Icons */,
 				E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */,
 				E25F79621D0A391B00B46652 /* Phone Stats */,
@@ -281,14 +254,6 @@
 		FA0D4E5EBD1293504E818203 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				759F6A93EAFFABF0D06B285D /* Pods-Phone Stats.debug.xcconfig */,
-				19E2ACF2028EF7FCC13F0CF0 /* Pods-Phone Stats.release.xcconfig */,
-				67763F171448A355E98E7C41 /* Pods-Phone Stats WatchKit App.debug.xcconfig */,
-				668AFE20474805F196119172 /* Pods-Phone Stats WatchKit App.release.xcconfig */,
-				6C700166E8D7DCFF58551577 /* Pods-Phone Stats WatchKit Extension.debug.xcconfig */,
-				FDD90DD1BD17119860E54C47 /* Pods-Phone Stats WatchKit Extension.release.xcconfig */,
-				7E893C4AA67B75AF07F08903 /* Pods-Phone StatsTests.debug.xcconfig */,
-				BF7DABCAF39819AF8DD3C31C /* Pods-Phone StatsTests.release.xcconfig */,
 				9B3EA8E8AB296ADD6FB692C5 /* Pods-Phone Status Glance.debug.xcconfig */,
 				AD9D4D952FC4BDF797272D17 /* Pods-Phone Status Glance.release.xcconfig */,
 				D6F59E5531021272E2AA9A5C /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */,
@@ -443,6 +408,7 @@
 				E236D7571D0B2208005F7F0A /* battery.png in Resources */,
 				E21D76661D0E37BA00F245D2 /* Watch-Screenshot.png in Resources */,
 				E25F796E1D0A391B00B46652 /* LaunchScreen.storyboard in Resources */,
+				E21D76681D0E3ED600F245D2 /* Acknowledgements.plist in Resources */,
 				E2C44AAC1D0DEB3D00BDA5C7 /* icon-transparent.png in Resources */,
 				E25F79691D0A391B00B46652 /* Main.storyboard in Resources */,
 				E27349AB1D0E29450097FA2C /* icon-transparent-50x50.png in Resources */,

@@ -1,8 +1,10 @@
 PODS:
   - ReachabilitySwift (2.3.3)
+  - RFAboutView (1.0.4)
 
 DEPENDENCIES:
   - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
+  - RFAboutView (= 1.0.4)
 
 EXTERNAL SOURCES:
   ReachabilitySwift:
@@ -15,7 +17,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  RFAboutView: d775536bf571a2c61baea9974a027371fe7fa65c
 
-PODFILE CHECKSUM: 727e395107a9e84f53fe85ec2149f62fcd43502f
+PODFILE CHECKSUM: ee7b4bd86a016f6168fb75d3b01d7b8e8a4dff69
 
 COCOAPODS: 1.0.0

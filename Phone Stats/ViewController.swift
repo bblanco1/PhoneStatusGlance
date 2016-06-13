@@ -8,6 +8,7 @@
 
 import UIKit
 import WatchConnectivity
+import RFAboutView
 
 class ViewController: UIViewController {
     
@@ -21,5 +22,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func aboutPressed(sender: AnyObject){
+        let aboutView: RFAboutViewController = RFAboutViewController(
+            appName: "Phone Status Glance",
+            appVersion: nil,
+            appBuild: nil,
+            copyrightHolderName: "Tom Elliott",
+            contactEmail: "tom.w.elliott@gmail.com",
+            titleForEmail: "Tom Elliott",
+            websiteURL: NSURL(string: "http://telliott.io"),
+            titleForWebsiteURL: "telliott.io",
+            andPublicationYear: nil)
+        aboutView.navigationBarBarTintColor = UINavigationBar.appearance().barTintColor
+        aboutView.navigationBarTintColor = UINavigationBar.appearance().tintColor
+        aboutView.blurStyle = .Dark
+        aboutView.headerBackgroundImage = UIImage(named: "icon-transparent")
+        
+        self.navigationController?.pushViewController(aboutView, animated: true)
+    }
+    
 }
 
