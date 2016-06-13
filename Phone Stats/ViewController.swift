@@ -41,5 +41,9 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(aboutView, animated: true)
     }
     
+    @IBAction func openWatchApp(){
+        UIApplication.sharedApplication().openURL(NSURL(string:"itms-watch://")!)
+    }
+    
 }
 

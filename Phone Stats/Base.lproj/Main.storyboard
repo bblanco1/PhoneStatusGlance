@@ -47,6 +47,9 @@
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Log-L5-TjI">
                                 <rect key="frame" x="241" y="542" width="117" height="43"/>
                                 <state key="normal" title="Open Watch App"/>
+                                <connections>
+                                    <action selector="openWatchApp" destination="BYZ-38-t0r" eventType="touchUpInside" id="yWC-zz-EeP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="K7h-AY-fKs">
                                 <rect key="frame" x="30" y="465" width="540" height="67"/>
