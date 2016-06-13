@@ -11,6 +11,7 @@
 		81614C18082238FADDFB7778 /* Pods_Phone_Status_Glance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */; };
 		870113CEFCC6D4875C65D9F1 /* Pods_Phone_Status_GlanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D48642D71329506B75CBA9 /* Pods_Phone_Status_GlanceTests.framework */; };
 		C52C956EA14F8F16E4D56720 /* Pods_Phone_Status_Glance_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4C652EA2F54887268CDAA9 /* Pods_Phone_Status_Glance_WatchKit_App.framework */; };
+		E2149C311D0F17EC00F6EBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */; };
 		E21D76631D0E2D6700F245D2 /* icon-transparent-50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349A91D0E29450097FA2C /* icon-transparent-50x50.png */; };
 		E21D76641D0E2D6A00F245D2 /* icon-transparent-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */; };
 		E21D76661D0E37BA00F245D2 /* Watch-Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = E21D76651D0E37BA00F245D2 /* Watch-Screenshot.png */; };
@@ -41,7 +42,6 @@
 		E25F79791D0A391B00B46652 /* Phone_StatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79781D0A391B00B46652 /* Phone_StatsTests.swift */; };
 		E25F797E1D0A391B00B46652 /* Phone Status Glance.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E25F797D1D0A391B00B46652 /* Phone Status Glance.app */; };
 		E25F79841D0A391B00B46652 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25F79821D0A391B00B46652 /* Interface.storyboard */; };
-		E25F79861D0A391B00B46652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25F79851D0A391B00B46652 /* Assets.xcassets */; };
 		E25F798D1D0A391B00B46652 /* Phone Status Glance.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E25F79921D0A391B00B46652 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79911D0A391B00B46652 /* InterfaceController.swift */; };
 		E25F79941D0A391B00B46652 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79931D0A391B00B46652 /* ExtensionDelegate.swift */; };
@@ -158,7 +158,6 @@
 		E25F797A1D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25F797D1D0A391B00B46652 /* Phone Status Glance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Status Glance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F79831D0A391B00B46652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		E25F79851D0A391B00B46652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25F79871D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Phone Status Glance.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F79911D0A391B00B46652 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -330,7 +329,6 @@
 			children = (
 				E2287D8C1D0EE57C0051FFA7 /* Loading Indicator */,
 				E25F79821D0A391B00B46652 /* Interface.storyboard */,
-				E25F79851D0A391B00B46652 /* Assets.xcassets */,
 				E25F79871D0A391B00B46652 /* Info.plist */,
 			);
 			path = "Phone Stats WatchKit App";
@@ -558,13 +556,13 @@
 				E2287E211D0EE87D0051FFA7 /* Activity11@2x.png in Resources */,
 				E2287E191D0EE87D0051FFA7 /* Activity3@2x.png in Resources */,
 				E2620DCE1D0B780F0071ACE7 /* network.png in Resources */,
+				E2149C311D0F17EC00F6EBA6 /* Assets.xcassets in Resources */,
 				E21D76641D0E2D6A00F245D2 /* icon-transparent-50x50@2x.png in Resources */,
 				E2287E231D0EE87D0051FFA7 /* Activity13@2x.png in Resources */,
 				E2287E1E1D0EE87D0051FFA7 /* Activity8@2x.png in Resources */,
 				E2287E251D0EE87D0051FFA7 /* Activity15@2x.png in Resources */,
 				E21D76631D0E2D6700F245D2 /* icon-transparent-50x50.png in Resources */,
 				E2287E241D0EE87D0051FFA7 /* Activity14@2x.png in Resources */,
-				E25F79861D0A391B00B46652 /* Assets.xcassets in Resources */,
 				E2287E181D0EE87D0051FFA7 /* Activity2@2x.png in Resources */,
 				E2287E1F1D0EE87D0051FFA7 /* Activity9@2x.png in Resources */,
 				E2620DCD1D0B780C0071ACE7 /* battery.png in Resources */,
