@@ -38,6 +38,15 @@ class ViewController: UIViewController {
         aboutView.blurStyle = .Dark
         aboutView.headerBackgroundImage = UIImage(named: "icon-transparent")
         
+        aboutView.addAdditionalButtonWithTitle(
+            "Image Sources",
+                                               subtitle: "Asset creators",
+                                               andContent:
+            "Internet Browsing by Creative Stall from the Noun Project\n\n" +
+            "Smartphone by Sherrinford from the Noun Project\n\n" +
+            "Watch Activity indicator by mikeswanson\n\t(https://github.com/mikeswanson/JBWatchActivityIndicator"
+        )
+        
         self.navigationController?.pushViewController(aboutView, animated: true)
     }
     
