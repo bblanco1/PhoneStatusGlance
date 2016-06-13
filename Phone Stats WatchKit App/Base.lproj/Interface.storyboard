@@ -10,21 +10,43 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Phone_Status_Glance">
                     <items>
-                        <group width="1" height="0.40000000000000002" alignment="left" id="m6D-4o-Wjq">
+                        <group width="1" height="0.20000000000000001" alignment="left" id="6aV-aB-MuX">
                             <items>
-                                <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="f97-dc-OUm"/>
-                                <label width="0.69999999999999996" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="w5R-WV-ZOh"/>
+                                <imageView width="1" height="1" alignment="center" verticalAlignment="center" image="icon-transparent-50x50.png" contentMode="scaleAspectFit" id="vIf-xs-RI6"/>
                             </items>
                         </group>
-                        <group width="1" height="0.40000000000000002" alignment="left" verticalAlignment="bottom" id="tb6-yi-x4d">
+                        <group width="1" height="0.80000000000000004" alignment="left" id="wle-EM-rDx">
                             <items>
-                                <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="BFc-0t-mbT"/>
-                                <label width="0.69999999999999996" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="kQ6-F7-m1z"/>
+                                <group width="1" height="1" alignment="left" hidden="YES" id="B47-cO-56H">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="Loading" id="pYQ-8e-RiJ"/>
+                                    </items>
+                                </group>
+                                <group width="1" height="1" alignment="left" layout="vertical" id="aEF-Yp-Rbb">
+                                    <items>
+                                        <group width="1" height="0.40000000000000002" alignment="left" verticalAlignment="bottom" id="tb6-yi-x4d">
+                                            <items>
+                                                <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="BFc-0t-mbT"/>
+                                                <label width="0.69999999999999996" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="kQ6-F7-m1z"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="0.40000000000000002" alignment="left" id="m6D-4o-Wjq">
+                                            <items>
+                                                <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="f97-dc-OUm"/>
+                                                <label width="0.69999999999999996" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="w5R-WV-ZOh"/>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
                             </items>
                         </group>
                     </items>
                     <connections>
                         <outlet property="batteryLabel" destination="w5R-WV-ZOh" id="FF1-te-38D"/>
+                        <outlet property="iconImage" destination="vIf-xs-RI6" id="L5P-tG-6SR"/>
+                        <outlet property="infoGroup" destination="aEF-Yp-Rbb" id="LYr-7W-rS5"/>
+                        <outlet property="loadingGroup" destination="B47-cO-56H" id="Q2r-3Q-3gS"/>
+                        <outlet property="loadingLabel" destination="pYQ-8e-RiJ" id="7xi-6Y-x4I"/>
                         <outlet property="signalLabel" destination="kQ6-F7-m1z" id="mOh-lg-AXt"/>
                     </connections>
                 </controller>
