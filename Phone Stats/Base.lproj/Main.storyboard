@@ -25,11 +25,28 @@
                                     <constraint firstAttribute="height" constant="50" id="Vbf-RI-Lcx"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Status Glance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pd-BR-Lpv">
+                                <rect key="frame" x="95" y="38.5" width="244.5" height="32.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8X-dU-ouL">
+                                <rect key="frame" x="40" y="90" width="520" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="l8X-dU-ouL" firstAttribute="top" secondItem="z9r-je-Xrx" secondAttribute="bottom" constant="10" id="61Y-YL-bu5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l8X-dU-ouL" secondAttribute="trailing" constant="20" id="BsC-Ka-mkt"/>
+                            <constraint firstItem="l8X-dU-ouL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="FRC-KK-aBa"/>
                             <constraint firstItem="z9r-je-Xrx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="UJI-ef-m63"/>
+                            <constraint firstItem="8Pd-BR-Lpv" firstAttribute="leading" secondItem="z9r-je-Xrx" secondAttribute="trailing" constant="15" id="ULp-Jh-TKw"/>
                             <constraint firstItem="z9r-je-Xrx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="hCu-KQ-iN0"/>
+                            <constraint firstItem="8Pd-BR-Lpv" firstAttribute="centerY" secondItem="z9r-je-Xrx" secondAttribute="centerY" id="kv7-68-U6K"/>
                         </constraints>
                     </view>
                 </viewController>

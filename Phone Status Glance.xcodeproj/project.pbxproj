@@ -12,6 +12,8 @@
 		81614C18082238FADDFB7778 /* Pods_Phone_Status_Glance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */; };
 		9FCB1777A7A8E8F340ADDBE4 /* Pods_Phone_Status_GlanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C454CD7BBAAAB95B565627 /* Pods_Phone_Status_GlanceTests.framework */; };
 		B4C5124EB85A3DBBCA7A262D /* Pods_Phone_StatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E77C091636FC0131D328CA /* Pods_Phone_StatsTests.framework */; };
+		E21D76631D0E2D6700F245D2 /* icon-transparent-50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349A91D0E29450097FA2C /* icon-transparent-50x50.png */; };
+		E21D76641D0E2D6A00F245D2 /* icon-transparent-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */; };
 		E236D7551D0B1FB8005F7F0A /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7541D0B1FB8005F7F0A /* network.png */; };
 		E236D7571D0B2208005F7F0A /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7561D0B2208005F7F0A /* battery.png */; };
 		E25F79641D0A391B00B46652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79631D0A391B00B46652 /* AppDelegate.swift */; };
@@ -456,6 +458,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2620DCE1D0B780F0071ACE7 /* network.png in Resources */,
+				E21D76641D0E2D6A00F245D2 /* icon-transparent-50x50@2x.png in Resources */,
+				E21D76631D0E2D6700F245D2 /* icon-transparent-50x50.png in Resources */,
 				E25F79861D0A391B00B46652 /* Assets.xcassets in Resources */,
 				E2620DCD1D0B780C0071ACE7 /* battery.png in Resources */,
 				E25F79841D0A391B00B46652 /* Interface.storyboard in Resources */,

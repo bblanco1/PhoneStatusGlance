@@ -8,18 +8,18 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Phone_Status_Glance" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Phone_Status_Glance">
                     <items>
                         <group width="1" height="0.40000000000000002" alignment="left" id="m6D-4o-Wjq">
                             <items>
-                                <imageView width="0.5" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="f97-dc-OUm"/>
-                                <label width="0.5" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="w5R-WV-ZOh"/>
+                                <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="f97-dc-OUm"/>
+                                <label width="0.69999999999999996" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="w5R-WV-ZOh"/>
                             </items>
                         </group>
                         <group width="1" height="0.40000000000000002" alignment="left" verticalAlignment="bottom" id="tb6-yi-x4d">
                             <items>
-                                <imageView width="0.5" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="BFc-0t-mbT"/>
-                                <label width="0.5" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="kQ6-F7-m1z"/>
+                                <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="BFc-0t-mbT"/>
+                                <label width="0.69999999999999996" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="kQ6-F7-m1z"/>
                             </items>
                         </group>
                     </items>
@@ -34,13 +34,13 @@
         <!--Glance Interface Controller-->
         <scene sceneID="rjY-Ar-IMT">
             <objects>
-                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="Phone_Status_Glance" customModuleProvider="target">
+                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="Phone_Status_Glance">
                     <items>
                         <group alignment="left" id="gv7-I2-MZq">
                             <items>
-                                <imageView alignment="left" id="Hd4-2D-72N"/>
+                                <imageView width="30" height="30" alignment="center" verticalAlignment="center" image="icon-transparent-50x50.png" id="Hd4-2D-72N"/>
                                 <label alignment="center" verticalAlignment="center" text="Phone Status" textAlignment="left" id="vGW-gP-Oz1">
-                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="12"/>
                                 </label>
                             </items>
                         </group>
@@ -48,16 +48,16 @@
                             <items>
                                 <group width="1" height="0.40000000000000002" alignment="left" id="NBf-pD-dwn">
                                     <items>
-                                        <imageView width="0.40000000000000002" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="9wu-hh-D75"/>
-                                        <label width="0.59999999999999998" alignment="left" verticalAlignment="center" text="..." textAlignment="center" id="cjl-Yb-3Od"/>
+                                        <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="9wu-hh-D75"/>
+                                        <label width="0.69999999999999996" alignment="left" verticalAlignment="center" text="..." textAlignment="center" id="cjl-Yb-3Od"/>
                                     </items>
                                 </group>
                                 <group width="1" height="0.40000000000000002" alignment="left" verticalAlignment="bottom" id="n48-9U-vPw">
                                     <items>
-                                        <imageView width="0.40000000000000002" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="QGB-zk-Ro0">
+                                        <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="QGB-zk-Ro0">
                                             <color key="tintColor" red="1" green="0.97811951842906675" blue="0.98805006657708505" alpha="1" colorSpace="calibratedRGB"/>
                                         </imageView>
-                                        <label width="0.59999999999999998" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="TEg-cc-uPa"/>
+                                        <label width="0.69999999999999996" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="TEg-cc-uPa"/>
                                     </items>
                                 </group>
                             </items>
