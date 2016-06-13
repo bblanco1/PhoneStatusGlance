@@ -58,7 +58,7 @@ platform :ios do
   lane :betafast do
     bump_build(project_file)
     sigh
-    gym(scheme: "SpeakerAlert")
+    gym(scheme: "Phone Status Glance")
     pilot(skip_waiting_for_build_processing: true)
     tag_with_version("betafast")
   end
@@ -69,7 +69,7 @@ platform :ios do
     bump_build(project_file)
     snapshot(clear_previous_screenshots:true)
     sigh
-    gym(scheme: "SpeakerAlert") # Build your app - more options available
+    gym(scheme: "Phone Status Glance") # Build your app - more options available
     pilot
     tag_with_version("beta")
   end
@@ -79,7 +79,7 @@ platform :ios do
     bump_build(project_file)
     snapshot(clear_previous_screenshots:true)
     sigh
-    gym(scheme: "SpeakerAlert") # Build your app - more options available
+    gym(scheme: "Phone Status Glance") # Build your app - more options available
     deliver(force: true)
     tag_with_version("deliver")
   end
