@@ -35,52 +35,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To get the most from this app, make sure the glance is enabled." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8X-dU-ouL">
-                                <rect key="frame" x="40" y="94" width="520" height="46"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="To get the most from this app, make sure the glance is enabled." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8X-dU-ouL">
+                                <rect key="frame" x="40" y="79" width="520" height="61"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Watch-Screenshot.png" translatesAutoresizingMaskIntoConstraints="NO" id="lVG-gV-I40">
                                 <rect key="frame" x="58" y="150" width="484" height="300"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXw-AS-Ow1">
-                                <rect key="frame" x="30" y="464" width="540" height="81"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">1. Open the Watch app.
-2. Select "My Watch".
-3. Scroll down and select "Phone Status Glance"
-4. Enable "Show in Glances"</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Log-L5-TjI">
-                                <rect key="frame" x="241" y="555" width="117" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Log-L5-TjI">
+                                <rect key="frame" x="241" y="542" width="117" height="43"/>
                                 <state key="normal" title="Open Watch App"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="K7h-AY-fKs">
+                                <rect key="frame" x="30" y="465" width="540" height="67"/>
+                                <string key="text">1. Open the Watch app.
+2. Select "My Watch".
+3. Scroll down, select "Phone Status Glance"
+4. Enable "Show in Glances"</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="l8X-dU-ouL" secondAttribute="trailing" constant="20" id="BsC-Ka-mkt"/>
                             <constraint firstItem="l8X-dU-ouL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="FRC-KK-aBa"/>
                             <constraint firstItem="lVG-gV-I40" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FTg-yC-Cic"/>
-                            <constraint firstItem="l8X-dU-ouL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Iq3-Rp-ria"/>
-                            <constraint firstItem="fXw-AS-Ow1" firstAttribute="top" secondItem="lVG-gV-I40" secondAttribute="bottom" constant="14" id="Ly4-VW-UFw"/>
+                            <constraint firstItem="K7h-AY-fKs" firstAttribute="top" secondItem="lVG-gV-I40" secondAttribute="bottom" constant="15" id="GRa-bC-Tae"/>
+                            <constraint firstItem="l8X-dU-ouL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="Iq3-Rp-ria"/>
                             <constraint firstItem="lVG-gV-I40" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xnn-be-JHO"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fXw-AS-Ow1" secondAttribute="trailing" constant="10" id="dhq-qY-DmH"/>
                             <constraint firstItem="lVG-gV-I40" firstAttribute="top" secondItem="l8X-dU-ouL" secondAttribute="bottom" constant="10" id="e2o-YQ-vuO"/>
+                            <constraint firstItem="K7h-AY-fKs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="ewz-1y-yZa"/>
                             <constraint firstItem="Log-L5-TjI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hT2-ud-brp"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fXw-AS-Ow1" secondAttribute="bottom" constant="15" id="kF8-Ng-RlU"/>
-                            <constraint firstItem="fXw-AS-Ow1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="nM6-Ma-wcq"/>
-                            <constraint firstItem="Log-L5-TjI" firstAttribute="top" secondItem="fXw-AS-Ow1" secondAttribute="bottom" constant="10" id="rCC-7S-5EL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K7h-AY-fKs" secondAttribute="trailing" constant="10" id="jvF-22-UGp"/>
+                            <constraint firstItem="Log-L5-TjI" firstAttribute="top" secondItem="K7h-AY-fKs" secondAttribute="bottom" constant="10" id="kSU-5m-X4M"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Log-L5-TjI" secondAttribute="bottom" constant="15" id="rXa-ay-xto"/>
-                            <constraint firstItem="lVG-gV-I40" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="sYe-pL-IGn"/>
+                            <constraint firstItem="lVG-gV-I40" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="sYe-pL-IGn"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="kF8-Ng-RlU"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Phone Status Glance" id="S4E-Iv-YwN">
                         <barButtonItem key="backBarButtonItem" title="Back" id="7lY-k7-OLG"/>
