@@ -46,18 +46,27 @@
                         </group>
                         <group alignment="left" layout="vertical" id="eew-Gs-W6Y">
                             <items>
-                                <group width="1" height="0.40000000000000002" alignment="left" id="NBf-pD-dwn">
+                                <group width="1" height="1" alignment="left" hidden="YES" id="A2N-a3-aib">
                                     <items>
-                                        <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="9wu-hh-D75"/>
-                                        <label width="0.69999999999999996" alignment="left" verticalAlignment="center" text="..." textAlignment="center" id="cjl-Yb-3Od"/>
+                                        <label alignment="center" verticalAlignment="center" text="Loading" id="OSn-fx-leU"/>
                                     </items>
                                 </group>
-                                <group width="1" height="0.40000000000000002" alignment="left" verticalAlignment="bottom" id="n48-9U-vPw">
+                                <group width="1" height="1" alignment="left" layout="vertical" id="eys-ZS-Fmc">
                                     <items>
-                                        <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="QGB-zk-Ro0">
-                                            <color key="tintColor" red="1" green="0.97811951842906675" blue="0.98805006657708505" alpha="1" colorSpace="calibratedRGB"/>
-                                        </imageView>
-                                        <label width="0.69999999999999996" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="TEg-cc-uPa"/>
+                                        <group width="1" height="0.40000000000000002" alignment="left" id="NBf-pD-dwn">
+                                            <items>
+                                                <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="battery.png" contentMode="scaleAspectFit" id="9wu-hh-D75"/>
+                                                <label width="0.69999999999999996" alignment="left" verticalAlignment="center" text="..." textAlignment="center" id="cjl-Yb-3Od"/>
+                                            </items>
+                                        </group>
+                                        <group width="1" height="0.40000000000000002" alignment="left" verticalAlignment="bottom" id="n48-9U-vPw">
+                                            <items>
+                                                <imageView width="0.29999999999999999" height="0.80000000000000004" alignment="left" verticalAlignment="center" image="network.png" contentMode="scaleAspectFit" id="QGB-zk-Ro0">
+                                                    <color key="tintColor" red="1" green="0.97811951842906675" blue="0.98805006657708505" alpha="1" colorSpace="calibratedRGB"/>
+                                                </imageView>
+                                                <label width="0.69999999999999996" alignment="center" verticalAlignment="center" text="..." textAlignment="center" id="TEg-cc-uPa"/>
+                                            </items>
+                                        </group>
                                     </items>
                                 </group>
                             </items>
@@ -66,6 +75,10 @@
                     <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
                     <connections>
                         <outlet property="batteryLabel" destination="cjl-Yb-3Od" id="nYF-aj-gUI"/>
+                        <outlet property="iconImage" destination="Hd4-2D-72N" id="Dyn-OD-dyE"/>
+                        <outlet property="infoGroup" destination="eys-ZS-Fmc" id="dY6-xo-5IK"/>
+                        <outlet property="loadingGroup" destination="A2N-a3-aib" id="K33-C1-dN8"/>
+                        <outlet property="loadingLabel" destination="OSn-fx-leU" id="Geg-hC-9IR"/>
                         <outlet property="signalLabel" destination="TEg-cc-uPa" id="Q6k-NS-gjj"/>
                     </connections>
                 </glanceController>
