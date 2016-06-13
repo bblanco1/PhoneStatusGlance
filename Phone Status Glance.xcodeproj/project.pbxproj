@@ -959,7 +959,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Phone Stats WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -974,7 +974,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Phone Stats WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -991,7 +991,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Phone_Stats_WatchKit_Extension;
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
 				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1008,7 +1008,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Phone_Stats_WatchKit_Extension;
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
 				PRODUCT_NAME = "Phone Status Glance";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1025,7 +1025,7 @@
 				CURRENT_PROJECT_VERSION = 3;
 				INFOPLIST_FILE = "Phone Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
 				PRODUCT_NAME = "Phone Status Glance";
 			};
 			name = Debug;
@@ -1038,7 +1038,7 @@
 				CURRENT_PROJECT_VERSION = 3;
 				INFOPLIST_FILE = "Phone Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.PhoneStatusGlance;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
 				PRODUCT_NAME = "Phone Status Glance";
 			};
 			name = Release;
