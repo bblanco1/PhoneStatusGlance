@@ -50,7 +50,7 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    snapshot(clear_previous_screenshots:true)
+    snapshot()
     frameit
   end
 
@@ -67,7 +67,7 @@ platform :ios do
   desc "This will also make sure the profile is up to date"
   lane :beta do
     bump_build(project_file)
-    snapshot(clear_previous_screenshots:true)
+    snapshot()
     sigh
     gym(scheme: "Phone Status Glance") # Build your app - more options available
     pilot
@@ -77,7 +77,7 @@ platform :ios do
   desc "Deploy a new version to the App Store"
   lane :deploy do
     bump_build(project_file)
-    snapshot(clear_previous_screenshots:true)
+    snapshot()
     sigh
     gym(scheme: "Phone Status Glance") # Build your app - more options available
     deliver(force: true)
