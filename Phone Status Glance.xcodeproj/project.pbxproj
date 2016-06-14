@@ -45,7 +45,6 @@
 		E25F798D1D0A391B00B46652 /* Phone Status Glance.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E25F79921D0A391B00B46652 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79911D0A391B00B46652 /* InterfaceController.swift */; };
 		E25F79941D0A391B00B46652 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79931D0A391B00B46652 /* ExtensionDelegate.swift */; };
-		E25F79961D0A391B00B46652 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F79951D0A391B00B46652 /* GlanceController.swift */; };
 		E25F79981D0A391B00B46652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25F79971D0A391B00B46652 /* Assets.xcassets */; };
 		E25F79AB1D0A397000B46652 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */; };
 		E2620DCD1D0B780C0071ACE7 /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7561D0B2208005F7F0A /* battery.png */; };
@@ -164,7 +163,6 @@
 		E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Phone Status Glance.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F79911D0A391B00B46652 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		E25F79931D0A391B00B46652 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		E25F79951D0A391B00B46652 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 		E25F79971D0A391B00B46652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25F79991D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
@@ -343,7 +341,6 @@
 			children = (
 				E25F79911D0A391B00B46652 /* InterfaceController.swift */,
 				E25F79931D0A391B00B46652 /* ExtensionDelegate.swift */,
-				E25F79951D0A391B00B46652 /* GlanceController.swift */,
 				E25F79971D0A391B00B46652 /* Assets.xcassets */,
 				E25F79991D0A391B00B46652 /* Info.plist */,
 			);
@@ -793,7 +790,6 @@
 			files = (
 				E25F79941D0A391B00B46652 /* ExtensionDelegate.swift in Sources */,
 				E25F79921D0A391B00B46652 /* InterfaceController.swift in Sources */,
-				E25F79961D0A391B00B46652 /* GlanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

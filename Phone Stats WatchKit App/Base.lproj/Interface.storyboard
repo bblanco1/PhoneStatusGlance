@@ -57,7 +57,7 @@
         <!--Glance Interface Controller-->
         <scene sceneID="rjY-Ar-IMT">
             <objects>
-                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="Phone_Status_Glance">
+                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="InterfaceController" customModule="Phone_Status_Glance">
                     <items>
                         <group alignment="left" id="gv7-I2-MZq">
                             <items>
