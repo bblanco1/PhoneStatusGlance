@@ -5,9 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Phone Status Glance</string>
+	<string>Phone Status</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.telliott.Phone-Stats.watchkit</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -27,8 +29,6 @@
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
 	<string>io.telliott.Phone-Stats</string>
-	<key>CFBundleIdentifier</key>
-	<string>io.telliott.Phone-Stats.watchkit</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

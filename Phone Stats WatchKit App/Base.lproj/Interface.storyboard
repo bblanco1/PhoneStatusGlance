@@ -42,6 +42,7 @@
                         </group>
                     </items>
                     <connections>
+                        <outlet property="batteryImage" destination="f97-dc-OUm" id="J94-jF-2gL"/>
                         <outlet property="batteryLabel" destination="w5R-WV-ZOh" id="FF1-te-38D"/>
                         <outlet property="iconImage" destination="vIf-xs-RI6" id="L5P-tG-6SR"/>
                         <outlet property="infoGroup" destination="aEF-Yp-Rbb" id="LYr-7W-rS5"/>
@@ -96,6 +97,7 @@
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
                     <connections>
+                        <outlet property="batteryImage" destination="9wu-hh-D75" id="5g6-Mi-a2y"/>
                         <outlet property="batteryLabel" destination="cjl-Yb-3Od" id="nYF-aj-gUI"/>
                         <outlet property="iconImage" destination="Hd4-2D-72N" id="Dyn-OD-dyE"/>
                         <outlet property="infoGroup" destination="eys-ZS-Fmc" id="dY6-xo-5IK"/>

@@ -27,6 +27,8 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     
     @IBOutlet var iconImage: WKInterfaceImage?
     
+    @IBOutlet var batteryImage: WKInterfaceImage?
+    
     @IBOutlet var loadingLabel: WKInterfaceLabel?
     
     override func awakeWithContext(context: AnyObject?) {
@@ -92,6 +94,14 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
             let signal : String = response["signal"] as! String
             self.signalLabel?.setText(signal)
             
+            let charging: Bool = response["charging"] as! Bool
+            
+            if charging {
+                self.batteryImage?.setImageNamed("battery_charging")
+            } else {
+                self.batteryImage?.setImageNamed("battery")
+            }
+            
             self.setLoading(false)
             self.hasData = true
             self.hasError = false
@@ -116,5 +126,5 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
             ),
             dispatch_get_main_queue(), closure)
     }
-
+    
 }

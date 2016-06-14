@@ -82,10 +82,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
             
             let batteryFloat = UIDevice.currentDevice().batteryLevel
             var batteryString = "\(batteryFloat*100)%"
-            if UIDevice.currentDevice().batteryState == UIDeviceBatteryState.Unknown {
-                batteryString = "Unknown"
-            }
             
+            var batteryCharging: Bool = false
+            switch UIDevice.currentDevice().batteryState {
+            case UIDeviceBatteryState.Unknown:
+                batteryString = "Unknown"
+            case UIDeviceBatteryState.Charging, UIDeviceBatteryState.Full:
+                batteryCharging = true
+            case UIDeviceBatteryState.Unplugged:
+                batteryCharging = false
+            }
+           
             var reachabilityString = "Offline"
             
             if let r = reachability {
@@ -94,6 +101,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
             
             replyHandler([
                 "battery" : batteryString,
+                "charging": batteryCharging,
                 "signal": reachabilityString
                 ])
         }

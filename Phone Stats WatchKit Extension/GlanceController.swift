@@ -27,6 +27,8 @@ class GlanceController: WKInterfaceController, WCSessionDelegate {
     
     @IBOutlet var iconImage: WKInterfaceImage?
     
+    @IBOutlet var batteryImage: WKInterfaceImage?
+    
     @IBOutlet var loadingLabel: WKInterfaceLabel?
     
     override func awakeWithContext(context: AnyObject?) {
@@ -91,6 +93,14 @@ class GlanceController: WKInterfaceController, WCSessionDelegate {
             self.batteryLabel?.setText(battery)
             let signal : String = response["signal"] as! String
             self.signalLabel?.setText(signal)
+            
+            let charging: Bool = response["charging"] as! Bool
+            
+            if charging {
+                self.batteryImage?.setImageNamed("battery_charging")
+            } else {
+                self.batteryImage?.setImageNamed("battery")
+            }
             
             self.setLoading(false)
             self.hasData = true
