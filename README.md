@@ -6,7 +6,7 @@ A quick and simple iOS app to show your phone's battery and network connection s
 
 ## Installation
 
-Phone Status Glance can be installed on iOS 9 and up direct from the App Store.
+Phone Status Glance is available free from the App Store for iOS 9 and above.
 
 [![App Store Link](assets/appstore-badge.png)](https://itunes.apple.com/us/app/phone-status-glance-see-battery/id1123372716?ls=1&mt=8)
 
