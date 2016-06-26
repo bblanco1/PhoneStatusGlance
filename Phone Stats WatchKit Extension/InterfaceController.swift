@@ -91,6 +91,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     }
     
     func loadData(){
+        print("Loading data, attempt \(self.tryCount) of \(self.MAX_TRIES)")
         setLoading(true)
         watchSession?.sendMessage(["request" : "update"], replyHandler: { (response: [String : AnyObject]) in
             let battery : String = response["battery"] as! String
@@ -109,19 +110,22 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
             self.setLoading(false)
             self.hasData = true
             self.hasError = false
+            print("Data loaded successfully")
             }, errorHandler: { (error: NSError) in
                 print(error.description)
                 self.tryCount += 1
                 
                 if self.tryCount < self.MAX_TRIES {
-                    dispatch_async(dispatch_get_main_queue(), {
+                    self.delay(0.1, closure: {
                         self.loadData()
                     })
                 } else {
+                    print("Exceeded max attempts, waiting to try again")
                     self.hasError = true
                     self.loadingLabel?.setText("Error. Will retry shortly")
-                    self.delay(3.0, closure: {
+                    self.delay(1.0, closure: {
                         if self.active {
+                            self.tryCount = 0
                             self.loadData()
                         }
                     })
