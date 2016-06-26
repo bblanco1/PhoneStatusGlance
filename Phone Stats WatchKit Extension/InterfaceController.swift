@@ -31,6 +31,9 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     
     @IBOutlet var loadingLabel: WKInterfaceLabel?
     
+    var tryCount: Int = 0
+    let MAX_TRIES: Int = 5
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -49,6 +52,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        tryCount = 0
         loadData()
         active = true;
     }
@@ -107,13 +111,21 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
             self.hasError = false
             }, errorHandler: { (error: NSError) in
                 print(error.description)
-                self.hasError = true
-                self.loadingLabel?.setText("Error. Will retry shortly")
-                self.delay(3.0, closure: {
-                    if self.active {
+                self.tryCount += 1
+                
+                if self.tryCount < self.MAX_TRIES {
+                    dispatch_async(dispatch_get_main_queue(), {
                         self.loadData()
-                    }
-                })
+                    })
+                } else {
+                    self.hasError = true
+                    self.loadingLabel?.setText("Error. Will retry shortly")
+                    self.delay(3.0, closure: {
+                        if self.active {
+                            self.loadData()
+                        }
+                    })
+                }
             }
         )
     }
