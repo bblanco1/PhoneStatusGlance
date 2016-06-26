@@ -1,0 +1,1 @@
+This update improves error handling for a smoother experience.
