@@ -19,7 +19,7 @@
                             <items>
                                 <group width="1" height="1" alignment="left" hidden="YES" id="B47-cO-56H">
                                     <items>
-                                        <label alignment="center" verticalAlignment="center" text="Loading" id="pYQ-8e-RiJ"/>
+                                        <label alignment="center" verticalAlignment="center" text="Loading" numberOfLines="3" id="pYQ-8e-RiJ"/>
                                     </items>
                                 </group>
                                 <group width="1" height="1" alignment="left" layout="vertical" id="aEF-Yp-Rbb">
@@ -71,7 +71,7 @@
                             <items>
                                 <group width="1" height="1" alignment="left" hidden="YES" id="A2N-a3-aib">
                                     <items>
-                                        <label alignment="center" verticalAlignment="center" text="Loading" id="OSn-fx-leU"/>
+                                        <label alignment="center" verticalAlignment="center" text="Loading" numberOfLines="3" id="OSn-fx-leU"/>
                                     </items>
                                 </group>
                                 <group width="1" height="1" alignment="left" layout="vertical" id="eys-ZS-Fmc">
