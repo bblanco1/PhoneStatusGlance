@@ -9,6 +9,7 @@
 import WatchKit
 import Foundation
 import WatchConnectivity
+import CocoaLumberjack
 
 class InterfaceController: WKInterfaceController, WCSessionDelegate {
     // Our WatchConnectivity Session for communicating with the iOS app
@@ -35,6 +36,10 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     let MAX_TRIES: Int = 5
     
     override func awakeWithContext(context: AnyObject?) {
+        DDLog.addLogger(DDTTYLogger.sharedInstance()) // TTY = Xcode console
+        DDLog.addLogger(DDASLLogger.sharedInstance()) // ASL = Apple System Logs
+
+        DDLogInfo("Interface awaking")
         super.awakeWithContext(context)
         
         hasData = false
@@ -42,14 +47,20 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         
         // Configure interface objects here.
         if(WCSession.isSupported()){
+            DDLogInfo("Setting up watch session")
             watchSession = WCSession.defaultSession()
             // Add self as a delegate of the session so we can handle messages
             watchSession!.delegate = self
             watchSession!.activateSession()
+        } else {
+            DDLogWarn("Watch session not supported")
         }
+        
+        configureSessionLogging()
     }
     
     override func willActivate() {
+        DDLogInfo("Activating interface")
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
         tryCount = 0
@@ -58,6 +69,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     }
     
     override func didDeactivate() {
+        DDLogInfo("Interface deactivating")
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
         active = false
@@ -91,7 +103,12 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     }
     
     func loadData(){
-        print("Loading data, attempt \(self.tryCount) of \(self.MAX_TRIES)")
+        DDLogInfo("Loading data, attempt \(self.tryCount) of \(self.MAX_TRIES)")
+        
+        if let r = watchSession?.reachable where !r {
+            DDLogWarn("Companion app not reachable, request may not succeed.")
+        }
+        
         setLoading(true)
         watchSession?.sendMessage(["request" : "update"], replyHandler: { (response: [String : AnyObject]) in
             let battery : String = response["battery"] as! String
@@ -110,9 +127,10 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
             self.setLoading(false)
             self.hasData = true
             self.hasError = false
-            print("Data loaded successfully")
+            self.tryCount = 0
+            DDLogInfo("Data loaded successfully")
             }, errorHandler: { (error: NSError) in
-                print(error.description)
+                DDLogInfo("Loading data failed: \(error.description)")
                 self.tryCount += 1
                 
                 if self.tryCount < self.MAX_TRIES {
@@ -120,13 +138,16 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
                         self.loadData()
                     })
                 } else {
-                    print("Exceeded max attempts, waiting to try again")
+                    DDLogInfo("Exceeded max attempts, waiting to try again")
                     self.hasError = true
                     self.loadingLabel?.setText("Error. Will retry shortly")
                     self.delay(1.0, closure: {
+                        DDLogInfo("Retrying after delay")
                         if self.active {
                             self.tryCount = 0
                             self.loadData()
+                        } else {
+                            DDLogInfo("No longer active")
                         }
                     })
                 }
@@ -141,6 +162,14 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
                 Int64(delay * Double(NSEC_PER_SEC))
             ),
             dispatch_get_main_queue(), closure)
+    }
+    
+    func configureSessionLogging(){
+        if let wc = watchSession {
+            DDLog.addLogger(WatchSessionLogger(watchSession: wc))
+        } else {
+            DDLogWarn("Could not set up watch session logging")
+        }
     }
     
 }

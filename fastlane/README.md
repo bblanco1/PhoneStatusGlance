@@ -6,6 +6,11 @@ sudo gem install fastlane
 ```
 # Available Actions
 ## iOS
+### ios getmatch
+```
+fastlane ios getmatch
+```
+
 ### ios bump_patch
 ```
 fastlane ios bump_patch
@@ -31,6 +36,11 @@ Runs all the tests
 fastlane ios betafast
 ```
 Submit a new Beta Build without Screenshots
+### ios justgym
+```
+fastlane ios justgym
+```
+
 ### ios beta
 ```
 fastlane ios beta

@@ -7,141 +7,229 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DB1BBF8870C4E17AEEEBCB46FEC2233 /* Pods-Phone Status Glance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5668F73D71D8B5A0DDC86A56F29DD7F2 /* Pods-Phone Status Glance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20B0631CA6822CE77D36217097DE82DA /* Pods-Phone Status Glance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FC0D2CA84C96B1659B6D6E8FB2C350 /* Pods-Phone Status Glance-dummy.m */; };
-		402D9788118A74291E4BF8922C00B439 /* Pods-Phone Status Glance WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 838034ADC4A7B3DB31EE68DBDB8DB1AD /* Pods-Phone Status Glance WatchKit App-dummy.m */; };
-		405CCE1174428AC88E0B3E0DBEE1D371 /* Pods-Phone Status GlanceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39183840A4FC1063083755EEA006B942 /* Pods-Phone Status GlanceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63026662D0D4D2458437912F56272F21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */; };
-		677502D078547ED4265DF0E5F8A6A13E /* RFAboutViewDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D562D9C437E990505FBFDBA733C8C7 /* RFAboutViewDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CC8B9ADEA2C16DC23A8738F6B1CFAA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74DAFA353A8455985B9B73815F4A3ED /* Foundation.framework */; };
-		79F1FE7998A36BA415C2C3A58493ADBF /* RFAboutViewCloseX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C68AF9FAD4B3C8D88C7C0ACFF450F3B3 /* RFAboutViewCloseX@3x.png */; };
-		7C25E1B4F4C69B7B8BBEFCD2230D4CE9 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C979741A6E7C31BDC99FFA6B6CAD923F /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0499BF9F4CD99509AE23556F963CE673 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 761A1259B62717A5E8E1556F5CA75C9B /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04EF4FE86D0B40ECD756E81D4CC4A64C /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D21B36BC07E394B0474C27DBEFE1E3A /* DDMultiFormatter.m */; };
+		0CBC353ADD8B9B9808A2156989BBE255 /* Pods-Phone Status Glance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67AA092416820ED4802B5A186C8C0395 /* Pods-Phone Status Glance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17769848DFC182650BB41204B3DC0C83 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4ADA21116B2EDE6FCEDC98E089C3A8 /* DDLog.m */; };
+		1814FD5165E73E49BAF6550B60F0518D /* CocoaLumberjack-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9888BD95D3A99098F21BF1D41B567562 /* CocoaLumberjack-watchOS-dummy.m */; };
+		182F233A9626951E1781880EB13FFF55 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 761A1259B62717A5E8E1556F5CA75C9B /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ADD1A2180352AF28303AF1542920ED6 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 2918DC7456F23615D2271B2EE5123B75 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EE2849C0CEF7E453A181F37A9BDF418 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = B713F5D117CE5A586836785D19F9498F /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21801C91BAB842212D295BA0EE3E3D87 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FB61E369A2E66B71B803496E8DEE1B /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24795E0C1BA8B203200A2408B645B372 /* RFAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA17A5E2613952658384DDB0844E125 /* RFAboutViewController.m */; };
+		297D171BA9E69BF0355EC5E6D1D69F6B /* RFAboutViewCloseX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F9226084A0749894ACCF67D5FC34C6 /* RFAboutViewCloseX@3x.png */; };
+		2A1E52177783642CC09F1D5135662FE0 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F48A3F96400E5AB02C2DEB851634E7E5 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD6A4E74B61E4EB040090A10FE989EE /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 532ADF55408B418D909E50CB30D801EB /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EAB2C75B52B56662B24A0BAE88401A8 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FB61E369A2E66B71B803496E8DEE1B /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FFA9F28AD841148906F8CAFA222A293 /* Pods-Phone Status Glance WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73886C1B3106461D1E613EFA74955610 /* Pods-Phone Status Glance WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34FCBEB2016996D39209045EEB753390 /* RFAboutViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9307F131A36A7DE9AD36E803CAD0D2C0 /* RFAboutViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		358EB4F9BFFA2464F98536958B8F19B8 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 02971687E8CACA3CDF87044185EDF71B /* DDContextFilterLogFormatter.m */; };
+		3833AA67D44CABD2FB19D7F7D625267E /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F32D6CC8C68D6E4676F1EF026B584226 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3D777C5608777A6669ACEBA0FE28F487 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D21B36BC07E394B0474C27DBEFE1E3A /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3FEAD94A246807500288FDB876DD078B /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F48A3F96400E5AB02C2DEB851634E7E5 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		405CCE1174428AC88E0B3E0DBEE1D371 /* Pods-Phone Status GlanceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8C4EFB3574D41B7A6AAFD09EEBE04A /* Pods-Phone Status GlanceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44FE6F72B3E3EE6C0B5C900E17B1B4C0 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AB6C888CD6BC4B8ADDA6AA460F5CDB /* ReachabilitySwift-dummy.m */; };
+		473A7076AB56166BFDB64E5284E1E329 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6A8BC4AB61E0B96126A6D42FB6E6E8 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C9718B201966168BBF620BC02380C5 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 116CD338D30748E72D6E7CAAC5CBEC29 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B8C91C55D224D0087B93458EDDF9457 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 563031147848F92F5E8CA856EB96F163 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4CA56A9A3C9B262405FB18619F72FA1C /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 935428659B2BE622575C1FD4289E0A72 /* DDASLLogger.m */; };
+		52810335C608A287366293DCE4D138FE /* RFAboutView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A22ABC9A6C971897A432B5D713A88EB /* RFAboutView.bundle */; };
+		54FAF2A82E8345A9ACFA7282E2669954 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 116CD338D30748E72D6E7CAAC5CBEC29 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E64381B71571AD261156D937A938DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74DAFA353A8455985B9B73815F4A3ED /* Foundation.framework */; };
+		5F4CAA3B1B86473A97AB16D0F1863470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74DAFA353A8455985B9B73815F4A3ED /* Foundation.framework */; };
+		60C78A2717DE0AFB1D8EF9E117551F05 /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599BE1A0889F5FA218F1056ED264FDB4 /* CocoaLumberjack.swift */; };
+		64DCB951D779DC3C1C49AB67836D5426 /* RFAboutViewCloseX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA03D9CDFE12DCA733C9918A89984E6 /* RFAboutViewCloseX@2x.png */; };
+		6921240B93352783163135CD93747CBE /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6A8BC4AB61E0B96126A6D42FB6E6E8 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFCF43D573E44CD536A4A36D6D8FED4 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4287013141E027E497655BBECE742540 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70422C862AB0BD9201CF97B12EB87CA4 /* Pods-Phone Status Glance WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F0906C6C7CD20ECF203ED48AC0D810 /* Pods-Phone Status Glance WatchKit Extension-dummy.m */; };
+		737B50FABF56A634B97C2D1918509D59 /* RFAboutViewDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C62B2FFDFDF73173EFFEF906ACFDE031 /* RFAboutViewDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		745A1CE1EE9954A8D86DB08ABFA2D173 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4986B6E7A6B30E6C7E83AE7729894739 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E83D8D19142B8236FC5F8C1B0A01E32 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C115ACB80575945C6BCC5C0CC25E25 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		82CB5B9BD776FCB88D8377A7ACC4513D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74DAFA353A8455985B9B73815F4A3ED /* Foundation.framework */; };
-		97EFFD84ACD0A491C6A72724EA798635 /* RFAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C3F0C6E9C0549F8659F04C5604510 /* RFAboutViewController.m */; };
-		9C4609FB4316CB589F68530D07C39D70 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11FFCA122967AF889BF7A1F1F7345D /* ReachabilitySwift-dummy.m */; };
-		A0D9A9C1D1E90D3717CB2DC17E66C869 /* RFAboutViewDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD7D384BA9570D5C207E8EF4CF2AAF /* RFAboutViewDetailViewController.m */; };
-		A6AE2C1A23803D7DA42DCCB0AEE75290 /* Pods-Phone Status GlanceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C949682BE2EA6D9E847AF16C350B1B /* Pods-Phone Status GlanceTests-dummy.m */; };
-		ABC77F9CA93CBC025D723DD1D0FDC639 /* RFAboutView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 87981E162C878803F5D784C7B48B4459 /* RFAboutView.bundle */; };
-		ADE219B1A12E428D46209E8221BF1AC8 /* RFAboutViewCloseX.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FD10AC39C4FB2F4EE0424F9796B08C /* RFAboutViewCloseX.png */; };
-		BCD7CB3D70F581342EF0D313B54647AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */; };
-		BF6F6A6EAEF30E641C243108D538FEE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74DAFA353A8455985B9B73815F4A3ED /* Foundation.framework */; };
-		BFD0E51A6F8B25DD99B79F9BADBCF869 /* RFAboutViewCloseX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C87305DF369E3579AAE79A885AE79B8 /* RFAboutViewCloseX@2x.png */; };
-		C2C87042F1BD13449FAAD1B348E25CB6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A025314CB6D653F4BD74C1A4C4FCC87D /* Reachability.swift */; };
-		C62AF1B478771BDA63F9E37FA903644E /* Pods-Phone Status Glance WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2B802EF31483D75D1061340E575CF /* Pods-Phone Status Glance WatchKit Extension-dummy.m */; };
-		D8560CC76EB5E8B6A04FEC9A435E6BD9 /* RFAboutViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08BBD46C554A634EF7260B33CBCD66DC /* RFAboutViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E805538B0E8606706A313503D536AD28 /* Pods-Phone Status Glance WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5228CC1435A8BC4519F178D3DFDE28E /* Pods-Phone Status Glance WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED6BCB0C7EB9E3572252C182C548249E /* RFAboutView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A18992125699072D2FDD613AB970076 /* RFAboutView-dummy.m */; };
-		F4B9A666D323D179F859F6A5EF05970A /* Pods-Phone Status Glance WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0ACFC09CFE36C05798C04D07255DC22 /* Pods-Phone Status Glance WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6D9A5F2DB4989D57C13A1C30821A3A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8361021B49B41692AC904F19B41AFE81 /* SystemConfiguration.framework */; };
-		FBB4AE0424604DDDB4AD47CF943748BF /* RFAboutView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1675D5FD0E3257DF3CC1CC259964FB /* RFAboutView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC4788AFF1B8B40EEEEEDF384912215B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74DAFA353A8455985B9B73815F4A3ED /* Foundation.framework */; };
+		8B7DDFF73041DE15A87A500E67800E9C /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 45966F8699B912A520AFCA9AC47DFE66 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB2648E04A87FB70DBFC1B91D4D829A /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 340D3F0A2C27B321BBCE6B3213247562 /* DDDispatchQueueLogFormatter.m */; };
+		8C379589998C0D8F4B5992CA9485EE0F /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 757EE60B7B01C31A67B7C5CBC0BDCE24 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91BBB79C4CA4508F805F44ED727E4E9D /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BECED8DAAFA8933BF73A23109BB66A /* DDTTYLogger.m */; };
+		96DF2A6A95785E36FF62C40AE0F169BE /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 416A0957E090EF702410C4FA92B65A9B /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D8E4CDB856E5E53076CE86030DB79E /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4986B6E7A6B30E6C7E83AE7729894739 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A010A3762A9B6898DB6A8061B66FB445 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F32D6CC8C68D6E4676F1EF026B584226 /* DDFileLogger.m */; };
+		A1D90CE98B9D2FD477B4E0B3A5C22ED8 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 935428659B2BE622575C1FD4289E0A72 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A21577DDC4151D7978FF3799C1374C17 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8361021B49B41692AC904F19B41AFE81 /* SystemConfiguration.framework */; };
+		A6AE2C1A23803D7DA42DCCB0AEE75290 /* Pods-Phone Status GlanceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FF2AEAFF1A02E26F0D9DDACB4CF0D1 /* Pods-Phone Status GlanceTests-dummy.m */; };
+		A76B44870DE5ED649045F036DD824DA9 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F3EBDCC21AEC8B9F8A1D9257B3B104 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C1721128ABF83E7530A1DDB966FEFD /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FB76DA727FBF25BB64AD5FFCF6A94D /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA64BE23BFA658C75972AF121DF34F0D /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C115ACB80575945C6BCC5C0CC25E25 /* DDAbstractDatabaseLogger.m */; };
+		B96298DB3A2B6594CDE9806ED59FAA88 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 02971687E8CACA3CDF87044185EDF71B /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BB8811828A076E300D67763A0BF5D810 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F3EBDCC21AEC8B9F8A1D9257B3B104 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE400936E8D03E94BDD3F44A89A580F /* CocoaLumberjack-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9277EC2436714F4C7E5B3922D4C1737E /* CocoaLumberjack-iOS-dummy.m */; };
+		BDE9A7E90D30C26F90DD333BA4D5DBC7 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4ADA21116B2EDE6FCEDC98E089C3A8 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C23EF979CE9939D0C05FAEB275242FA6 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 563031147848F92F5E8CA856EB96F163 /* DDASLLogCapture.m */; };
+		C7FC37E74DF47E84637ABF9D8C0D3BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74DAFA353A8455985B9B73815F4A3ED /* Foundation.framework */; };
+		C974F713B268B31E08E655293E1EAD2C /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 416A0957E090EF702410C4FA92B65A9B /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB59168C444F538365B494A3943344E1 /* RFAboutViewCloseX.png in Resources */ = {isa = PBXBuildFile; fileRef = E66E41F55FFE07A47CCE2A278CEEAF8D /* RFAboutViewCloseX.png */; };
+		CD03A623015E7096186F6F2491A00AD2 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 757EE60B7B01C31A67B7C5CBC0BDCE24 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF5E5F524FCB16FE4223E46376DAE955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74DAFA353A8455985B9B73815F4A3ED /* Foundation.framework */; };
+		D0D2B2C9FBF2A9E8C9FE5B57F130FB09 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 340D3F0A2C27B321BBCE6B3213247562 /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D1BA70C97BCAC188CEF927751C7FF055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */; };
+		D1DDC54EE795D89D0F667EDE2A811488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */; };
+		D45A8D39CE07A28556D35EC4A3817E7F /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4287013141E027E497655BBECE742540 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEF44D2B359F8A48295B478090D1FE30 /* RFAboutViewDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DD964064C9244B6CCEA74DC35ED1B7 /* RFAboutViewDetailViewController.m */; };
+		E074A90B2E4E6414F956BCE801EA04FB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902317BBCE299BF88A6E387ACBF034CE /* Reachability.swift */; };
+		E29A34F0FF102D022C9F0AC213AD7FB7 /* Pods-Phone Status Glance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 102CBDEA600D8F8E6772B51019FAB0CA /* Pods-Phone Status Glance-dummy.m */; };
+		EA37FA3C0DFE9DB85E7C90AB582D8E06 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = B713F5D117CE5A586836785D19F9498F /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC20BCD6C712CE2879F7B89FF69159A8 /* RFAboutView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD102C7C5F803F3C313470EB9D366BE /* RFAboutView-dummy.m */; };
+		F47A2459D964AE0A5FDC17587F7D7398 /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599BE1A0889F5FA218F1056ED264FDB4 /* CocoaLumberjack.swift */; };
+		F686D48824C32D9AC2E82B5BC59B4F2E /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 532ADF55408B418D909E50CB30D801EB /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7062455BECA9D3C5C365887297CF098 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 2918DC7456F23615D2271B2EE5123B75 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71CD6FA4143B350BC5569553DCBDEC0 /* RFAboutView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2761D2CA77F4FA1569601C2B4A45F2D /* RFAboutView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F90243622485A84CDB86F7B3C7BA9083 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 45966F8699B912A520AFCA9AC47DFE66 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA694D905968051A23471FC81E883C60 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BECED8DAAFA8933BF73A23109BB66A /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B5856776169F5B1E6C728AC4DC82110 /* PBXContainerItemProxy */ = {
+		6F52712E6D21B682A108DA1996994CE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0DC0F0DBD63AAD7ECB7FD91C9A1D117D;
-			remoteInfo = ReachabilitySwift;
-		};
-		D890A8111A1178FC7592A14B45C41D91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 446E19ABC4C4735743CFE2D4FFAF04EB;
+			remoteGlobalIDString = 34903B15591EA9976F199F78FA2874EC;
 			remoteInfo = "RFAboutView-RFAboutView";
 		};
-		D9F70935F56A56C41482F231EA187E42 /* PBXContainerItemProxy */ = {
+		841D77773E32BE75454403C7812B98BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7774181E9D945017F88F6C1D5E46E176;
+			remoteGlobalIDString = A9762197D6D67CB184EC870CA4A97687;
+			remoteInfo = "CocoaLumberjack-iOS";
+		};
+		B201741E49A88B7DD387F4DA68E18D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 549F74C26038A2B3E1296F7A9F730B2C;
+			remoteInfo = ReachabilitySwift;
+		};
+		E2AA9B828B06FC3F2E0BB3B73D286327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9E721AA0191A7E0F365FD0A91565E4;
+			remoteInfo = "CocoaLumberjack-watchOS";
+		};
+		EBC471D25127C2DA0868468B4A989FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C855AD70FC59F355630309FDFA5AA30;
 			remoteInfo = RFAboutView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0085B7473DFBEA291FC4A6F9523E0AFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		014F9755038C75DC976FC3ABF8548FDB /* Pods-Phone Status Glance-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status Glance-frameworks.sh"; sourceTree = "<group>"; };
-		07C0903EA9A5280DE4232A3A0847D5A1 /* Pods-Phone Status Glance WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phone Status Glance WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
-		08BBD46C554A634EF7260B33CBCD66DC /* RFAboutViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFAboutViewController.h; path = Pod/Classes/RFAboutViewController.h; sourceTree = "<group>"; };
-		0E1675D5FD0E3257DF3CC1CC259964FB /* RFAboutView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFAboutView-umbrella.h"; sourceTree = "<group>"; };
-		10C8D1B292E5CAD8BC5BE586780716A0 /* Pods-Phone Status Glance WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status Glance WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
-		1322FA98112151443E7BA42EFF4F0B32 /* Pods-Phone Status GlanceTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status GlanceTests-resources.sh"; sourceTree = "<group>"; };
-		135D61204A4EA0708D7203A0E4083A25 /* Pods_Phone_Status_Glance_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B299F5A52BA107C7092E1B042A8E3D9 /* Pods-Phone Status GlanceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phone Status GlanceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1D016C5BD40F1364934C57D4470796B4 /* Pods-Phone Status Glance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status Glance.release.xcconfig"; sourceTree = "<group>"; };
-		1D58B9255CC65F1A81068B031A346458 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
-		219183393C661780379003C151438D26 /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status Glance WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		2BB96054DBFBD4589DF1A39372D393A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34DE3E15EF92CE1A860A489EBB02B188 /* Pods-Phone Status Glance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status Glance.debug.xcconfig"; sourceTree = "<group>"; };
-		3557FA21337AEE943B321A9F0A4E3186 /* Pods-Phone Status Glance WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status Glance WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
-		39183840A4FC1063083755EEA006B942 /* Pods-Phone Status GlanceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phone Status GlanceTests-umbrella.h"; sourceTree = "<group>"; };
-		4A7AE02FE838CF4C179778BF969D50C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B24D7E40F1168F27DA0EBE7242E7B8F /* Pods-Phone Status Glance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Phone Status Glance.modulemap"; sourceTree = "<group>"; };
-		4C87305DF369E3579AAE79A885AE79B8 /* RFAboutViewCloseX@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "RFAboutViewCloseX@2x.png"; path = "Pod/Assets/RFAboutViewCloseX@2x.png"; sourceTree = "<group>"; };
-		4DE94257B7EFE6873D6C74A0D8D8BA64 /* Pods-Phone Status Glance WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phone Status Glance WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
-		4F0B5E9A6CB8D524F944A4E32FDB64EC /* RFAboutView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RFAboutView.modulemap; sourceTree = "<group>"; };
-		56442E094279A4BB8503861E4D2C14CF /* Pods-Phone Status GlanceTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status GlanceTests-frameworks.sh"; sourceTree = "<group>"; };
-		5668F73D71D8B5A0DDC86A56F29DD7F2 /* Pods-Phone Status Glance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phone Status Glance-umbrella.h"; sourceTree = "<group>"; };
-		5A18992125699072D2FDD613AB970076 /* RFAboutView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RFAboutView-dummy.m"; sourceTree = "<group>"; };
-		5CB2B802EF31483D75D1061340E575CF /* Pods-Phone Status Glance WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phone Status Glance WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
-		609BAB8C1A0E70CF1FD093BD5AB2C9C7 /* Pods-Phone Status GlanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status GlanceTests.release.xcconfig"; sourceTree = "<group>"; };
-		6617414B6CCA5698CAFFC913EB5E3EE5 /* Pods-Phone Status Glance WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Phone Status Glance WatchKit App.modulemap"; sourceTree = "<group>"; };
-		6D58697945017F05B66ACD171F3F35AE /* Pods-Phone Status Glance WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Phone Status Glance WatchKit Extension.modulemap"; sourceTree = "<group>"; };
-		70FD10AC39C4FB2F4EE0424F9796B08C /* RFAboutViewCloseX.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = RFAboutViewCloseX.png; path = Pod/Assets/RFAboutViewCloseX.png; sourceTree = "<group>"; };
-		718C3F0C6E9C0549F8659F04C5604510 /* RFAboutViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFAboutViewController.m; path = Pod/Classes/RFAboutViewController.m; sourceTree = "<group>"; };
-		7B931EEE61207C8B90AE9D56E17AA4C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DEB42F735CBAF2670475A75D57C4601 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status Glance WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		8071CF20F584D368CFA66AD3DD66FA32 /* Pods-Phone Status Glance WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status Glance WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
-		81201932E43BD2E58869FC89C873A784 /* RFAboutView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFAboutView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02971687E8CACA3CDF87044185EDF71B /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		07F1A2EF87B51ADBFB7CB939B2CC1738 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		0A1E79F2639368E4CDB9DD9497FC20AE /* Pods-Phone Status Glance-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status Glance-frameworks.sh"; sourceTree = "<group>"; };
+		102CBDEA600D8F8E6772B51019FAB0CA /* Pods-Phone Status Glance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phone Status Glance-dummy.m"; sourceTree = "<group>"; };
+		116CD338D30748E72D6E7CAAC5CBEC29 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		16D0D1E8CB13BA77ED634DBB15720390 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CocoaLumberjack-watchOS/Info.plist"; sourceTree = "<group>"; };
+		1A73D7B7960CCEA19745C273CC7E263C /* Pods-Phone Status Glance-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phone Status Glance-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C1ACEBD77A3503E0BF12EE017C02EDE /* CocoaLumberjack-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-iOS-prefix.pch"; sourceTree = "<group>"; };
+		256F22499B546B2305C9A7A0B9BB6C71 /* Pods-Phone Status Glance WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status Glance WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
+		27F9226084A0749894ACCF67D5FC34C6 /* RFAboutViewCloseX@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "RFAboutViewCloseX@3x.png"; path = "Pod/Assets/RFAboutViewCloseX@3x.png"; sourceTree = "<group>"; };
+		2918DC7456F23615D2271B2EE5123B75 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		29FF2AEAFF1A02E26F0D9DDACB4CF0D1 /* Pods-Phone Status GlanceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phone Status GlanceTests-dummy.m"; sourceTree = "<group>"; };
+		2FD3E8281F9857C3D56C75C9087DA50E /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30935D1F1DAE450D79A54358A21436EF /* Pods-Phone Status GlanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status GlanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		30B2D2DC0F7D024C5B0C64E9F82991BC /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C115ACB80575945C6BCC5C0CC25E25 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		340D3F0A2C27B321BBCE6B3213247562 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		3CA17A5E2613952658384DDB0844E125 /* RFAboutViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFAboutViewController.m; path = Pod/Classes/RFAboutViewController.m; sourceTree = "<group>"; };
+		3D74CD8AE9AD620461032661A2BF014F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6FDFF6C4B6EFAB80E5516686922F71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416A0957E090EF702410C4FA92B65A9B /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		4287013141E027E497655BBECE742540 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		44F0906C6C7CD20ECF203ED48AC0D810 /* Pods-Phone Status Glance WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phone Status Glance WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		45966F8699B912A520AFCA9AC47DFE66 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		45F11B247B857C6C4E785FA3E62FBE57 /* Pods-Phone Status GlanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status GlanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46A44C65FD57D6A9B72391606634EC0D /* Pods-Phone Status GlanceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phone Status GlanceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4986B6E7A6B30E6C7E83AE7729894739 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		4E05392E2841EB19B92369583D22776F /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status Glance WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		515AE3421B403F21616E032A49763BB1 /* Pods-Phone Status Glance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status Glance.debug.xcconfig"; sourceTree = "<group>"; };
+		532ADF55408B418D909E50CB30D801EB /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		563031147848F92F5E8CA856EB96F163 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		599BE1A0889F5FA218F1056ED264FDB4 /* CocoaLumberjack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaLumberjack.swift; path = Classes/CocoaLumberjack.swift; sourceTree = "<group>"; };
+		64A7A3E9A8F2570C8767258B6B020C96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67AA092416820ED4802B5A186C8C0395 /* Pods-Phone Status Glance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phone Status Glance-umbrella.h"; sourceTree = "<group>"; };
+		6C4033BF693B1F317D4674204AD5F290 /* CocoaLumberjack-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "CocoaLumberjack-watchOS.modulemap"; path = "../CocoaLumberjack-watchOS/CocoaLumberjack-watchOS.modulemap"; sourceTree = "<group>"; };
+		6CD102C7C5F803F3C313470EB9D366BE /* RFAboutView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RFAboutView-dummy.m"; sourceTree = "<group>"; };
+		6E6A8BC4AB61E0B96126A6D42FB6E6E8 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		6EC534B5F90D2F47DDE63F108A57FB88 /* CocoaLumberjack-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CocoaLumberjack-watchOS.xcconfig"; path = "../CocoaLumberjack-watchOS/CocoaLumberjack-watchOS.xcconfig"; sourceTree = "<group>"; };
+		6F0AC52E027AA5CB6608BF01B107611E /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4ADA21116B2EDE6FCEDC98E089C3A8 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		73886C1B3106461D1E613EFA74955610 /* Pods-Phone Status Glance WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phone Status Glance WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		752BAA75C7CC929E8B7848B10E64DA91 /* RFAboutView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RFAboutView.xcconfig; sourceTree = "<group>"; };
+		757EE60B7B01C31A67B7C5CBC0BDCE24 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		759F81F690CD385E96D9B95FF8A192EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761A1259B62717A5E8E1556F5CA75C9B /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		78DD964064C9244B6CCEA74DC35ED1B7 /* RFAboutViewDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFAboutViewDetailViewController.m; path = Pod/Classes/RFAboutViewDetailViewController.m; sourceTree = "<group>"; };
+		7A426CD137E7A44EBF0A38A413A225FD /* Pods-Phone Status GlanceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Phone Status GlanceTests.modulemap"; sourceTree = "<group>"; };
+		7A453930F6BAE110AF9915BFD2D7FC8D /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status Glance WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		7D21B36BC07E394B0474C27DBEFE1E3A /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		825B74D05B01C14FDB412861ACEAF602 /* Pods-Phone Status GlanceTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status GlanceTests-resources.sh"; sourceTree = "<group>"; };
 		8361021B49B41692AC904F19B41AFE81 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		838034ADC4A7B3DB31EE68DBDB8DB1AD /* Pods-Phone Status Glance WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phone Status Glance WatchKit App-dummy.m"; sourceTree = "<group>"; };
-		84D562D9C437E990505FBFDBA733C8C7 /* RFAboutViewDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFAboutViewDetailViewController.h; path = Pod/Classes/RFAboutViewDetailViewController.h; sourceTree = "<group>"; };
-		84FD7D384BA9570D5C207E8EF4CF2AAF /* RFAboutViewDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFAboutViewDetailViewController.m; path = Pod/Classes/RFAboutViewDetailViewController.m; sourceTree = "<group>"; };
-		86489987DB6D2AAA2282AD495C7E4A76 /* Pods-Phone Status Glance WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phone Status Glance WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		87061C244D7847CCEAA6E7C3F0F05CB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87981E162C878803F5D784C7B48B4459 /* RFAboutView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFAboutView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		88566CDB71BA06D5EBCE34AF47F09A0D /* Pods-Phone Status Glance WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phone Status Glance WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
-		8C1FDFFB9204966629BD959BB2573118 /* Pods-Phone Status Glance WatchKit App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status Glance WatchKit App-resources.sh"; sourceTree = "<group>"; };
-		8F42D1A414EAB3E71065CA0228805182 /* Pods-Phone Status GlanceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Phone Status GlanceTests.modulemap"; sourceTree = "<group>"; };
-		8F7A3715F5C4C2146D3A4415197B4748 /* Pods-Phone Status GlanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status GlanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83F91DC6F0F65EADD77FEC07810B5622 /* Pods_Phone_Status_GlanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_GlanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AB6C888CD6BC4B8ADDA6AA460F5CDB /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		88F3EBDCC21AEC8B9F8A1D9257B3B104 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		8A22ABC9A6C971897A432B5D713A88EB /* RFAboutView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFAboutView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF5E7B1277694E8F7B75EC33A26DF3A /* Pods-Phone Status Glance WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Phone Status Glance WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		902317BBCE299BF88A6E387ACBF034CE /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		902966FC559BBE2C4CD9385D3ACD0296 /* Pods-Phone Status Glance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Phone Status Glance.modulemap"; sourceTree = "<group>"; };
+		9277EC2436714F4C7E5B3922D4C1737E /* CocoaLumberjack-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-iOS-dummy.m"; sourceTree = "<group>"; };
+		92A80808E357A129ED3ED35709286492 /* CocoaLumberjack-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CocoaLumberjack-watchOS-prefix.pch"; path = "../CocoaLumberjack-watchOS/CocoaLumberjack-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		9307F131A36A7DE9AD36E803CAD0D2C0 /* RFAboutViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFAboutViewController.h; path = Pod/Classes/RFAboutViewController.h; sourceTree = "<group>"; };
+		935428659B2BE622575C1FD4289E0A72 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		987A31E9B93A4EF447F17BD0B692A58E /* Pods_Phone_Status_Glance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A025314CB6D653F4BD74C1A4C4FCC87D /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
-		A18DCF7F65C2288461DC269B4FE4B954 /* Pods_Phone_Status_GlanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_GlanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A351B1FC8C4A98034B3400ED7E60E216 /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status Glance WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
-		A407E267CCF7EECB9D2D6112FAC0C5ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5228CC1435A8BC4519F178D3DFDE28E /* Pods-Phone Status Glance WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phone Status Glance WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
-		A5A9EE2268945770E4B0CEC060210400 /* Pods-Phone Status Glance-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phone Status Glance-acknowledgements.plist"; sourceTree = "<group>"; };
-		AC2F0171EA3741EB53D48079B8DDED41 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE35A18955E9C5DFABDC6B58C84D2D23 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
-		AF98AFAD002B93E0B83BED21950C9640 /* Pods-Phone Status Glance-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status Glance-resources.sh"; sourceTree = "<group>"; };
-		B0ACFC09CFE36C05798C04D07255DC22 /* Pods-Phone Status Glance WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phone Status Glance WatchKit App-umbrella.h"; sourceTree = "<group>"; };
-		B1FC0D2CA84C96B1659B6D6E8FB2C350 /* Pods-Phone Status Glance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phone Status Glance-dummy.m"; sourceTree = "<group>"; };
-		B3D3CB8DCE27C2CA2F872F3A278D6E1A /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
-		BB853B2250600ACCB38BCB2ED29F7FEA /* Pods-Phone Status Glance-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phone Status Glance-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BD11FFCA122967AF889BF7A1F1F7345D /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
-		BF68032BDF586052A283D5D08079C16F /* Pods-Phone Status Glance WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status Glance WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
-		C68AF9FAD4B3C8D88C7C0ACFF450F3B3 /* RFAboutViewCloseX@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "RFAboutViewCloseX@3x.png"; path = "Pod/Assets/RFAboutViewCloseX@3x.png"; sourceTree = "<group>"; };
-		C979741A6E7C31BDC99FFA6B6CAD923F /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		9888BD95D3A99098F21BF1D41B567562 /* CocoaLumberjack-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CocoaLumberjack-watchOS-dummy.m"; path = "../CocoaLumberjack-watchOS/CocoaLumberjack-watchOS-dummy.m"; sourceTree = "<group>"; };
+		98FD47611E416B8BBB67C4D529F5EDEE /* RFAboutView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RFAboutView.modulemap; sourceTree = "<group>"; };
+		A25F7D6CFD88938C6EFEE5C488CBF96C /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		A2761D2CA77F4FA1569601C2B4A45F2D /* RFAboutView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFAboutView-umbrella.h"; sourceTree = "<group>"; };
+		A36E800AECEBA69DD97474204DB12A05 /* CocoaLumberjack-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "CocoaLumberjack-iOS.modulemap"; sourceTree = "<group>"; };
+		A3D50078EE6DB3DA618BAA96C71C36F0 /* ResourceBundle-RFAboutView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RFAboutView-Info.plist"; sourceTree = "<group>"; };
+		A4CB9A566F63B60620761AA90E164706 /* Pods-Phone Status Glance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phone Status Glance.release.xcconfig"; sourceTree = "<group>"; };
+		A50DDF07B63E91A0B662C076152548D6 /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58791D7E8A281E83A4AE9911E275A23 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		AD637B497B468AD039E9AED49ADAB370 /* Pods-Phone Status Glance WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phone Status Glance WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		B713F5D117CE5A586836785D19F9498F /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		B791169FDACA3C985E1E49ABF1564245 /* Pods-Phone Status Glance-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phone Status Glance-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9FB61E369A2E66B71B803496E8DEE1B /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		BBE5E06A79D386B1213CE78BD9A02599 /* CocoaLumberjack-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CocoaLumberjack-iOS.xcconfig"; sourceTree = "<group>"; };
+		C3232759C79BFA228C39827B04F9E94B /* Pods-Phone Status Glance WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status Glance WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		C60250A04E35F4A5735FF00EE909DB52 /* Pods-Phone Status GlanceTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status GlanceTests-frameworks.sh"; sourceTree = "<group>"; };
+		C62B2FFDFDF73173EFFEF906ACFDE031 /* RFAboutViewDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFAboutViewDetailViewController.h; path = Pod/Classes/RFAboutViewDetailViewController.h; sourceTree = "<group>"; };
+		C9BECED8DAAFA8933BF73A23109BB66A /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
 		CA796AABDF7641C2FE0B565FAC543288 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D88EEBE9995779D8A357AFCC6C6C25A9 /* RFAboutView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFAboutView-prefix.pch"; sourceTree = "<group>"; };
-		D97D0686B6DD819AE2A92C4A848B895A /* ResourceBundle-RFAboutView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RFAboutView-Info.plist"; sourceTree = "<group>"; };
-		EEE3966F9F1E048ABF932105177B21AC /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2106F75DE6440FA722C6BBE6231D81A /* RFAboutView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RFAboutView.xcconfig; sourceTree = "<group>"; };
-		F4C949682BE2EA6D9E847AF16C350B1B /* Pods-Phone Status GlanceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phone Status GlanceTests-dummy.m"; sourceTree = "<group>"; };
+		CD48DCB97F00262C2D3E0FED34D108DF /* Pods-Phone Status GlanceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phone Status GlanceTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF8C4EFB3574D41B7A6AAFD09EEBE04A /* Pods-Phone Status GlanceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phone Status GlanceTests-umbrella.h"; sourceTree = "<group>"; };
+		D2FB76DA727FBF25BB64AD5FFCF6A94D /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		D60B4787BCBDC2247C09CA1A3FD9301F /* Pods_Phone_Status_Glance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF4060C67DF2F78EF569194C032B775 /* Pods-Phone Status Glance WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phone Status Glance WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E66E41F55FFE07A47CCE2A278CEEAF8D /* RFAboutViewCloseX.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = RFAboutViewCloseX.png; path = Pod/Assets/RFAboutViewCloseX.png; sourceTree = "<group>"; };
+		E74EC23B4831F242ACAE7FD44B3CF376 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3ECE250E76FFBBF748E3AEA84D1D70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32D6CC8C68D6E4676F1EF026B584226 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		F48A3F96400E5AB02C2DEB851634E7E5 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		F5D1C1F86B2B82C45AE59872406FF9ED /* RFAboutView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFAboutView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74DAFA353A8455985B9B73815F4A3ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FEB54B6D1BC155034F0D0905AD3D263C /* Pods-Phone Status GlanceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phone Status GlanceTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE6D63DE0CFFAE9EBC8712E63E3F25EA /* RFAboutView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFAboutView-prefix.pch"; sourceTree = "<group>"; };
+		FEA03D9CDFE12DCA733C9918A89984E6 /* RFAboutViewCloseX@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "RFAboutViewCloseX@2x.png"; path = "Pod/Assets/RFAboutViewCloseX@2x.png"; sourceTree = "<group>"; };
+		FFC291B5F53ABB8BB628CA79A485B918 /* Pods-Phone Status Glance-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phone Status Glance-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EB7E9AE857020D68F73A5A4A4EFCF2B /* Frameworks */ = {
+		116D30E12850FB0C180133D5F9C0B637 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF6F6A6EAEF30E641C243108D538FEE0 /* Foundation.framework in Frameworks */,
+				CF5E5F524FCB16FE4223E46376DAE955 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,98 +241,141 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		494C4A2D61CC41AB89FF8860A7B2D27E /* Frameworks */ = {
+		4A0860C1FB041C1EB967D7B2B4DBDA44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4788AFF1B8B40EEEEEDF384912215B /* Foundation.framework in Frameworks */,
-				F6D9A5F2DB4989D57C13A1C30821A3A9 /* SystemConfiguration.framework in Frameworks */,
+				D1BA70C97BCAC188CEF927751C7FF055 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		833F22FF0368D0F1B1C45BB324227533 /* Frameworks */ = {
+		546742E8BA7217A01F03ADE56A66AB1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4CAA3B1B86473A97AB16D0F1863470 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEAEFD324E911CAC019833FEE4DD5C2E /* Frameworks */ = {
+		5D5FE7E9C2BD47EAE1A5C1C320DEF112 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCD7CB3D70F581342EF0D313B54647AE /* Foundation.framework in Frameworks */,
+				D1DDC54EE795D89D0F667EDE2A811488 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA716D2E09FF4F19D5A00503EDF9843C /* Frameworks */ = {
+		8BD83BB01B0CBFF34A07C873C2E6B931 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CC8B9ADEA2C16DC23A8738F6B1CFAA6 /* Foundation.framework in Frameworks */,
+				C7FC37E74DF47E84637ABF9D8C0D3BEE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F71CAF08594A40EFF1F03EDFB8558AB4 /* Frameworks */ = {
+		A91FE32D0F693B293A777F0D56D13BC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63026662D0D4D2458437912F56272F21 /* Foundation.framework in Frameworks */,
+				5E64381B71571AD261156D937A938DFA /* Foundation.framework in Frameworks */,
+				A21577DDC4151D7978FF3799C1374C17 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02BF1A8F4D32D71355454586AAA854F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01CAC38A456F13D9A75BFC1B56849B5A /* Support Files */ = {
+		0B37315FA8143DF6D2E9B608C8AE556B /* RFAboutView */ = {
 			isa = PBXGroup;
 			children = (
-				A407E267CCF7EECB9D2D6112FAC0C5ED /* Info.plist */,
-				D97D0686B6DD819AE2A92C4A848B895A /* ResourceBundle-RFAboutView-Info.plist */,
-				4F0B5E9A6CB8D524F944A4E32FDB64EC /* RFAboutView.modulemap */,
-				F2106F75DE6440FA722C6BBE6231D81A /* RFAboutView.xcconfig */,
-				5A18992125699072D2FDD613AB970076 /* RFAboutView-dummy.m */,
-				D88EEBE9995779D8A357AFCC6C6C25A9 /* RFAboutView-prefix.pch */,
-				0E1675D5FD0E3257DF3CC1CC259964FB /* RFAboutView-umbrella.h */,
+				9307F131A36A7DE9AD36E803CAD0D2C0 /* RFAboutViewController.h */,
+				3CA17A5E2613952658384DDB0844E125 /* RFAboutViewController.m */,
+				C62B2FFDFDF73173EFFEF906ACFDE031 /* RFAboutViewDetailViewController.h */,
+				78DD964064C9244B6CCEA74DC35ED1B7 /* RFAboutViewDetailViewController.m */,
+				4F22F962283786E4951E56D373A08C6D /* Resources */,
+				45BD6A28717D8A1922AB4CAFCE8FF360 /* Support Files */,
+			);
+			path = RFAboutView;
+			sourceTree = "<group>";
+		};
+		1E00C5FDF7C62DE582F79E8E349AF01F /* Pods-Phone Status GlanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3ECE250E76FFBBF748E3AEA84D1D70 /* Info.plist */,
+				7A426CD137E7A44EBF0A38A413A225FD /* Pods-Phone Status GlanceTests.modulemap */,
+				46A44C65FD57D6A9B72391606634EC0D /* Pods-Phone Status GlanceTests-acknowledgements.markdown */,
+				CD48DCB97F00262C2D3E0FED34D108DF /* Pods-Phone Status GlanceTests-acknowledgements.plist */,
+				29FF2AEAFF1A02E26F0D9DDACB4CF0D1 /* Pods-Phone Status GlanceTests-dummy.m */,
+				C60250A04E35F4A5735FF00EE909DB52 /* Pods-Phone Status GlanceTests-frameworks.sh */,
+				825B74D05B01C14FDB412861ACEAF602 /* Pods-Phone Status GlanceTests-resources.sh */,
+				CF8C4EFB3574D41B7A6AAFD09EEBE04A /* Pods-Phone Status GlanceTests-umbrella.h */,
+				45F11B247B857C6C4E785FA3E62FBE57 /* Pods-Phone Status GlanceTests.debug.xcconfig */,
+				30935D1F1DAE450D79A54358A21436EF /* Pods-Phone Status GlanceTests.release.xcconfig */,
+			);
+			name = "Pods-Phone Status GlanceTests";
+			path = "Target Support Files/Pods-Phone Status GlanceTests";
+			sourceTree = "<group>";
+		};
+		1E1865970115F40E80597689B9729A39 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6867D3B944BAE6096B74A3EB79026C /* Pods-Phone Status Glance */,
+				9391D0A9A4F8FC7503E196BCFA68DA3D /* Pods-Phone Status Glance WatchKit Extension */,
+				1E00C5FDF7C62DE582F79E8E349AF01F /* Pods-Phone Status GlanceTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		26844A934F0914C020DE4B244986DA6F /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				891666C4F0553B7AAAD12649F24166F9 /* Core */,
+				9CEE6012FDCE0CA23B1D998B76BE9B97 /* Default */,
+				5998E36F7A882D761A6F99D99F75F601 /* Extensions */,
+				907AC74B9E6A3CE1BB7B580D1DDDCABC /* Support Files */,
+				53EC1470C1753CACA434D00F4EC785B8 /* Swift */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		45BD6A28717D8A1922AB4CAFCE8FF360 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F6FDFF6C4B6EFAB80E5516686922F71 /* Info.plist */,
+				A3D50078EE6DB3DA618BAA96C71C36F0 /* ResourceBundle-RFAboutView-Info.plist */,
+				98FD47611E416B8BBB67C4D529F5EDEE /* RFAboutView.modulemap */,
+				752BAA75C7CC929E8B7848B10E64DA91 /* RFAboutView.xcconfig */,
+				6CD102C7C5F803F3C313470EB9D366BE /* RFAboutView-dummy.m */,
+				FE6D63DE0CFFAE9EBC8712E63E3F25EA /* RFAboutView-prefix.pch */,
+				A2761D2CA77F4FA1569601C2B4A45F2D /* RFAboutView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RFAboutView";
 			sourceTree = "<group>";
 		};
-		1B839EC2CFE5E00FBB231CDAF12FFCA6 /* ReachabilitySwift */ = {
+		4F22F962283786E4951E56D373A08C6D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A025314CB6D653F4BD74C1A4C4FCC87D /* Reachability.swift */,
-				E9DBB233BBE78CB0F536897961C4C0E5 /* Support Files */,
+				E66E41F55FFE07A47CCE2A278CEEAF8D /* RFAboutViewCloseX.png */,
+				FEA03D9CDFE12DCA733C9918A89984E6 /* RFAboutViewCloseX@2x.png */,
+				27F9226084A0749894ACCF67D5FC34C6 /* RFAboutViewCloseX@3x.png */,
 			);
-			path = ReachabilitySwift;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		2622712656117A05719111552EE8E6AA /* Pods-Phone Status Glance WatchKit Extension */ = {
+		53EC1470C1753CACA434D00F4EC785B8 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				7B931EEE61207C8B90AE9D56E17AA4C5 /* Info.plist */,
-				6D58697945017F05B66ACD171F3F35AE /* Pods-Phone Status Glance WatchKit Extension.modulemap */,
-				86489987DB6D2AAA2282AD495C7E4A76 /* Pods-Phone Status Glance WatchKit Extension-acknowledgements.markdown */,
-				4DE94257B7EFE6873D6C74A0D8D8BA64 /* Pods-Phone Status Glance WatchKit Extension-acknowledgements.plist */,
-				5CB2B802EF31483D75D1061340E575CF /* Pods-Phone Status Glance WatchKit Extension-dummy.m */,
-				10C8D1B292E5CAD8BC5BE586780716A0 /* Pods-Phone Status Glance WatchKit Extension-frameworks.sh */,
-				8071CF20F584D368CFA66AD3DD66FA32 /* Pods-Phone Status Glance WatchKit Extension-resources.sh */,
-				A5228CC1435A8BC4519F178D3DFDE28E /* Pods-Phone Status Glance WatchKit Extension-umbrella.h */,
-				219183393C661780379003C151438D26 /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */,
-				7DEB42F735CBAF2670475A75D57C4601 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */,
+				599BE1A0889F5FA218F1056ED264FDB4 /* CocoaLumberjack.swift */,
 			);
-			name = "Pods-Phone Status Glance WatchKit Extension";
-			path = "Target Support Files/Pods-Phone Status Glance WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		40E889E81C2950337BF1DEC6B8CDBC09 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1B839EC2CFE5E00FBB231CDAF12FFCA6 /* ReachabilitySwift */,
-				886B489785B5C6411BF044D9DB5F2D52 /* RFAboutView */,
-			);
-			name = Pods;
+			name = Swift;
 			sourceTree = "<group>";
 		};
 		55CA75CC51399A6CB51BF3F5A2DBE5E9 /* watchOS */ = {
@@ -255,15 +386,49 @@
 			name = watchOS;
 			sourceTree = "<group>";
 		};
-		59C645A2C88F225CBD18D3DD9D38DE79 /* Targets Support Files */ = {
+		5998E36F7A882D761A6F99D99F75F601 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D726A67393B250AFDCBF1418B7D73AFD /* Pods-Phone Status Glance */,
-				CE6AEF2F80B946832E069651D9FE2DE6 /* Pods-Phone Status Glance WatchKit App */,
-				2622712656117A05719111552EE8E6AA /* Pods-Phone Status Glance WatchKit Extension */,
-				CBBEE80F9427F022563B7F4A630022B4 /* Pods-Phone Status GlanceTests */,
+				761A1259B62717A5E8E1556F5CA75C9B /* DDContextFilterLogFormatter.h */,
+				02971687E8CACA3CDF87044185EDF71B /* DDContextFilterLogFormatter.m */,
+				4287013141E027E497655BBECE742540 /* DDDispatchQueueLogFormatter.h */,
+				340D3F0A2C27B321BBCE6B3213247562 /* DDDispatchQueueLogFormatter.m */,
+				116CD338D30748E72D6E7CAAC5CBEC29 /* DDMultiFormatter.h */,
+				7D21B36BC07E394B0474C27DBEFE1E3A /* DDMultiFormatter.m */,
 			);
-			name = "Targets Support Files";
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		59E8A4477E9C938FFCC4CC51EC0DB92E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64A7A3E9A8F2570C8767258B6B020C96 /* Info.plist */,
+				A58791D7E8A281E83A4AE9911E275A23 /* ReachabilitySwift.modulemap */,
+				07F1A2EF87B51ADBFB7CB939B2CC1738 /* ReachabilitySwift.xcconfig */,
+				87AB6C888CD6BC4B8ADDA6AA460F5CDB /* ReachabilitySwift-dummy.m */,
+				A25F7D6CFD88938C6EFEE5C488CBF96C /* ReachabilitySwift-prefix.pch */,
+				D2FB76DA727FBF25BB64AD5FFCF6A94D /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		5F6867D3B944BAE6096B74A3EB79026C /* Pods-Phone Status Glance */ = {
+			isa = PBXGroup;
+			children = (
+				3D74CD8AE9AD620461032661A2BF014F /* Info.plist */,
+				902966FC559BBE2C4CD9385D3ACD0296 /* Pods-Phone Status Glance.modulemap */,
+				1A73D7B7960CCEA19745C273CC7E263C /* Pods-Phone Status Glance-acknowledgements.markdown */,
+				B791169FDACA3C985E1E49ABF1564245 /* Pods-Phone Status Glance-acknowledgements.plist */,
+				102CBDEA600D8F8E6772B51019FAB0CA /* Pods-Phone Status Glance-dummy.m */,
+				0A1E79F2639368E4CDB9DD9497FC20AE /* Pods-Phone Status Glance-frameworks.sh */,
+				FFC291B5F53ABB8BB628CA79A485B918 /* Pods-Phone Status Glance-resources.sh */,
+				67AA092416820ED4802B5A186C8C0395 /* Pods-Phone Status Glance-umbrella.h */,
+				515AE3421B403F21616E032A49763BB1 /* Pods-Phone Status Glance.debug.xcconfig */,
+				A4CB9A566F63B60620761AA90E164706 /* Pods-Phone Status Glance.release.xcconfig */,
+			);
+			name = "Pods-Phone Status Glance";
+			path = "Target Support Files/Pods-Phone Status Glance";
 			sourceTree = "<group>";
 		};
 		63DF18945E2E7F84F08C67D235ADBABE /* iOS */ = {
@@ -275,28 +440,57 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6DFC72E9D4018896721EAC9C5EF18427 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26844A934F0914C020DE4B244986DA6F /* CocoaLumberjack */,
+				80F46BA3EE5A3CF7024653002001D53A /* ReachabilitySwift */,
+				0B37315FA8143DF6D2E9B608C8AE556B /* RFAboutView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				8B6D968432DA454CBE7BE3761821A977 /* Frameworks */,
-				40E889E81C2950337BF1DEC6B8CDBC09 /* Pods */,
-				D2E7966748D383D6C570CDF55025AD4E /* Products */,
-				59C645A2C88F225CBD18D3DD9D38DE79 /* Targets Support Files */,
+				6DFC72E9D4018896721EAC9C5EF18427 /* Pods */,
+				8FE971D715F7A52A98030BB9DA7831D2 /* Products */,
+				1E1865970115F40E80597689B9729A39 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		886B489785B5C6411BF044D9DB5F2D52 /* RFAboutView */ = {
+		80F46BA3EE5A3CF7024653002001D53A /* ReachabilitySwift */ = {
 			isa = PBXGroup;
 			children = (
-				08BBD46C554A634EF7260B33CBCD66DC /* RFAboutViewController.h */,
-				718C3F0C6E9C0549F8659F04C5604510 /* RFAboutViewController.m */,
-				84D562D9C437E990505FBFDBA733C8C7 /* RFAboutViewDetailViewController.h */,
-				84FD7D384BA9570D5C207E8EF4CF2AAF /* RFAboutViewDetailViewController.m */,
-				F84FAED565EA44763E6104A060B7437A /* Resources */,
-				01CAC38A456F13D9A75BFC1B56849B5A /* Support Files */,
+				902317BBCE299BF88A6E387ACBF034CE /* Reachability.swift */,
+				59E8A4477E9C938FFCC4CC51EC0DB92E /* Support Files */,
 			);
-			path = RFAboutView;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		891666C4F0553B7AAAD12649F24166F9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				757EE60B7B01C31A67B7C5CBC0BDCE24 /* DDAbstractDatabaseLogger.h */,
+				33C115ACB80575945C6BCC5C0CC25E25 /* DDAbstractDatabaseLogger.m */,
+				2918DC7456F23615D2271B2EE5123B75 /* DDASLLogCapture.h */,
+				563031147848F92F5E8CA856EB96F163 /* DDASLLogCapture.m */,
+				88F3EBDCC21AEC8B9F8A1D9257B3B104 /* DDASLLogger.h */,
+				935428659B2BE622575C1FD4289E0A72 /* DDASLLogger.m */,
+				B9FB61E369A2E66B71B803496E8DEE1B /* DDAssertMacros.h */,
+				F48A3F96400E5AB02C2DEB851634E7E5 /* DDFileLogger.h */,
+				F32D6CC8C68D6E4676F1EF026B584226 /* DDFileLogger.m */,
+				4986B6E7A6B30E6C7E83AE7729894739 /* DDLegacyMacros.h */,
+				416A0957E090EF702410C4FA92B65A9B /* DDLog.h */,
+				6F4ADA21116B2EDE6FCEDC98E089C3A8 /* DDLog.m */,
+				B713F5D117CE5A586836785D19F9498F /* DDLog+LOGV.h */,
+				45966F8699B912A520AFCA9AC47DFE66 /* DDLogMacros.h */,
+				6E6A8BC4AB61E0B96126A6D42FB6E6E8 /* DDTTYLogger.h */,
+				C9BECED8DAAFA8933BF73A23109BB66A /* DDTTYLogger.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		8B6D968432DA454CBE7BE3761821A977 /* Frameworks */ = {
@@ -308,96 +502,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CBBEE80F9427F022563B7F4A630022B4 /* Pods-Phone Status GlanceTests */ = {
+		8FE971D715F7A52A98030BB9DA7831D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87061C244D7847CCEAA6E7C3F0F05CB5 /* Info.plist */,
-				8F42D1A414EAB3E71065CA0228805182 /* Pods-Phone Status GlanceTests.modulemap */,
-				1B299F5A52BA107C7092E1B042A8E3D9 /* Pods-Phone Status GlanceTests-acknowledgements.markdown */,
-				FEB54B6D1BC155034F0D0905AD3D263C /* Pods-Phone Status GlanceTests-acknowledgements.plist */,
-				F4C949682BE2EA6D9E847AF16C350B1B /* Pods-Phone Status GlanceTests-dummy.m */,
-				56442E094279A4BB8503861E4D2C14CF /* Pods-Phone Status GlanceTests-frameworks.sh */,
-				1322FA98112151443E7BA42EFF4F0B32 /* Pods-Phone Status GlanceTests-resources.sh */,
-				39183840A4FC1063083755EEA006B942 /* Pods-Phone Status GlanceTests-umbrella.h */,
-				8F7A3715F5C4C2146D3A4415197B4748 /* Pods-Phone Status GlanceTests.debug.xcconfig */,
-				609BAB8C1A0E70CF1FD093BD5AB2C9C7 /* Pods-Phone Status GlanceTests.release.xcconfig */,
-			);
-			name = "Pods-Phone Status GlanceTests";
-			path = "Target Support Files/Pods-Phone Status GlanceTests";
-			sourceTree = "<group>";
-		};
-		CE6AEF2F80B946832E069651D9FE2DE6 /* Pods-Phone Status Glance WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				4A7AE02FE838CF4C179778BF969D50C6 /* Info.plist */,
-				6617414B6CCA5698CAFFC913EB5E3EE5 /* Pods-Phone Status Glance WatchKit App.modulemap */,
-				07C0903EA9A5280DE4232A3A0847D5A1 /* Pods-Phone Status Glance WatchKit App-acknowledgements.markdown */,
-				88566CDB71BA06D5EBCE34AF47F09A0D /* Pods-Phone Status Glance WatchKit App-acknowledgements.plist */,
-				838034ADC4A7B3DB31EE68DBDB8DB1AD /* Pods-Phone Status Glance WatchKit App-dummy.m */,
-				3557FA21337AEE943B321A9F0A4E3186 /* Pods-Phone Status Glance WatchKit App-frameworks.sh */,
-				8C1FDFFB9204966629BD959BB2573118 /* Pods-Phone Status Glance WatchKit App-resources.sh */,
-				B0ACFC09CFE36C05798C04D07255DC22 /* Pods-Phone Status Glance WatchKit App-umbrella.h */,
-				A351B1FC8C4A98034B3400ED7E60E216 /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */,
-				BF68032BDF586052A283D5D08079C16F /* Pods-Phone Status Glance WatchKit App.release.xcconfig */,
-			);
-			name = "Pods-Phone Status Glance WatchKit App";
-			path = "Target Support Files/Pods-Phone Status Glance WatchKit App";
-			sourceTree = "<group>";
-		};
-		D2E7966748D383D6C570CDF55025AD4E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				987A31E9B93A4EF447F17BD0B692A58E /* Pods_Phone_Status_Glance.framework */,
-				135D61204A4EA0708D7203A0E4083A25 /* Pods_Phone_Status_Glance_WatchKit_App.framework */,
-				EEE3966F9F1E048ABF932105177B21AC /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */,
-				A18DCF7F65C2288461DC269B4FE4B954 /* Pods_Phone_Status_GlanceTests.framework */,
-				AC2F0171EA3741EB53D48079B8DDED41 /* ReachabilitySwift.framework */,
-				87981E162C878803F5D784C7B48B4459 /* RFAboutView.bundle */,
-				81201932E43BD2E58869FC89C873A784 /* RFAboutView.framework */,
+				6F0AC52E027AA5CB6608BF01B107611E /* CocoaLumberjack.framework */,
+				30B2D2DC0F7D024C5B0C64E9F82991BC /* CocoaLumberjack.framework */,
+				D60B4787BCBDC2247C09CA1A3FD9301F /* Pods_Phone_Status_Glance.framework */,
+				A50DDF07B63E91A0B662C076152548D6 /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */,
+				83F91DC6F0F65EADD77FEC07810B5622 /* Pods_Phone_Status_GlanceTests.framework */,
+				2FD3E8281F9857C3D56C75C9087DA50E /* ReachabilitySwift.framework */,
+				8A22ABC9A6C971897A432B5D713A88EB /* RFAboutView.bundle */,
+				F5D1C1F86B2B82C45AE59872406FF9ED /* RFAboutView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D726A67393B250AFDCBF1418B7D73AFD /* Pods-Phone Status Glance */ = {
+		907AC74B9E6A3CE1BB7B580D1DDDCABC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0085B7473DFBEA291FC4A6F9523E0AFD /* Info.plist */,
-				4B24D7E40F1168F27DA0EBE7242E7B8F /* Pods-Phone Status Glance.modulemap */,
-				BB853B2250600ACCB38BCB2ED29F7FEA /* Pods-Phone Status Glance-acknowledgements.markdown */,
-				A5A9EE2268945770E4B0CEC060210400 /* Pods-Phone Status Glance-acknowledgements.plist */,
-				B1FC0D2CA84C96B1659B6D6E8FB2C350 /* Pods-Phone Status Glance-dummy.m */,
-				014F9755038C75DC976FC3ABF8548FDB /* Pods-Phone Status Glance-frameworks.sh */,
-				AF98AFAD002B93E0B83BED21950C9640 /* Pods-Phone Status Glance-resources.sh */,
-				5668F73D71D8B5A0DDC86A56F29DD7F2 /* Pods-Phone Status Glance-umbrella.h */,
-				34DE3E15EF92CE1A860A489EBB02B188 /* Pods-Phone Status Glance.debug.xcconfig */,
-				1D016C5BD40F1364934C57D4470796B4 /* Pods-Phone Status Glance.release.xcconfig */,
-			);
-			name = "Pods-Phone Status Glance";
-			path = "Target Support Files/Pods-Phone Status Glance";
-			sourceTree = "<group>";
-		};
-		E9DBB233BBE78CB0F536897961C4C0E5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2BB96054DBFBD4589DF1A39372D393A5 /* Info.plist */,
-				1D58B9255CC65F1A81068B031A346458 /* ReachabilitySwift.modulemap */,
-				B3D3CB8DCE27C2CA2F872F3A278D6E1A /* ReachabilitySwift.xcconfig */,
-				BD11FFCA122967AF889BF7A1F1F7345D /* ReachabilitySwift-dummy.m */,
-				AE35A18955E9C5DFABDC6B58C84D2D23 /* ReachabilitySwift-prefix.pch */,
-				C979741A6E7C31BDC99FFA6B6CAD923F /* ReachabilitySwift-umbrella.h */,
+				A36E800AECEBA69DD97474204DB12A05 /* CocoaLumberjack-iOS.modulemap */,
+				BBE5E06A79D386B1213CE78BD9A02599 /* CocoaLumberjack-iOS.xcconfig */,
+				9277EC2436714F4C7E5B3922D4C1737E /* CocoaLumberjack-iOS-dummy.m */,
+				1C1ACEBD77A3503E0BF12EE017C02EDE /* CocoaLumberjack-iOS-prefix.pch */,
+				6C4033BF693B1F317D4674204AD5F290 /* CocoaLumberjack-watchOS.modulemap */,
+				6EC534B5F90D2F47DDE63F108A57FB88 /* CocoaLumberjack-watchOS.xcconfig */,
+				9888BD95D3A99098F21BF1D41B567562 /* CocoaLumberjack-watchOS-dummy.m */,
+				92A80808E357A129ED3ED35709286492 /* CocoaLumberjack-watchOS-prefix.pch */,
+				E74EC23B4831F242ACAE7FD44B3CF376 /* Info.plist */,
+				16D0D1E8CB13BA77ED634DBB15720390 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ReachabilitySwift";
+			path = "../Target Support Files/CocoaLumberjack-iOS";
 			sourceTree = "<group>";
 		};
-		F84FAED565EA44763E6104A060B7437A /* Resources */ = {
+		9391D0A9A4F8FC7503E196BCFA68DA3D /* Pods-Phone Status Glance WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				70FD10AC39C4FB2F4EE0424F9796B08C /* RFAboutViewCloseX.png */,
-				4C87305DF369E3579AAE79A885AE79B8 /* RFAboutViewCloseX@2x.png */,
-				C68AF9FAD4B3C8D88C7C0ACFF450F3B3 /* RFAboutViewCloseX@3x.png */,
+				759F81F690CD385E96D9B95FF8A192EF /* Info.plist */,
+				8FF5E7B1277694E8F7B75EC33A26DF3A /* Pods-Phone Status Glance WatchKit Extension.modulemap */,
+				DAF4060C67DF2F78EF569194C032B775 /* Pods-Phone Status Glance WatchKit Extension-acknowledgements.markdown */,
+				AD637B497B468AD039E9AED49ADAB370 /* Pods-Phone Status Glance WatchKit Extension-acknowledgements.plist */,
+				44F0906C6C7CD20ECF203ED48AC0D810 /* Pods-Phone Status Glance WatchKit Extension-dummy.m */,
+				C3232759C79BFA228C39827B04F9E94B /* Pods-Phone Status Glance WatchKit Extension-frameworks.sh */,
+				256F22499B546B2305C9A7A0B9BB6C71 /* Pods-Phone Status Glance WatchKit Extension-resources.sh */,
+				73886C1B3106461D1E613EFA74955610 /* Pods-Phone Status Glance WatchKit Extension-umbrella.h */,
+				4E05392E2841EB19B92369583D22776F /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */,
+				7A453930F6BAE110AF9915BFD2D7FC8D /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Pods-Phone Status Glance WatchKit Extension";
+			path = "Target Support Files/Pods-Phone Status Glance WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9CEE6012FDCE0CA23B1D998B76BE9B97 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				532ADF55408B418D909E50CB30D801EB /* CocoaLumberjack.h */,
+			);
+			name = Default;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,75 +572,92 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2672E3954BCD16F088161992BA6FB3CD /* Headers */ = {
+		7FE602DF27960F5256FE01CBB9A4C673 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E805538B0E8606706A313503D536AD28 /* Pods-Phone Status Glance WatchKit Extension-umbrella.h in Headers */,
+				2BD6A4E74B61E4EB040090A10FE989EE /* CocoaLumberjack.h in Headers */,
+				CD03A623015E7096186F6F2491A00AD2 /* DDAbstractDatabaseLogger.h in Headers */,
+				1ADD1A2180352AF28303AF1542920ED6 /* DDASLLogCapture.h in Headers */,
+				A76B44870DE5ED649045F036DD824DA9 /* DDASLLogger.h in Headers */,
+				2EAB2C75B52B56662B24A0BAE88401A8 /* DDAssertMacros.h in Headers */,
+				0499BF9F4CD99509AE23556F963CE673 /* DDContextFilterLogFormatter.h in Headers */,
+				D45A8D39CE07A28556D35EC4A3817E7F /* DDDispatchQueueLogFormatter.h in Headers */,
+				3FEAD94A246807500288FDB876DD078B /* DDFileLogger.h in Headers */,
+				99D8E4CDB856E5E53076CE86030DB79E /* DDLegacyMacros.h in Headers */,
+				1EE2849C0CEF7E453A181F37A9BDF418 /* DDLog+LOGV.h in Headers */,
+				C974F713B268B31E08E655293E1EAD2C /* DDLog.h in Headers */,
+				8B7DDFF73041DE15A87A500E67800E9C /* DDLogMacros.h in Headers */,
+				49C9718B201966168BBF620BC02380C5 /* DDMultiFormatter.h in Headers */,
+				473A7076AB56166BFDB64E5284E1E329 /* DDTTYLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		558EFD57E304857E65E2A96C70DBD620 /* Headers */ = {
+		9D7386F810695ADD1D70B739581F8FEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DB1BBF8870C4E17AEEEBCB46FEC2233 /* Pods-Phone Status Glance-umbrella.h in Headers */,
+				0CBC353ADD8B9B9808A2156989BBE255 /* Pods-Phone Status Glance-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A64A41DAB275EE1157EE633C4BF7EA6 /* Headers */ = {
+		BC464C156923D59F900DB49EBC5A971C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C25E1B4F4C69B7B8BBEFCD2230D4CE9 /* ReachabilitySwift-umbrella.h in Headers */,
+				A7C1721128ABF83E7530A1DDB966FEFD /* ReachabilitySwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B9BD4AFF6F75E5C829E96820C3F6B5D /* Headers */ = {
+		C3359DEB3686BC838B31E38F390EA93A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B9A666D323D179F859F6A5EF05970A /* Pods-Phone Status Glance WatchKit App-umbrella.h in Headers */,
+				F686D48824C32D9AC2E82B5BC59B4F2E /* CocoaLumberjack.h in Headers */,
+				8C379589998C0D8F4B5992CA9485EE0F /* DDAbstractDatabaseLogger.h in Headers */,
+				F7062455BECA9D3C5C365887297CF098 /* DDASLLogCapture.h in Headers */,
+				BB8811828A076E300D67763A0BF5D810 /* DDASLLogger.h in Headers */,
+				21801C91BAB842212D295BA0EE3E3D87 /* DDAssertMacros.h in Headers */,
+				182F233A9626951E1781880EB13FFF55 /* DDContextFilterLogFormatter.h in Headers */,
+				6AFCF43D573E44CD536A4A36D6D8FED4 /* DDDispatchQueueLogFormatter.h in Headers */,
+				2A1E52177783642CC09F1D5135662FE0 /* DDFileLogger.h in Headers */,
+				745A1CE1EE9954A8D86DB08ABFA2D173 /* DDLegacyMacros.h in Headers */,
+				EA37FA3C0DFE9DB85E7C90AB582D8E06 /* DDLog+LOGV.h in Headers */,
+				96DF2A6A95785E36FF62C40AE0F169BE /* DDLog.h in Headers */,
+				F90243622485A84CDB86F7B3C7BA9083 /* DDLogMacros.h in Headers */,
+				54FAF2A82E8345A9ACFA7282E2669954 /* DDMultiFormatter.h in Headers */,
+				6921240B93352783163135CD93747CBE /* DDTTYLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE13913F91B50755F3DD9E407268E793 /* Headers */ = {
+		C41AEE03D62821AB955AC3812AE470BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB4AE0424604DDDB4AD47CF943748BF /* RFAboutView-umbrella.h in Headers */,
-				D8560CC76EB5E8B6A04FEC9A435E6BD9 /* RFAboutViewController.h in Headers */,
-				677502D078547ED4265DF0E5F8A6A13E /* RFAboutViewDetailViewController.h in Headers */,
+				2FFA9F28AD841148906F8CAFA222A293 /* Pods-Phone Status Glance WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74D0F1C2E1412A7813B6D38095D0A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71CD6FA4143B350BC5569553DCBDEC0 /* RFAboutView-umbrella.h in Headers */,
+				34FCBEB2016996D39209045EEB753390 /* RFAboutViewController.h in Headers */,
+				737B50FABF56A634B97C2D1918509D59 /* RFAboutViewDetailViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0DC0F0DBD63AAD7ECB7FD91C9A1D117D /* ReachabilitySwift */ = {
+		34903B15591EA9976F199F78FA2874EC /* RFAboutView-RFAboutView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E41930834E2EE3A1299EA26DDE1D5FB4 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildConfigurationList = 23939EB245BAF5ABFE34A8373B6931F2 /* Build configuration list for PBXNativeTarget "RFAboutView-RFAboutView" */;
 			buildPhases = (
-				B70DF351470470E8BB4DA15E4CE6844C /* Sources */,
-				494C4A2D61CC41AB89FF8860A7B2D27E /* Frameworks */,
-				6A64A41DAB275EE1157EE633C4BF7EA6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ReachabilitySwift;
-			productName = ReachabilitySwift;
-			productReference = AC2F0171EA3741EB53D48079B8DDED41 /* ReachabilitySwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		446E19ABC4C4735743CFE2D4FFAF04EB /* RFAboutView-RFAboutView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E15D6A15B47F91C00C5872D0491A6828 /* Build configuration list for PBXNativeTarget "RFAboutView-RFAboutView" */;
-			buildPhases = (
-				48CE8A166D141FF1FA09F552CCD368C4 /* Sources */,
-				833F22FF0368D0F1B1C45BB324227533 /* Frameworks */,
-				F0A0FE28733F7ADF0B7CD9BB07837AC9 /* Resources */,
+				2419E985A07ADBFA2A774367FEC74F71 /* Sources */,
+				B02BF1A8F4D32D71355454586AAA854F /* Frameworks */,
+				30A9C9D81AD4B167A74AAF4FD2B24524 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -487,8 +665,25 @@
 			);
 			name = "RFAboutView-RFAboutView";
 			productName = "RFAboutView-RFAboutView";
-			productReference = 87981E162C878803F5D784C7B48B4459 /* RFAboutView.bundle */;
+			productReference = 8A22ABC9A6C971897A432B5D713A88EB /* RFAboutView.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		3F9E721AA0191A7E0F365FD0A91565E4 /* CocoaLumberjack-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9C696A4FFCDD8A3ED28E2168541923 /* Build configuration list for PBXNativeTarget "CocoaLumberjack-watchOS" */;
+			buildPhases = (
+				F042FDAC060C957D260B87656D50827E /* Sources */,
+				5D5FE7E9C2BD47EAE1A5C1C320DEF112 /* Frameworks */,
+				C3359DEB3686BC838B31E38F390EA93A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaLumberjack-watchOS";
+			productName = "CocoaLumberjack-watchOS";
+			productReference = 30B2D2DC0F7D024C5B0C64E9F82991BC /* CocoaLumberjack.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		46FD70D2D948D577059CFD3F698284A5 /* Pods-Phone Status GlanceTests */ = {
 			isa = PBXNativeTarget;
@@ -504,79 +699,98 @@
 			);
 			name = "Pods-Phone Status GlanceTests";
 			productName = "Pods-Phone Status GlanceTests";
-			productReference = A18DCF7F65C2288461DC269B4FE4B954 /* Pods_Phone_Status_GlanceTests.framework */;
+			productReference = 83F91DC6F0F65EADD77FEC07810B5622 /* Pods_Phone_Status_GlanceTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4C035490BAD5EB5725D2A56CA7A82F39 /* Pods-Phone Status Glance WatchKit Extension */ = {
+		549F74C26038A2B3E1296F7A9F730B2C /* ReachabilitySwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15CA35AF737E727E8B1852C79C585000 /* Build configuration list for PBXNativeTarget "Pods-Phone Status Glance WatchKit Extension" */;
+			buildConfigurationList = E26874E109D75CB001813AF833972D7C /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
 			buildPhases = (
-				7146521E566317296E13FAE976E7B67F /* Sources */,
-				F71CAF08594A40EFF1F03EDFB8558AB4 /* Frameworks */,
-				2672E3954BCD16F088161992BA6FB3CD /* Headers */,
+				A2729AC193B0246DA75B03C0EC7E73F2 /* Sources */,
+				A91FE32D0F693B293A777F0D56D13BC3 /* Frameworks */,
+				BC464C156923D59F900DB49EBC5A971C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Phone Status Glance WatchKit Extension";
-			productName = "Pods-Phone Status Glance WatchKit Extension";
-			productReference = EEE3966F9F1E048ABF932105177B21AC /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */;
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 2FD3E8281F9857C3D56C75C9087DA50E /* ReachabilitySwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		50D2DA1F260FA417037F78BBFE63D776 /* Pods-Phone Status Glance WatchKit App */ = {
+		7C855AD70FC59F355630309FDFA5AA30 /* RFAboutView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 155FC1E82F6FAAADC80A593C94438D92 /* Build configuration list for PBXNativeTarget "Pods-Phone Status Glance WatchKit App" */;
+			buildConfigurationList = 53F6ABB8007138D84CB5E40CFC7EE8F9 /* Build configuration list for PBXNativeTarget "RFAboutView" */;
 			buildPhases = (
-				42E38D9E9D4DF30ED27995B45C4E50CE /* Sources */,
-				BEAEFD324E911CAC019833FEE4DD5C2E /* Frameworks */,
-				9B9BD4AFF6F75E5C829E96820C3F6B5D /* Headers */,
+				9FD549BA725EEB48C5D2698FDBA3D7A1 /* Sources */,
+				8BD83BB01B0CBFF34A07C873C2E6B931 /* Frameworks */,
+				C228C4FD4C3DEB20E2A8C95BC0ED36AE /* Resources */,
+				FA74D0F1C2E1412A7813B6D38095D0A8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-Phone Status Glance WatchKit App";
-			productName = "Pods-Phone Status Glance WatchKit App";
-			productReference = 135D61204A4EA0708D7203A0E4083A25 /* Pods_Phone_Status_Glance_WatchKit_App.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7328A34F99991FEBE2F11953CDC73C02 /* Pods-Phone Status Glance */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B315630E551D31DAC13630861551ED2 /* Build configuration list for PBXNativeTarget "Pods-Phone Status Glance" */;
-			buildPhases = (
-				FE1C4DCC0BC1F68BF709C82C920A3171 /* Sources */,
-				DA716D2E09FF4F19D5A00503EDF9843C /* Frameworks */,
-				558EFD57E304857E65E2A96C70DBD620 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9DE5A4416B9C1A6A763EB61CB1141B13 /* PBXTargetDependency */,
-				C53F475AAA3428F34870209276883B37 /* PBXTargetDependency */,
-			);
-			name = "Pods-Phone Status Glance";
-			productName = "Pods-Phone Status Glance";
-			productReference = 987A31E9B93A4EF447F17BD0B692A58E /* Pods_Phone_Status_Glance.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7774181E9D945017F88F6C1D5E46E176 /* RFAboutView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D77F027717D6C73FB44870C935637D82 /* Build configuration list for PBXNativeTarget "RFAboutView" */;
-			buildPhases = (
-				0AFCDF52F8C6F8E46885976528CE4E8E /* Sources */,
-				0EB7E9AE857020D68F73A5A4A4EFCF2B /* Frameworks */,
-				71192EDECFFABCEF2BF2414B7C85EF08 /* Resources */,
-				FE13913F91B50755F3DD9E407268E793 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				60C9480BD19EACF08558FB51A87E6DDE /* PBXTargetDependency */,
+				8DF69D69B5E6FEB9452369F5B37C8C97 /* PBXTargetDependency */,
 			);
 			name = RFAboutView;
 			productName = RFAboutView;
-			productReference = 81201932E43BD2E58869FC89C873A784 /* RFAboutView.framework */;
+			productReference = F5D1C1F86B2B82C45AE59872406FF9ED /* RFAboutView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96DB80EF6000136398897842A1557C72 /* Pods-Phone Status Glance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5506CD0728BC7A2FE4B02A5A388CBB /* Build configuration list for PBXNativeTarget "Pods-Phone Status Glance" */;
+			buildPhases = (
+				59D0456447D0A3DF82C7513B6A4EF03E /* Sources */,
+				546742E8BA7217A01F03ADE56A66AB1C /* Frameworks */,
+				9D7386F810695ADD1D70B739581F8FEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7D8EA38A5586B88F562ED11EC7074D /* PBXTargetDependency */,
+				E334FB257E015FA551FB248820A2193C /* PBXTargetDependency */,
+				250D2BD0F39F0A98951344612E024BB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Phone Status Glance";
+			productName = "Pods-Phone Status Glance";
+			productReference = D60B4787BCBDC2247C09CA1A3FD9301F /* Pods_Phone_Status_Glance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9762197D6D67CB184EC870CA4A97687 /* CocoaLumberjack-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AD58920C22442A62AF5359A892B0A6F /* Build configuration list for PBXNativeTarget "CocoaLumberjack-iOS" */;
+			buildPhases = (
+				9FD61EDB9DA95B7B66B68FC234D8647A /* Sources */,
+				116D30E12850FB0C180133D5F9C0B637 /* Frameworks */,
+				7FE602DF27960F5256FE01CBB9A4C673 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaLumberjack-iOS";
+			productName = "CocoaLumberjack-iOS";
+			productReference = 6F0AC52E027AA5CB6608BF01B107611E /* CocoaLumberjack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECCF5899236D631CE1E4BC27BCEF66E0 /* Pods-Phone Status Glance WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD80C4D725BA263600CFDA803DF19956 /* Build configuration list for PBXNativeTarget "Pods-Phone Status Glance WatchKit Extension" */;
+			buildPhases = (
+				C726EACEC9FEDEF4CB3E31C440225025 /* Sources */,
+				4A0860C1FB041C1EB967D7B2B4DBDA44 /* Frameworks */,
+				C41AEE03D62821AB955AC3812AE470BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A1CABB224E66745B5D5994DEB4C5511 /* PBXTargetDependency */,
+			);
+			name = "Pods-Phone Status Glance WatchKit Extension";
+			productName = "Pods-Phone Status Glance WatchKit Extension";
+			productReference = A50DDF07B63E91A0B662C076152548D6 /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -596,62 +810,45 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D2E7966748D383D6C570CDF55025AD4E /* Products */;
+			productRefGroup = 8FE971D715F7A52A98030BB9DA7831D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7328A34F99991FEBE2F11953CDC73C02 /* Pods-Phone Status Glance */,
-				50D2DA1F260FA417037F78BBFE63D776 /* Pods-Phone Status Glance WatchKit App */,
-				4C035490BAD5EB5725D2A56CA7A82F39 /* Pods-Phone Status Glance WatchKit Extension */,
+				A9762197D6D67CB184EC870CA4A97687 /* CocoaLumberjack-iOS */,
+				3F9E721AA0191A7E0F365FD0A91565E4 /* CocoaLumberjack-watchOS */,
+				96DB80EF6000136398897842A1557C72 /* Pods-Phone Status Glance */,
+				ECCF5899236D631CE1E4BC27BCEF66E0 /* Pods-Phone Status Glance WatchKit Extension */,
 				46FD70D2D948D577059CFD3F698284A5 /* Pods-Phone Status GlanceTests */,
-				0DC0F0DBD63AAD7ECB7FD91C9A1D117D /* ReachabilitySwift */,
-				7774181E9D945017F88F6C1D5E46E176 /* RFAboutView */,
-				446E19ABC4C4735743CFE2D4FFAF04EB /* RFAboutView-RFAboutView */,
+				549F74C26038A2B3E1296F7A9F730B2C /* ReachabilitySwift */,
+				7C855AD70FC59F355630309FDFA5AA30 /* RFAboutView */,
+				34903B15591EA9976F199F78FA2874EC /* RFAboutView-RFAboutView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		71192EDECFFABCEF2BF2414B7C85EF08 /* Resources */ = {
+		30A9C9D81AD4B167A74AAF4FD2B24524 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC77F9CA93CBC025D723DD1D0FDC639 /* RFAboutView.bundle in Resources */,
+				CB59168C444F538365B494A3943344E1 /* RFAboutViewCloseX.png in Resources */,
+				64DCB951D779DC3C1C49AB67836D5426 /* RFAboutViewCloseX@2x.png in Resources */,
+				297D171BA9E69BF0355EC5E6D1D69F6B /* RFAboutViewCloseX@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0A0FE28733F7ADF0B7CD9BB07837AC9 /* Resources */ = {
+		C228C4FD4C3DEB20E2A8C95BC0ED36AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE219B1A12E428D46209E8221BF1AC8 /* RFAboutViewCloseX.png in Resources */,
-				BFD0E51A6F8B25DD99B79F9BADBCF869 /* RFAboutViewCloseX@2x.png in Resources */,
-				79F1FE7998A36BA415C2C3A58493ADBF /* RFAboutViewCloseX@3x.png in Resources */,
+				52810335C608A287366293DCE4D138FE /* RFAboutView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0AFCDF52F8C6F8E46885976528CE4E8E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED6BCB0C7EB9E3572252C182C548249E /* RFAboutView-dummy.m in Sources */,
-				97EFFD84ACD0A491C6A72724EA798635 /* RFAboutViewController.m in Sources */,
-				A0D9A9C1D1E90D3717CB2DC17E66C869 /* RFAboutViewDetailViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42E38D9E9D4DF30ED27995B45C4E50CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				402D9788118A74291E4BF8922C00B439 /* Pods-Phone Status Glance WatchKit App-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48CE8A166D141FF1FA09F552CCD368C4 /* Sources */ = {
+		2419E985A07ADBFA2A774367FEC74F71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -666,96 +863,150 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7146521E566317296E13FAE976E7B67F /* Sources */ = {
+		59D0456447D0A3DF82C7513B6A4EF03E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62AF1B478771BDA63F9E37FA903644E /* Pods-Phone Status Glance WatchKit Extension-dummy.m in Sources */,
+				E29A34F0FF102D022C9F0AC213AD7FB7 /* Pods-Phone Status Glance-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B70DF351470470E8BB4DA15E4CE6844C /* Sources */ = {
+		9FD549BA725EEB48C5D2698FDBA3D7A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C87042F1BD13449FAAD1B348E25CB6 /* Reachability.swift in Sources */,
-				9C4609FB4316CB589F68530D07C39D70 /* ReachabilitySwift-dummy.m in Sources */,
+				EC20BCD6C712CE2879F7B89FF69159A8 /* RFAboutView-dummy.m in Sources */,
+				24795E0C1BA8B203200A2408B645B372 /* RFAboutViewController.m in Sources */,
+				DEF44D2B359F8A48295B478090D1FE30 /* RFAboutViewDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE1C4DCC0BC1F68BF709C82C920A3171 /* Sources */ = {
+		9FD61EDB9DA95B7B66B68FC234D8647A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20B0631CA6822CE77D36217097DE82DA /* Pods-Phone Status Glance-dummy.m in Sources */,
+				BDE400936E8D03E94BDD3F44A89A580F /* CocoaLumberjack-iOS-dummy.m in Sources */,
+				F47A2459D964AE0A5FDC17587F7D7398 /* CocoaLumberjack.swift in Sources */,
+				7E83D8D19142B8236FC5F8C1B0A01E32 /* DDAbstractDatabaseLogger.m in Sources */,
+				4B8C91C55D224D0087B93458EDDF9457 /* DDASLLogCapture.m in Sources */,
+				A1D90CE98B9D2FD477B4E0B3A5C22ED8 /* DDASLLogger.m in Sources */,
+				B96298DB3A2B6594CDE9806ED59FAA88 /* DDContextFilterLogFormatter.m in Sources */,
+				D0D2B2C9FBF2A9E8C9FE5B57F130FB09 /* DDDispatchQueueLogFormatter.m in Sources */,
+				3833AA67D44CABD2FB19D7F7D625267E /* DDFileLogger.m in Sources */,
+				BDE9A7E90D30C26F90DD333BA4D5DBC7 /* DDLog.m in Sources */,
+				3D777C5608777A6669ACEBA0FE28F487 /* DDMultiFormatter.m in Sources */,
+				FA694D905968051A23471FC81E883C60 /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2729AC193B0246DA75B03C0EC7E73F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E074A90B2E4E6414F956BCE801EA04FB /* Reachability.swift in Sources */,
+				44FE6F72B3E3EE6C0B5C900E17B1B4C0 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C726EACEC9FEDEF4CB3E31C440225025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70422C862AB0BD9201CF97B12EB87CA4 /* Pods-Phone Status Glance WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F042FDAC060C957D260B87656D50827E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1814FD5165E73E49BAF6550B60F0518D /* CocoaLumberjack-watchOS-dummy.m in Sources */,
+				60C78A2717DE0AFB1D8EF9E117551F05 /* CocoaLumberjack.swift in Sources */,
+				AA64BE23BFA658C75972AF121DF34F0D /* DDAbstractDatabaseLogger.m in Sources */,
+				C23EF979CE9939D0C05FAEB275242FA6 /* DDASLLogCapture.m in Sources */,
+				4CA56A9A3C9B262405FB18619F72FA1C /* DDASLLogger.m in Sources */,
+				358EB4F9BFFA2464F98536958B8F19B8 /* DDContextFilterLogFormatter.m in Sources */,
+				8BB2648E04A87FB70DBFC1B91D4D829A /* DDDispatchQueueLogFormatter.m in Sources */,
+				A010A3762A9B6898DB6A8061B66FB445 /* DDFileLogger.m in Sources */,
+				17769848DFC182650BB41204B3DC0C83 /* DDLog.m in Sources */,
+				04EF4FE86D0B40ECD756E81D4CC4A64C /* DDMultiFormatter.m in Sources */,
+				91BBB79C4CA4508F805F44ED727E4E9D /* DDTTYLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		60C9480BD19EACF08558FB51A87E6DDE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "RFAboutView-RFAboutView";
-			target = 446E19ABC4C4735743CFE2D4FFAF04EB /* RFAboutView-RFAboutView */;
-			targetProxy = D890A8111A1178FC7592A14B45C41D91 /* PBXContainerItemProxy */;
-		};
-		9DE5A4416B9C1A6A763EB61CB1141B13 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RFAboutView;
-			target = 7774181E9D945017F88F6C1D5E46E176 /* RFAboutView */;
-			targetProxy = D9F70935F56A56C41482F231EA187E42 /* PBXContainerItemProxy */;
-		};
-		C53F475AAA3428F34870209276883B37 /* PBXTargetDependency */ = {
+		250D2BD0F39F0A98951344612E024BB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReachabilitySwift;
-			target = 0DC0F0DBD63AAD7ECB7FD91C9A1D117D /* ReachabilitySwift */;
-			targetProxy = 2B5856776169F5B1E6C728AC4DC82110 /* PBXContainerItemProxy */;
+			target = 549F74C26038A2B3E1296F7A9F730B2C /* ReachabilitySwift */;
+			targetProxy = B201741E49A88B7DD387F4DA68E18D1D /* PBXContainerItemProxy */;
+		};
+		4A1CABB224E66745B5D5994DEB4C5511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaLumberjack-watchOS";
+			target = 3F9E721AA0191A7E0F365FD0A91565E4 /* CocoaLumberjack-watchOS */;
+			targetProxy = E2AA9B828B06FC3F2E0BB3B73D286327 /* PBXContainerItemProxy */;
+		};
+		8DF69D69B5E6FEB9452369F5B37C8C97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RFAboutView-RFAboutView";
+			target = 34903B15591EA9976F199F78FA2874EC /* RFAboutView-RFAboutView */;
+			targetProxy = 6F52712E6D21B682A108DA1996994CE0 /* PBXContainerItemProxy */;
+		};
+		CE7D8EA38A5586B88F562ED11EC7074D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaLumberjack-iOS";
+			target = A9762197D6D67CB184EC870CA4A97687 /* CocoaLumberjack-iOS */;
+			targetProxy = 841D77773E32BE75454403C7812B98BB /* PBXContainerItemProxy */;
+		};
+		E334FB257E015FA551FB248820A2193C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RFAboutView;
+			target = 7C855AD70FC59F355630309FDFA5AA30 /* RFAboutView */;
+			targetProxy = EBC471D25127C2DA0868468B4A989FBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3EC6BD95B7C8484D9F0AC16B17FC6D4C /* Release */ = {
+		0DA148CF14D94D2F1FC1C2A9D6FE9914 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2106F75DE6440FA722C6BBE6231D81A /* RFAboutView.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RFAboutView";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/RFAboutView/ResourceBundle-RFAboutView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = RFAboutView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5B968CCDB765BB439D01F62410AB64EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2106F75DE6440FA722C6BBE6231D81A /* RFAboutView.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RFAboutView";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/RFAboutView/ResourceBundle-RFAboutView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = RFAboutView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		90FD75A619606F33569B6C507FCD1876 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3D3CB8DCE27C2CA2F872F3A278D6E1A /* ReachabilitySwift.xcconfig */;
+			baseConfigurationReference = BBE5E06A79D386B1213CE78BD9A02599 /* CocoaLumberjack-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack-iOS/CocoaLumberjack-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack-iOS/CocoaLumberjack-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25015768A495F0EF16B744D99F4DD4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F1A2EF87B51ADBFB7CB939B2CC1738 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -768,178 +1019,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = ReachabilitySwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		975CF7F11E9ECE8D8C7B07C7CF91496C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2106F75DE6440FA722C6BBE6231D81A /* RFAboutView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RFAboutView/RFAboutView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RFAboutView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RFAboutView/RFAboutView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RFAboutView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9A163641408B054463CB094527AD7D21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 609BAB8C1A0E70CF1FD093BD5AB2C9C7 /* Pods-Phone Status GlanceTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status GlanceTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Phone_Status_GlanceTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9C761D41B648B10C75CCD10A7267D45A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF68032BDF586052A283D5D08079C16F /* Pods-Phone Status Glance WatchKit App.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit App/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Phone_Status_Glance_WatchKit_App;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		9E8D67A5AAA0E8AFF964A06158C63D27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 219183393C661780379003C151438D26 /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit Extension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Phone_Status_Glance_WatchKit_Extension;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		A2762102246E12BE338FA8837542BABE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F7A3715F5C4C2146D3A4415197B4748 /* Pods-Phone Status GlanceTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status GlanceTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Phone_Status_GlanceTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A6DA4985635A6DCE8DD2474F29810890 /* Debug */ = {
+		377ECE346CF8CC3360C195E9DE718EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -974,17 +1065,125 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		B17EBD7FF50B1F64EF9EF8D51CB8AE99 /* Release */ = {
+		3E8F757DBCD0CAC8610F27F0F320C7B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D016C5BD40F1364934C57D4470796B4 /* Pods-Phone Status Glance.release.xcconfig */;
+			baseConfigurationReference = 7A453930F6BAE110AF9915BFD2D7FC8D /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Phone_Status_Glance_WatchKit_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		48F28F2B4F11B84FA5D42196782E8A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752BAA75C7CC929E8B7848B10E64DA91 /* RFAboutView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RFAboutView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RFAboutView/ResourceBundle-RFAboutView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RFAboutView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4A1F6B6CD14407F93C3DCD48EC02C84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE5E06A79D386B1213CE78BD9A02599 /* CocoaLumberjack-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack-iOS/CocoaLumberjack-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack-iOS/CocoaLumberjack-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52118A97F5C5B37357A9FA23CF9C1B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752BAA75C7CC929E8B7848B10E64DA91 /* RFAboutView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RFAboutView/RFAboutView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RFAboutView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RFAboutView/RFAboutView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RFAboutView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A830A57FB62097998A7522A92D9C41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CB9A566F63B60620761AA90E164706 /* Pods-Phone Status Glance.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -997,7 +1196,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status Glance/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance.modulemap";
@@ -1015,9 +1214,59 @@
 			};
 			name = Release;
 		};
-		B2B7577A015BF45312F11A319C68B3AE /* Debug */ = {
+		85AADE967FC58C81D26CF5149FDEB1D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A351B1FC8C4A98034B3400ED7E60E216 /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */;
+			baseConfigurationReference = 752BAA75C7CC929E8B7848B10E64DA91 /* RFAboutView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RFAboutView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RFAboutView/ResourceBundle-RFAboutView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RFAboutView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8671A884E7F7F02783C8F2472C6D46AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30935D1F1DAE450D79A54358A21436EF /* Pods-Phone Status GlanceTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status GlanceTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Phone_Status_GlanceTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		881AA9A616C8ABD4B4CA0EF4319F0A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E05392E2841EB19B92369583D22776F /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1028,27 +1277,87 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit App/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit Extension/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Phone_Status_Glance_WatchKit_App;
+				PRODUCT_NAME = Pods_Phone_Status_Glance_WatchKit_Extension;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		B839463A183A092E64CD3F2C1C5D988C /* Release */ = {
+		8A7E68A56FE9E6518F2981B7EF5A4BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC534B5F90D2F47DDE63F108A57FB88 /* CocoaLumberjack-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack-watchOS/CocoaLumberjack-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack-watchOS/CocoaLumberjack-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		8A9491AC3482C94327476F6AE3D3EA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F1A2EF87B51ADBFB7CB939B2CC1738 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		974B733AB98211830CB26A99F6128FDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1079,84 +1388,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		C704F6D0C762033CE3BC04C882F99282 /* Debug */ = {
+		B85323D90C9AB03486EAA11B0CD7EB71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3D3CB8DCE27C2CA2F872F3A278D6E1A /* ReachabilitySwift.xcconfig */;
+			baseConfigurationReference = 752BAA75C7CC929E8B7848B10E64DA91 /* RFAboutView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ReachabilitySwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CA487D4B2914B8E9401865646EAC911F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DEB42F735CBAF2670475A75D57C4601 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit Extension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Phone_Status_Glance_WatchKit_Extension;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		CB6C6BD5B9EDEFA33876617257D2F791 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2106F75DE6440FA722C6BBE6231D81A /* RFAboutView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1169,7 +1415,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RFAboutView/RFAboutView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = RFAboutView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1177,11 +1423,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		F2AA517ED31776D84A217D944B873484 /* Debug */ = {
+		C9AAC2CCD418274B32C5ACC8DEF5E28E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34DE3E15EF92CE1A860A489EBB02B188 /* Pods-Phone Status Glance.debug.xcconfig */;
+			baseConfigurationReference = 515AE3421B403F21616E032A49763BB1 /* Pods-Phone Status Glance.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1194,7 +1440,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status Glance/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance.modulemap";
@@ -1213,32 +1459,85 @@
 			};
 			name = Debug;
 		};
+		C9E353D609DEBEB51D031870342A5EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F11B247B857C6C4E785FA3E62FBE57 /* Pods-Phone Status GlanceTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Phone Status GlanceTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Phone_Status_GlanceTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2B5F789E509F4DB84A88BB7AB679501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC534B5F90D2F47DDE63F108A57FB88 /* CocoaLumberjack-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack-watchOS/CocoaLumberjack-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack-watchOS/CocoaLumberjack-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		12B486752036E40EBC1BCC0471BC2242 /* Build configuration list for PBXNativeTarget "Pods-Phone Status GlanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2762102246E12BE338FA8837542BABE /* Debug */,
-				9A163641408B054463CB094527AD7D21 /* Release */,
+				C9E353D609DEBEB51D031870342A5EA7 /* Debug */,
+				8671A884E7F7F02783C8F2472C6D46AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		155FC1E82F6FAAADC80A593C94438D92 /* Build configuration list for PBXNativeTarget "Pods-Phone Status Glance WatchKit App" */ = {
+		23939EB245BAF5ABFE34A8373B6931F2 /* Build configuration list for PBXNativeTarget "RFAboutView-RFAboutView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2B7577A015BF45312F11A319C68B3AE /* Debug */,
-				9C761D41B648B10C75CCD10A7267D45A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		15CA35AF737E727E8B1852C79C585000 /* Build configuration list for PBXNativeTarget "Pods-Phone Status Glance WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E8D67A5AAA0E8AFF964A06158C63D27 /* Debug */,
-				CA487D4B2914B8E9401865646EAC911F /* Release */,
+				85AADE967FC58C81D26CF5149FDEB1D6 /* Debug */,
+				48F28F2B4F11B84FA5D42196782E8A19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1246,44 +1545,62 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6DA4985635A6DCE8DD2474F29810890 /* Debug */,
-				B839463A183A092E64CD3F2C1C5D988C /* Release */,
+				377ECE346CF8CC3360C195E9DE718EA0 /* Debug */,
+				974B733AB98211830CB26A99F6128FDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B315630E551D31DAC13630861551ED2 /* Build configuration list for PBXNativeTarget "Pods-Phone Status Glance" */ = {
+		53F6ABB8007138D84CB5E40CFC7EE8F9 /* Build configuration list for PBXNativeTarget "RFAboutView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2AA517ED31776D84A217D944B873484 /* Debug */,
-				B17EBD7FF50B1F64EF9EF8D51CB8AE99 /* Release */,
+				52118A97F5C5B37357A9FA23CF9C1B4F /* Debug */,
+				B85323D90C9AB03486EAA11B0CD7EB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D77F027717D6C73FB44870C935637D82 /* Build configuration list for PBXNativeTarget "RFAboutView" */ = {
+		7AD58920C22442A62AF5359A892B0A6F /* Build configuration list for PBXNativeTarget "CocoaLumberjack-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB6C6BD5B9EDEFA33876617257D2F791 /* Debug */,
-				975CF7F11E9ECE8D8C7B07C7CF91496C /* Release */,
+				0DA148CF14D94D2F1FC1C2A9D6FE9914 /* Debug */,
+				4A1F6B6CD14407F93C3DCD48EC02C84A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E15D6A15B47F91C00C5872D0491A6828 /* Build configuration list for PBXNativeTarget "RFAboutView-RFAboutView" */ = {
+		AE9C696A4FFCDD8A3ED28E2168541923 /* Build configuration list for PBXNativeTarget "CocoaLumberjack-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B968CCDB765BB439D01F62410AB64EB /* Debug */,
-				3EC6BD95B7C8484D9F0AC16B17FC6D4C /* Release */,
+				8A7E68A56FE9E6518F2981B7EF5A4BBE /* Debug */,
+				F2B5F789E509F4DB84A88BB7AB679501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E41930834E2EE3A1299EA26DDE1D5FB4 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+		E26874E109D75CB001813AF833972D7C /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C704F6D0C762033CE3BC04C882F99282 /* Debug */,
-				90FD75A619606F33569B6C507FCD1876 /* Release */,
+				25015768A495F0EF16B744D99F4DD4FA /* Debug */,
+				8A9491AC3482C94327476F6AE3D3EA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5506CD0728BC7A2FE4B02A5A388CBB /* Build configuration list for PBXNativeTarget "Pods-Phone Status Glance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AAC2CCD418274B32C5ACC8DEF5E28E /* Debug */,
+				7A830A57FB62097998A7522A92D9C41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD80C4D725BA263600CFDA803DF19956 /* Build configuration list for PBXNativeTarget "Pods-Phone Status Glance WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881AA9A616C8ABD4B4CA0EF4319F0A98 /* Debug */,
+				3E8F757DBCD0CAC8610F27F0F320C7B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

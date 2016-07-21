@@ -1,5 +1,5 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '9.0'
 
 target 'Phone Status Glance' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
@@ -8,6 +8,7 @@ target 'Phone Status Glance' do
   # Pods for Phone Stats
   pod 'ReachabilitySwift', :git => 'https://github.com/ashleymills/Reachability.swift'
   pod "RFAboutView", '1.0.4'
+  pod 'CocoaLumberjack/Swift'
 
   target 'Phone Status GlanceTests' do
     inherit! :search_paths
@@ -16,20 +17,13 @@ target 'Phone Status Glance' do
 
 end
 
-target 'Phone Status Glance WatchKit App' do
-  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for Phone Stats WatchKit App
-
-end
-
 target 'Phone Status Glance WatchKit Extension' do
+  platform :watchos, '2.0'
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for Phone Stats WatchKit Extension
-
+  pod 'CocoaLumberjack/Swift'
 end
 
 post_install do |installer|

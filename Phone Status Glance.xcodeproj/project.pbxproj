@@ -10,7 +10,6 @@
 		4BFADC0FD4F3069ABE4E3D3F /* Pods_Phone_Status_Glance_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD344914C0C1168674180446 /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */; };
 		81614C18082238FADDFB7778 /* Pods_Phone_Status_Glance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */; };
 		870113CEFCC6D4875C65D9F1 /* Pods_Phone_Status_GlanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D48642D71329506B75CBA9 /* Pods_Phone_Status_GlanceTests.framework */; };
-		C52C956EA14F8F16E4D56720 /* Pods_Phone_Status_Glance_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4C652EA2F54887268CDAA9 /* Pods_Phone_Status_Glance_WatchKit_App.framework */; };
 		E2149C311D0F17EC00F6EBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */; };
 		E21D76631D0E2D6700F245D2 /* icon-transparent-50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349A91D0E29450097FA2C /* icon-transparent-50x50.png */; };
 		E21D76641D0E2D6A00F245D2 /* icon-transparent-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */; };
@@ -49,12 +48,20 @@
 		E25F79AB1D0A397000B46652 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */; };
 		E2620DCD1D0B780C0071ACE7 /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7561D0B2208005F7F0A /* battery.png */; };
 		E2620DCE1D0B780F0071ACE7 /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = E236D7541D0B1FB8005F7F0A /* network.png */; };
+		E26F1F801D43C1BB00E01D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F1F7F1D43C1BB00E01D8C /* AppDelegate.swift */; };
+		E26F1F821D43C1BB00E01D8C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F1F811D43C1BB00E01D8C /* MasterViewController.swift */; };
+		E26F1F841D43C1BB00E01D8C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F1F831D43C1BB00E01D8C /* DetailViewController.swift */; };
+		E26F1F871D43C1BB00E01D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26F1F851D43C1BB00E01D8C /* Main.storyboard */; };
+		E26F1F891D43C1BB00E01D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26F1F881D43C1BB00E01D8C /* Assets.xcassets */; };
+		E26F1F8C1D43C1BB00E01D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26F1F8A1D43C1BB00E01D8C /* LaunchScreen.storyboard */; };
 		E27349AB1D0E29450097FA2C /* icon-transparent-50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349A91D0E29450097FA2C /* icon-transparent-50x50.png */; };
 		E27349AC1D0E29450097FA2C /* icon-transparent-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */; };
 		E2C44AA81D0DE9A300BDA5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */; };
 		E2C44AAC1D0DEB3D00BDA5C7 /* icon-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C44AAB1D0DEB3D00BDA5C7 /* icon-transparent.png */; };
 		E2CF99551D101B42001441C2 /* battery_charging.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CF99541D101B42001441C2 /* battery_charging.png */; };
 		E2CF99561D101B42001441C2 /* battery_charging.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CF99541D101B42001441C2 /* battery_charging.png */; };
+		E2F19D4E1D4EB86100034138 /* WatchSessionLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F19D4D1D4EB86100034138 /* WatchSessionLogger.swift */; };
+		E2F19D4F1D4EBA7700034138 /* WatchSessionLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F19D4D1D4EB86100034138 /* WatchSessionLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,13 +124,11 @@
 		00D48642D71329506B75CBA9 /* Pods_Phone_Status_GlanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_GlanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F861F777C87F86BF0D6FEFD /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		5126FB3CB4259F0402A8DBB0 /* Pods-Phone Status GlanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status GlanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		69F63DFBEC81FEC09AF04F82 /* Pods-Phone Status Glance WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		69F95BA93524B5EA64CBEF04 /* Pods_Phone_Status_Glance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3EA8E8AB296ADD6FB692C5 /* Pods-Phone Status Glance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance.debug.xcconfig"; sourceTree = "<group>"; };
 		9D4C652EA2F54887268CDAA9 /* Pods_Phone_Status_Glance_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9D4D952FC4BDF797272D17 /* Pods-Phone Status Glance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance.release.xcconfig"; sourceTree = "<group>"; };
 		CD344914C0C1168674180446 /* Pods_Phone_Status_Glance_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phone_Status_Glance_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6F59E5531021272E2AA9A5C /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		DA53FAA9D8408E9B058E9ED7 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status Glance WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		E21D76651D0E37BA00F245D2 /* Watch-Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Watch-Screenshot.png"; path = "assets/Watch-Screenshot.png"; sourceTree = "<group>"; };
 		E21D76671D0E3ED600F245D2 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = "Phone Stats/Acknowledgements.plist"; sourceTree = "<group>"; };
@@ -148,6 +153,7 @@
 		E2287E161D0EE87D0051FFA7 /* Activity15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Activity15@2x.png"; sourceTree = "<group>"; };
 		E236D7541D0B1FB8005F7F0A /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = network.png; path = images/network.png; sourceTree = "<group>"; };
 		E236D7561D0B2208005F7F0A /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = battery.png; path = images/battery.png; sourceTree = "<group>"; };
+		E258FA571D40F76700390E89 /* Phone Status Glance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Phone Status Glance.entitlements"; sourceTree = "<group>"; };
 		E25F79601D0A391B00B46652 /* Phone Status Glance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Status Glance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F79631D0A391B00B46652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E25F79651D0A391B00B46652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -166,11 +172,21 @@
 		E25F79971D0A391B00B46652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25F79991D0A391B00B46652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		E26F1F7D1D43C1BB00E01D8C /* GroupFileViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupFileViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26F1F7F1D43C1BB00E01D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E26F1F811D43C1BB00E01D8C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		E26F1F831D43C1BB00E01D8C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E26F1F861D43C1BB00E01D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E26F1F881D43C1BB00E01D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E26F1F8B1D43C1BB00E01D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E26F1F8D1D43C1BB00E01D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26F1F911D43C21E00E01D8C /* GroupFileViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GroupFileViewer.entitlements; sourceTree = "<group>"; };
 		E27349A91D0E29450097FA2C /* icon-transparent-50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-transparent-50x50.png"; path = "assets/icon-transparent-50x50.png"; sourceTree = "<group>"; };
 		E27349AA1D0E29450097FA2C /* icon-transparent-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-transparent-50x50@2x.png"; path = "assets/icon-transparent-50x50@2x.png"; sourceTree = "<group>"; };
 		E2C44AA71D0DE9A300BDA5C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C44AAB1D0DEB3D00BDA5C7 /* icon-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-transparent.png"; path = "assets/icon-transparent.png"; sourceTree = "<group>"; };
 		E2CF99541D101B42001441C2 /* battery_charging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = battery_charging.png; path = images/battery_charging.png; sourceTree = "<group>"; };
+		E2F19D4D1D4EB86100034138 /* WatchSessionLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSessionLogger.swift; sourceTree = "<group>"; };
 		F1834A41DBC336BC50778458 /* Pods-Phone Status GlanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phone Status GlanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,7 +195,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C52C956EA14F8F16E4D56720 /* Pods_Phone_Status_Glance_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +227,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BFADC0FD4F3069ABE4E3D3F /* Pods_Phone_Status_Glance_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26F1F7A1D43C1BB00E01D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +300,8 @@
 		E25F79571D0A391B00B46652 = {
 			isa = PBXGroup;
 			children = (
+				E2F19D4C1D4EB82C00034138 /* WatchSessionLogger */,
+				E258FA571D40F76700390E89 /* Phone Status Glance.entitlements */,
 				E21D76671D0E3ED600F245D2 /* Acknowledgements.plist */,
 				E236D7531D0B1FA7005F7F0A /* Icons */,
 				E25F79AA1D0A397000B46652 /* WatchConnectivity.framework */,
@@ -286,6 +310,7 @@
 				E25F79811D0A391B00B46652 /* Phone Stats WatchKit App */,
 				E25F79901D0A391B00B46652 /* Phone Stats WatchKit Extension */,
 				E2287D811D0ECF4A0051FFA7 /* Phone Status GlanceUITests */,
+				E26F1F7E1D43C1BB00E01D8C /* GroupFileViewer */,
 				E25F79611D0A391B00B46652 /* Products */,
 				FA0D4E5EBD1293504E818203 /* Pods */,
 				53655D0F0A8EBE96D82D5C47 /* Frameworks */,
@@ -300,6 +325,7 @@
 				E25F797D1D0A391B00B46652 /* Phone Status Glance.app */,
 				E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */,
 				E2287D801D0ECF4A0051FFA7 /* Phone Status GlanceUITests.xctest */,
+				E26F1F7D1D43C1BB00E01D8C /* GroupFileViewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -347,13 +373,34 @@
 			path = "Phone Stats WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		E26F1F7E1D43C1BB00E01D8C /* GroupFileViewer */ = {
+			isa = PBXGroup;
+			children = (
+				E26F1F911D43C21E00E01D8C /* GroupFileViewer.entitlements */,
+				E26F1F7F1D43C1BB00E01D8C /* AppDelegate.swift */,
+				E26F1F811D43C1BB00E01D8C /* MasterViewController.swift */,
+				E26F1F831D43C1BB00E01D8C /* DetailViewController.swift */,
+				E26F1F851D43C1BB00E01D8C /* Main.storyboard */,
+				E26F1F881D43C1BB00E01D8C /* Assets.xcassets */,
+				E26F1F8A1D43C1BB00E01D8C /* LaunchScreen.storyboard */,
+				E26F1F8D1D43C1BB00E01D8C /* Info.plist */,
+			);
+			path = GroupFileViewer;
+			sourceTree = "<group>";
+		};
+		E2F19D4C1D4EB82C00034138 /* WatchSessionLogger */ = {
+			isa = PBXGroup;
+			children = (
+				E2F19D4D1D4EB86100034138 /* WatchSessionLogger.swift */,
+			);
+			name = WatchSessionLogger;
+			sourceTree = "<group>";
+		};
 		FA0D4E5EBD1293504E818203 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				9B3EA8E8AB296ADD6FB692C5 /* Pods-Phone Status Glance.debug.xcconfig */,
 				AD9D4D952FC4BDF797272D17 /* Pods-Phone Status Glance.release.xcconfig */,
-				D6F59E5531021272E2AA9A5C /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */,
-				69F63DFBEC81FEC09AF04F82 /* Pods-Phone Status Glance WatchKit App.release.xcconfig */,
 				2F861F777C87F86BF0D6FEFD /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */,
 				DA53FAA9D8408E9B058E9ED7 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */,
 				5126FB3CB4259F0402A8DBB0 /* Pods-Phone Status GlanceTests.debug.xcconfig */,
@@ -387,13 +434,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25F79A41D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status Glance" */;
 			buildPhases = (
-				A8686D192ABF7717C1512694 /* 📦 Check Pods Manifest.lock */,
+				A8686D192ABF7717C1512694 /* [CP] Check Pods Manifest.lock */,
 				E25F795C1D0A391B00B46652 /* Sources */,
 				E25F795D1D0A391B00B46652 /* Frameworks */,
 				E25F795E1D0A391B00B46652 /* Resources */,
 				E25F79A31D0A391B00B46652 /* Embed Watch Content */,
-				ED36C1AEBBE913844665BC13 /* 📦 Embed Pods Frameworks */,
-				5AFC3524BEC94C3F5402B22E /* 📦 Copy Pods Resources */,
+				ED36C1AEBBE913844665BC13 /* [CP] Embed Pods Frameworks */,
+				5AFC3524BEC94C3F5402B22E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -409,12 +456,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25F79A71D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status GlanceTests" */;
 			buildPhases = (
-				EEF1EB2E5A9C6051111B4114 /* 📦 Check Pods Manifest.lock */,
+				EEF1EB2E5A9C6051111B4114 /* [CP] Check Pods Manifest.lock */,
 				E25F79701D0A391B00B46652 /* Sources */,
 				E25F79711D0A391B00B46652 /* Frameworks */,
 				E25F79721D0A391B00B46652 /* Resources */,
-				8DF14AAA5F5C79169E0F7645 /* 📦 Embed Pods Frameworks */,
-				614E03ED517D8602A5871646 /* 📦 Copy Pods Resources */,
+				8DF14AAA5F5C79169E0F7645 /* [CP] Embed Pods Frameworks */,
+				614E03ED517D8602A5871646 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -430,11 +477,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25F79A01D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status Glance WatchKit App" */;
 			buildPhases = (
-				D4CB8853BA2FF58E3B575AE3 /* 📦 Check Pods Manifest.lock */,
 				E25F797B1D0A391B00B46652 /* Resources */,
 				E25F799F1D0A391B00B46652 /* Embed App Extensions */,
 				D5FB636F04BC3F2EF110EFF7 /* Frameworks */,
-				D2A21F52A20DC31D6AA7978A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -450,12 +495,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25F799C1D0A391B00B46652 /* Build configuration list for PBXNativeTarget "Phone Status Glance WatchKit Extension" */;
 			buildPhases = (
-				B27D2B66BE56768FEBAD3588 /* 📦 Check Pods Manifest.lock */,
+				B27D2B66BE56768FEBAD3588 /* [CP] Check Pods Manifest.lock */,
 				E25F79881D0A391B00B46652 /* Sources */,
 				E25F79891D0A391B00B46652 /* Frameworks */,
 				E25F798A1D0A391B00B46652 /* Resources */,
-				165C09012A971C1ABF7285B8 /* 📦 Embed Pods Frameworks */,
-				3F22B03B7148E2CD6C43682A /* 📦 Copy Pods Resources */,
+				165C09012A971C1ABF7285B8 /* [CP] Embed Pods Frameworks */,
+				3F22B03B7148E2CD6C43682A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -465,6 +510,23 @@
 			productName = "Phone Stats WatchKit Extension";
 			productReference = E25F798C1D0A391B00B46652 /* Phone Status Glance.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		E26F1F7C1D43C1BB00E01D8C /* GroupFileViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26F1F901D43C1BB00E01D8C /* Build configuration list for PBXNativeTarget "GroupFileViewer" */;
+			buildPhases = (
+				E26F1F791D43C1BB00E01D8C /* Sources */,
+				E26F1F7A1D43C1BB00E01D8C /* Frameworks */,
+				E26F1F7B1D43C1BB00E01D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupFileViewer;
+			productName = GroupFileViewer;
+			productReference = E26F1F7D1D43C1BB00E01D8C /* GroupFileViewer.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -482,6 +544,12 @@
 					};
 					E25F795F1D0A391B00B46652 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XZ59JQ28M5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					E25F79731D0A391B00B46652 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -489,9 +557,30 @@
 					};
 					E25F797C1D0A391B00B46652 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XZ59JQ28M5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					E25F798B1D0A391B00B46652 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XZ59JQ28M5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					E26F1F7C1D43C1BB00E01D8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XZ59JQ28M5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -513,6 +602,7 @@
 				E25F797C1D0A391B00B46652 /* Phone Status Glance WatchKit App */,
 				E25F798B1D0A391B00B46652 /* Phone Status Glance WatchKit Extension */,
 				E2287D7F1D0ECF4A0051FFA7 /* Phone Status GlanceUITests */,
+				E26F1F7C1D43C1BB00E01D8C /* GroupFileViewer */,
 			);
 		};
 /* End PBXProject section */
@@ -587,17 +677,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E26F1F7B1D43C1BB00E01D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26F1F8C1D43C1BB00E01D8C /* LaunchScreen.storyboard in Resources */,
+				E26F1F891D43C1BB00E01D8C /* Assets.xcassets in Resources */,
+				E26F1F871D43C1BB00E01D8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		165C09012A971C1ABF7285B8 /* 📦 Embed Pods Frameworks */ = {
+		165C09012A971C1ABF7285B8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,14 +705,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3F22B03B7148E2CD6C43682A /* 📦 Copy Pods Resources */ = {
+		3F22B03B7148E2CD6C43682A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,14 +720,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status Glance WatchKit Extension/Pods-Phone Status Glance WatchKit Extension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5AFC3524BEC94C3F5402B22E /* 📦 Copy Pods Resources */ = {
+		5AFC3524BEC94C3F5402B22E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,14 +735,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		614E03ED517D8602A5871646 /* 📦 Copy Pods Resources */ = {
+		614E03ED517D8602A5871646 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,14 +750,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8DF14AAA5F5C79169E0F7645 /* 📦 Embed Pods Frameworks */ = {
+		8DF14AAA5F5C79169E0F7645 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -665,14 +765,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status GlanceTests/Pods-Phone Status GlanceTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A8686D192ABF7717C1512694 /* 📦 Check Pods Manifest.lock */ = {
+		A8686D192ABF7717C1512694 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -680,14 +780,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B27D2B66BE56768FEBAD3588 /* 📦 Check Pods Manifest.lock */ = {
+		B27D2B66BE56768FEBAD3588 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -695,44 +795,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D2A21F52A20DC31D6AA7978A /* 📦 Copy Pods Resources */ = {
+		ED36C1AEBBE913844665BC13 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status Glance WatchKit App/Pods-Phone Status Glance WatchKit App-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D4CB8853BA2FF58E3B575AE3 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		ED36C1AEBBE913844665BC13 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -740,14 +810,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phone Status Glance/Pods-Phone Status Glance-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EEF1EB2E5A9C6051111B4114 /* 📦 Check Pods Manifest.lock */ = {
+		EEF1EB2E5A9C6051111B4114 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -773,6 +843,7 @@
 			files = (
 				E25F79661D0A391B00B46652 /* ViewController.swift in Sources */,
 				E25F79641D0A391B00B46652 /* AppDelegate.swift in Sources */,
+				E2F19D4E1D4EB86100034138 /* WatchSessionLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,6 +861,17 @@
 			files = (
 				E25F79941D0A391B00B46652 /* ExtensionDelegate.swift in Sources */,
 				E25F79921D0A391B00B46652 /* InterfaceController.swift in Sources */,
+				E2F19D4F1D4EBA7700034138 /* WatchSessionLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26F1F791D43C1BB00E01D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26F1F841D43C1BB00E01D8C /* DetailViewController.swift in Sources */,
+				E26F1F821D43C1BB00E01D8C /* MasterViewController.swift in Sources */,
+				E26F1F801D43C1BB00E01D8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +923,22 @@
 				E25F79831D0A391B00B46652 /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		E26F1F851D43C1BB00E01D8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26F1F861D43C1BB00E01D8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E26F1F8A1D43C1BB00E01D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26F1F8B1D43C1BB00E01D8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -957,6 +1055,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F861F777C87F86BF0D6FEFD /* Pods-Phone Status Glance WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Phone Status Glance.entitlements";
 				INFOPLIST_FILE = "Phone Stats WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
@@ -972,6 +1071,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA53FAA9D8408E9B058E9ED7 /* Pods-Phone Status Glance WatchKit Extension.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Phone Status Glance.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "Phone Stats WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
@@ -985,10 +1086,9 @@
 		};
 		E25F79A11D0A391B00B46652 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6F59E5531021272E2AA9A5C /* Pods-Phone Status Glance WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				CODE_SIGN_ENTITLEMENTS = "Phone Status Glance.entitlements";
 				IBSC_MODULE = Phone_Stats_WatchKit_Extension;
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
@@ -1002,10 +1102,11 @@
 		};
 		E25F79A21D0A391B00B46652 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69F63DFBEC81FEC09AF04F82 /* Pods-Phone Status Glance WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				CODE_SIGN_ENTITLEMENTS = "Phone Status Glance.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				IBSC_MODULE = Phone_Stats_WatchKit_Extension;
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
@@ -1022,7 +1123,8 @@
 			baseConfigurationReference = 9B3EA8E8AB296ADD6FB692C5 /* Pods-Phone Status Glance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 13;
+				CODE_SIGN_ENTITLEMENTS = "Phone Status Glance.entitlements";
+				CURRENT_PROJECT_VERSION = 20;
 				INFOPLIST_FILE = "Phone Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
@@ -1035,7 +1137,9 @@
 			baseConfigurationReference = AD9D4D952FC4BDF797272D17 /* Pods-Phone Status Glance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 13;
+				CODE_SIGN_ENTITLEMENTS = "Phone Status Glance.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 20;
 				INFOPLIST_FILE = "Phone Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
@@ -1066,6 +1170,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-StatsTests";
 				PRODUCT_NAME = "Phone Status Glance";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Status Glance.app/Phone Status Glance";
+			};
+			name = Release;
+		};
+		E26F1F8E1D43C1BB00E01D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GroupFileViewer/GroupFileViewer.entitlements;
+				INFOPLIST_FILE = GroupFileViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.GroupFileViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E26F1F8F1D43C1BB00E01D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GroupFileViewer/GroupFileViewer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = GroupFileViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.GroupFileViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -1122,6 +1251,15 @@
 			buildConfigurations = (
 				E25F79A81D0A391B00B46652 /* Debug */,
 				E25F79A91D0A391B00B46652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26F1F901D43C1BB00E01D8C /* Build configuration list for PBXNativeTarget "GroupFileViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26F1F8E1D43C1BB00E01D8C /* Debug */,
+				E26F1F8F1D43C1BB00E01D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

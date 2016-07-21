@@ -33,6 +33,13 @@ platform :ios do
     )
   end
 
+  lane :getmatch do
+    match(app_identifier: "io.telliott.Phone-Stats", readonly: true)
+    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp", readonly: true)
+    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp.watchkitextension", readonly: true)
+    match(app_identifier: "io.telliott.GroupFileViewer", readonly: true)
+  end
+
   desc "Increment patch version number"
   lane :bump_patch do
     bump_version(project_file, "patch")
@@ -57,10 +64,13 @@ platform :ios do
   desc "Submit a new Beta Build without Screenshots"
   lane :betafast do
     bump_build(project_file)
-    sigh
     gym(scheme: "Phone Status Glance")
     pilot(skip_waiting_for_build_processing: true)
     tag_with_version("betafast")
+  end
+
+  lane :justgym do
+    gym(scheme: "Phone Status Glance", use_legacy_build_api: true) # Build your app - more options available
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
@@ -68,8 +78,7 @@ platform :ios do
   lane :beta do
     bump_build(project_file)
     snapshot()
-    sigh
-    gym(scheme: "Phone Status Glance") # Build your app - more options available
+    gym(scheme: "Phone Status Glance", use_legacy_build_api: true) # Build your app - more options available
     pilot
     tag_with_version("beta")
   end
@@ -78,8 +87,7 @@ platform :ios do
   lane :deploy do
     bump_build(project_file)
     snapshot()
-    sigh
-    gym(scheme: "Phone Status Glance") # Build your app - more options available
+    gym(scheme: "Phone Status Glance", use_legacy_build_api: true) # Build your app - more options available
     deliver(force: true)
     tag_with_version("deliver")
   end

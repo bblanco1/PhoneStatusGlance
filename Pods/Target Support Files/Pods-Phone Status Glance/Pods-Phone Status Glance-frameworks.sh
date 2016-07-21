@@ -84,10 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/CocoaLumberjack-iOS/CocoaLumberjack.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RFAboutView/RFAboutView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ReachabilitySwift/ReachabilitySwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/CocoaLumberjack-iOS/CocoaLumberjack.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RFAboutView/RFAboutView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ReachabilitySwift/ReachabilitySwift.framework"
 fi

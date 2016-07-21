@@ -10,6 +10,7 @@ import UIKit
 import WatchConnectivity
 import CoreTelephony
 import ReachabilitySwift
+import CocoaLumberjack
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
@@ -22,18 +23,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+        configureLogging()
+        
         UIDevice.currentDevice().batteryMonitoringEnabled = true
         
         if(WCSession.isSupported()){
+            DDLogInfo("Configuring watch session")
             watchSession = WCSession.defaultSession()
             watchSession!.delegate = self
             watchSession!.activateSession()
+        } else {
+            DDLogWarn("Watch sessions not supported")
         }
         
         do {
             reachability = try Reachability.reachabilityForInternetConnection()
         } catch {
-            print("Unable to create Reachability")
+            DDLogError("Unable to create Reachability")
         }
         
         return true
@@ -79,6 +85,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
     
     func session(session: WCSession, didReceiveMessage message: [String : AnyObject], replyHandler: ([String : AnyObject]) -> Void) {
         if let req = message["request"] as? String where req == "update" {
+            DDLogInfo("Received update request from watch")
             
             let batteryFloat = UIDevice.currentDevice().batteryLevel
             var batteryString = "\(batteryFloat*100)%"
@@ -104,7 +111,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
                 "charging": batteryCharging,
                 "signal": reachabilityString
                 ])
+            return
         }
+        
+        if let log = message["message"] as? String {
+            DDLogInfo("[Watch] \(log)")
+            replyHandler([:])
+            return
+        }
+        
+        DDLogWarn("Received unexpected request: \(message)")
+        replyHandler([:])
     }
     
 
@@ -128,6 +145,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func configureLogging(){
+        DDLog.addLogger(DDTTYLogger.sharedInstance()) // TTY = Xcode console
+        DDLog.addLogger(DDASLLogger.sharedInstance()) // ASL = Apple System Logs
+        if let container = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.phonestatusglance.telliott.io") {
+            let logPath: NSURL = container.URLByAppendingPathComponent("phone_logs")
+            
+            do {
+                try NSFileManager.defaultManager().createDirectoryAtPath(logPath.path!, withIntermediateDirectories: false, attributes: nil)
+            } catch let error as NSError {
+                DDLogWarn(error.localizedDescription);
+            }
+            
+            let fileLogger: DDFileLogger = DDFileLogger(logFileManager: DDLogFileManagerDefault(logsDirectory: logPath.path!)) // File Logger
+            fileLogger.rollingFrequency = 60*60*24  // 24 hours
+            fileLogger.logFileManager.maximumNumberOfLogFiles = 7
+            
+            DDLogInfo("Logging to \(logPath.absoluteString)")
+            
+            DDLog.addLogger(fileLogger)
+        } else {
+            DDLogWarn("Could not get group container")
+        }
     }
 
 
