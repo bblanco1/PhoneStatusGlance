@@ -7,4 +7,3 @@
 # Feel free to remove the following line if you use fastlane (which you should)
 
 app_identifier "io.telliott.Phone-Stats" # The bundle identifier of your app
-username "tom.w.elliott@gmail.com" # your Apple ID user
