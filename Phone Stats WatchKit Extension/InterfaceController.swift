@@ -172,4 +172,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         }
     }
     
+    func session(session: WCSession, activationDidCompleteWithState activationState: WCSessionActivationState, error: NSError?) {
+    }
+    
 }

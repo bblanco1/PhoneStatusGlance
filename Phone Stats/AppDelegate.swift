@@ -151,7 +151,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
         DDLog.addLogger(DDTTYLogger.sharedInstance()) // TTY = Xcode console
         DDLog.addLogger(DDASLLogger.sharedInstance()) // ASL = Apple System Logs
         if let container = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.phonestatusglance.telliott.io") {
-            let logPath: NSURL = container.URLByAppendingPathComponent("phone_logs")
+            let logPath: NSURL = container.URLByAppendingPathComponent("phone_logs")!
             
             do {
                 try NSFileManager.defaultManager().createDirectoryAtPath(logPath.path!, withIntermediateDirectories: false, attributes: nil)
@@ -170,7 +170,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
             DDLogWarn("Could not get group container")
         }
     }
+    
+    func session(session: WCSession, activationDidCompleteWithState activationState: WCSessionActivationState, error: NSError?) {}
 
-
+    func sessionDidDeactivate(session: WCSession){}
+    
+    func sessionDidBecomeInactive(session: WCSession){}
+    
 }
 
