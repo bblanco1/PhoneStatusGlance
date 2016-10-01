@@ -1,3 +1,11 @@
+devices([
+  "iPhone 6",
+  "iPhone 7 Plus",
+  "iPhone 5",
+  "iPad Retina",
+  "iPad Pro (12.9 inch)"
+])
+
 languages([
   "en-US",
 ])
