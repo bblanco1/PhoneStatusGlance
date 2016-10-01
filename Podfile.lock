@@ -1,12 +1,12 @@
 PODS:
-  - CocoaLumberjack/Core (2.3.0)
-  - CocoaLumberjack/Default (2.3.0):
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
     - CocoaLumberjack/Core
-  - CocoaLumberjack/Extensions (2.3.0):
+  - CocoaLumberjack/Extensions (3.0.0):
     - CocoaLumberjack/Default
-  - CocoaLumberjack/Swift (2.3.0):
+  - CocoaLumberjack/Swift (3.0.0):
     - CocoaLumberjack/Extensions
-  - ReachabilitySwift (2.3.3)
+  - ReachabilitySwift (3)
   - RFAboutView (1.0.4)
 
 DEPENDENCIES:
@@ -20,14 +20,14 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ReachabilitySwift:
-    :commit: 99bf4c6ef9a4ec39dccd1bf4640716713b3dc0f6
+    :commit: 47f058b5187f7ac221e86846e793ff993c0c4270
     :git: https://github.com/ashleymills/Reachability.swift
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
-  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
   RFAboutView: d775536bf571a2c61baea9974a027371fe7fa65c
 
 PODFILE CHECKSUM: 66a32a58a983dbe97df5037b34f3fbf4ee42c914
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.0.1
