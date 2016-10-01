@@ -1,4 +1,5 @@
 app_identifier "io.telliott.Phone-Stats" # The bundle identifier of your app
+username "iosdev@telliott.io" # your Apple ID user
 
 # you can even provide different app identifiers, Apple IDs and team names per lane:
 # More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md
