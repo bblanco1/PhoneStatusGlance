@@ -8,7 +8,6 @@ project_file = 'Phone Status Glance.xcodeproj'
 
 platform :ios do
   before_all do
-    cocoapods
   end
 
   def commit_bump (project_file)
