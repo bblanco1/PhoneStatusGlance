@@ -547,6 +547,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = XZ59JQ28M5;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -572,6 +573,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = XZ59JQ28M5;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -1069,10 +1071,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Phone Status Glance.entitlements";
+				DEVELOPMENT_TEAM = XZ59JQ28M5;
 				INFOPLIST_FILE = "Phone Stats WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "Phone Status Glance";
+				PROVISIONING_PROFILE = "d839153b-9935-4dc5-bff7-8a187676ed43";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
@@ -1088,10 +1093,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Phone Status Glance.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = XZ59JQ28M5;
 				INFOPLIST_FILE = "Phone Stats WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "Phone Status Glance";
+				PROVISIONING_PROFILE = "c188ccfd-0df4-4b58-9547-e8f745776ed0";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
@@ -1148,10 +1156,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Phone Status Glance.entitlements";
 				CURRENT_PROJECT_VERSION = 36;
+				DEVELOPMENT_TEAM = XZ59JQ28M5;
 				INFOPLIST_FILE = "Phone Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
 				PRODUCT_NAME = "Phone Status Glance";
+				PROVISIONING_PROFILE = "808d9fda-ff3d-4272-a9e2-633960e1ecfb";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development io.telliott.Phone-Stats";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
@@ -1165,10 +1176,13 @@
 				CODE_SIGN_ENTITLEMENTS = "Phone Status Glance.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 36;
+				DEVELOPMENT_TEAM = XZ59JQ28M5;
 				INFOPLIST_FILE = "Phone Stats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
 				PRODUCT_NAME = "Phone Status Glance";
+				PROVISIONING_PROFILE = "bf3c602d-e2e2-4e00-bdea-66e5d579991a";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.telliott.Phone-Stats";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
