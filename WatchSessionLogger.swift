@@ -19,13 +19,13 @@ class WatchSessionLogger: NSObject, DDLogger {
         self.watchSession = watchSession
     }
     
-    func logMessage(logMessage: DDLogMessage!) {
+    func log(message logMessage: DDLogMessage!) {
         var messageText = logMessage.message
         if let lf = logFormatter {
-            messageText = lf.formatLogMessage(logMessage)
+            messageText = lf.format(message: logMessage)
         }
-        watchSession.sendMessage(["message" : messageText], replyHandler: { (reply: [String : AnyObject]) in
-        }) { (error: NSError) in
+        watchSession.sendMessage(["message" : messageText], replyHandler: { (reply: [String : Any]) in
+        }) { (error: Error) in
             print("Last log message could not be recorded")
         }
     }

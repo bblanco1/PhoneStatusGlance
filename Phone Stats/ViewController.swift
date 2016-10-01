@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func aboutPressed(sender: AnyObject){
+    @IBAction func aboutPressed(_ sender: AnyObject){
         let aboutView: RFAboutViewController = RFAboutViewController(
             appName: "Phone Status Glance",
             appVersion: nil,
@@ -29,16 +29,16 @@ class ViewController: UIViewController {
             copyrightHolderName: "Tom Elliott",
             contactEmail: "tom.w.elliott@gmail.com",
             titleForEmail: "Tom Elliott",
-            websiteURL: NSURL(string: "http://telliott.io"),
+            websiteURL: URL(string: "http://telliott.io"),
             titleForWebsiteURL: "telliott.io",
             andPublicationYear: nil)
         aboutView.navigationBarBarTintColor = UINavigationBar.appearance().barTintColor
         aboutView.navigationBarTintColor = UINavigationBar.appearance().tintColor
-        aboutView.blurStyle = .Dark
+        aboutView.blurStyle = .dark
         aboutView.headerBackgroundImage = UIImage(named: "icon-transparent")
         
-        aboutView.addAdditionalButtonWithTitle(
-            "Image Sources",
+        aboutView.addAdditionalButton(
+            withTitle: "Image Sources",
                                                subtitle: "Asset creators",
                                                andContent:
             "Internet Browsing by Creative Stall from the Noun Project\n\n" +
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func openWatchApp(){
-        UIApplication.sharedApplication().openURL(NSURL(string:"itms-watch://")!)
+        UIApplication.shared.openURL(URL(string:"itms-watch://")!)
     }
     
 }

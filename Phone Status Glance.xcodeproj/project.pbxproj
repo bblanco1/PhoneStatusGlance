@@ -958,7 +958,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Status-GlanceUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Phone Status Glance";
 			};
 			name = Debug;
@@ -970,7 +970,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Status-GlanceUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Phone Status Glance";
 			};
 			name = Release;
@@ -1080,7 +1080,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -1102,7 +1102,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -1163,7 +1163,7 @@
 				PRODUCT_NAME = "Phone Status Glance";
 				PROVISIONING_PROFILE = "808d9fda-ff3d-4272-a9e2-633960e1ecfb";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.telliott.Phone-Stats";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1183,7 +1183,7 @@
 				PRODUCT_NAME = "Phone Status Glance";
 				PROVISIONING_PROFILE = "bf3c602d-e2e2-4e00-bdea-66e5d579991a";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.telliott.Phone-Stats";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1196,7 +1196,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-StatsTests";
 				PRODUCT_NAME = "Phone Status Glance";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Status Glance.app/Phone Status Glance";
 			};
 			name = Debug;
@@ -1210,7 +1210,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-StatsTests";
 				PRODUCT_NAME = "Phone Status Glance";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Status Glance.app/Phone Status Glance";
 			};
 			name = Release;
