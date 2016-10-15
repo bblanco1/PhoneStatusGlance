@@ -6,15 +6,21 @@ if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
   exit $?
 fi
 
+# Betafast
+if [[ "$TRAVIS_BRANCH" == "betafast" ]] || [[ "$TRAVIS_BRANCH" = */betafast ]]; then
+  bundle exec fastlane betafast
+  exit $?
+fi
+
 # Beta deploy
 if [[ "$TRAVIS_BRANCH" == "beta" ]] || [[ "$TRAVIS_BRANCH" = */beta ]]; then
-  bundle exec fastlane getmatch && bundle exec fastlane beta
+  bundle exec fastlane beta
   exit $?
 fi
 
 # Release for review
 if [[ "$TRAVIS_BRANCH" == "release" ]] || [[ "$TRAVIS_BRANCH" = */deploy ]]; then
-  bundle exec fastlane getmatch && bundle exec fastlane deploy
+  bundle exec fastlane deploy
   exit $?
 fi
 
