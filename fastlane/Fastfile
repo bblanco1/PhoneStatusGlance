@@ -25,7 +25,7 @@ platform :ios do
 
   def bump_build (project_file)
     # Increment build number to current date
-    build_number = Time.new.strftime("%Y.%m.%d")
+    build_number = "" + (`git rev-parse HEAD`)[0...7] + "-" + Time.new.strftime("%Y.%m.%d-%H:%M:%S")
     increment_build_number build_number: build_number
   end
 
