@@ -14,10 +14,6 @@ platform :ios do
     xcclean(workspace: workspace_file, scheme: "Phone Status Glance WatchKit App (Glance)")
   end
 
-  after_all do
-    reset_git_repo
-  end
-
   def commit_bump (project_file)
     commit_version_bump(xcodeproj: project_file, message: "Bump build number")
   end
