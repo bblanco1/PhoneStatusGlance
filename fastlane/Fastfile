@@ -20,9 +20,9 @@ platform :ios do
 
   def bump_build (project_file)
     if ENV["TRAVIS"] == "true"
-      build_number = "1.#{ENV["TRAVIS_BUILD_NUMBER"]}"
+      build_number = "#{Time.now.to_i}.1.#{ENV["TRAVIS_BUILD_NUMBER"]}"
     else
-      build_number = "0.#{Time.now.to_i}"
+      build_number = "#{Time.now.to_i}.0.0"
     end
     increment_build_number build_number: build_number
   end
