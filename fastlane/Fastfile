@@ -41,10 +41,15 @@ platform :ios do
   end
 
   lane :getmatch do
-    match(app_identifier: "io.telliott.Phone-Stats", readonly: true)
-    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp", readonly: true)
-    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp.watchkitextension", readonly: true)
-    match(app_identifier: "io.telliott.GroupFileViewer", readonly: true)
+    match(app_identifier: "io.telliott.Phone-Stats", readonly: true, type: "development")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp", readonly: true, type: "development")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp.watchkitextension", readonly: true, type: "development", type: "development")
+    match(app_identifier: "io.telliott.GroupFileViewer", readonly: true, type: "development")
+
+    match(app_identifier: "io.telliott.Phone-Stats", readonly: true, type: "appstore")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp", readonly: true, type: "appstore")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp.watchkitextension", readonly: true, type: "appstore")
+    match(app_identifier: "io.telliott.GroupFileViewer", readonly: true, type: "appstore")
   end
 
   desc "Increment patch version number"
