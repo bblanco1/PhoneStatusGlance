@@ -78,7 +78,7 @@ platform :ios do
       getmatch
     end
     bump_build(project_file)
-    gym(scheme: "Phone Status Glance")
+    gym(scheme: "Phone Status Glance", use_legacy_build_api: true)
     pilot(skip_waiting_for_build_processing: true)
   end
 
