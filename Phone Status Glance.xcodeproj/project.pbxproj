@@ -1077,7 +1077,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "Phone Status Glance";
-				PROVISIONING_PROFILE = "d839153b-9935-4dc5-bff7-8a187676ed43";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1099,7 +1098,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "Phone Status Glance";
-				PROVISIONING_PROFILE = "c188ccfd-0df4-4b58-9547-e8f745776ed0";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.telliott.Phone-Stats.watchkitapp.watchkitextension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1119,7 +1117,6 @@
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
 				PRODUCT_NAME = "Phone Status Glance";
-				PROVISIONING_PROFILE = "a7e90187-b366-42ef-8679-dc8807c8faea";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.telliott.Phone-Stats.watchkitapp";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1140,7 +1137,6 @@
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
 				PRODUCT_NAME = "Phone Status Glance";
-				PROVISIONING_PROFILE = "5007ec9b-035a-4e32-8bf9-e59c85db1b7c";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.telliott.Phone-Stats.watchkitapp";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1226,7 +1222,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.GroupFileViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "deee6c90-772d-4545-b38b-da143750bc79";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.telliott.GroupFileViewer";
 			};
 			name = Debug;
@@ -1243,7 +1238,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.telliott.GroupFileViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "deee6c90-772d-4545-b38b-da143750bc79";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.telliott.GroupFileViewer";
 			};
 			name = Release;
