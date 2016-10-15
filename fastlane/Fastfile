@@ -15,8 +15,9 @@ platform :ios do
   end
 
   def bump_build (project_file)
-    increment_build_number(xcodeproj: project_file)
-    commit_bump(project_file)
+    # Increment build number to current date
+    build_number = Time.new.strftime("%Y.%m.%d")
+    increment_build_number build_number: build_number
   end
 
   def bump_version (project_file, type)
@@ -64,7 +65,6 @@ platform :ios do
     bump_build(project_file)
     gym(scheme: "Phone Status Glance")
     pilot(skip_waiting_for_build_processing: true)
-    tag_with_version("betafast")
   end
 
   lane :justgym do
@@ -78,7 +78,6 @@ platform :ios do
     snapshot()
     gym(scheme: "Phone Status Glance", use_legacy_build_api: true) # Build your app - more options available
     pilot
-    tag_with_version("beta")
   end
 
   desc "Deploy a new version to the App Store"
@@ -87,6 +86,5 @@ platform :ios do
     snapshot()
     gym(scheme: "Phone Status Glance", use_legacy_build_api: true) # Build your app - more options available
     deliver(force: true)
-    tag_with_version("deliver")
   end
 end
