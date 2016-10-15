@@ -5,9 +5,17 @@ fastlane_version "1.89.0"
 default_platform :ios
 
 project_file = 'Phone Status Glance.xcodeproj'
+workspace_file = "Phone Status Glance.xcworkspace"
 
 platform :ios do
   before_all do
+    xcclean(workspace: workspace_file, scheme: "Phone Status Glance")
+    xcclean(workspace: workspace_file, scheme: "Phone Status Glance WatchKit App")
+    xcclean(workspace: workspace_file, scheme: "Phone Status Glance WatchKit App (Glance)")
+  end
+
+  after_all do
+    reset_git_repo
   end
 
   def commit_bump (project_file)
