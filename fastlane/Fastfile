@@ -9,7 +9,6 @@ workspace_file = "Phone Status Glance.xcworkspace"
 
 platform :ios do
   before_all do
-    ensure_git_status_clean
     xcclean(workspace: workspace_file, scheme: "Phone Status Glance")
     xcclean(workspace: workspace_file, scheme: "Phone Status Glance WatchKit App")
     xcclean(workspace: workspace_file, scheme: "Phone Status Glance WatchKit App (Glance)")
