@@ -54,13 +54,13 @@ platform :ios do
 
   lane :setmatch do
     match(app_identifier: "io.telliott.Phone-Stats", type: "development")
-    match(app_identifier: "io.telliott.Phone-Stats.watchkit", type: "development")
-    match(app_identifier: "io.telliott.Phone-Stats.watchkit.watchkitextension", type: "development", type: "development")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp", type: "development")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp.watchkitextension", type: "development", type: "development")
     match(app_identifier: "io.telliott.GroupFileViewer", type: "development")
 
     match(app_identifier: "io.telliott.Phone-Stats", type: "appstore")
-    match(app_identifier: "io.telliott.Phone-Stats.watchkit", type: "appstore")
-    match(app_identifier: "io.telliott.Phone-Stats.watchkit.watchkitextension", type: "appstore")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp", type: "appstore")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkitapp.watchkitextension", type: "appstore")
     match(app_identifier: "io.telliott.GroupFileViewer", type: "appstore")
   end
 
