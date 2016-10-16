@@ -1115,7 +1115,7 @@
 				DEVELOPMENT_TEAM = XZ59JQ28M5;
 				IBSC_MODULE = Phone_Stats_WatchKit_Extension;
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
 				PRODUCT_NAME = "Phone Status Glance";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.telliott.Phone-Stats.watchkitapp";
 				SDKROOT = watchos;
@@ -1135,7 +1135,7 @@
 				DEVELOPMENT_TEAM = XZ59JQ28M5;
 				IBSC_MODULE = Phone_Stats_WatchKit_Extension;
 				INFOPLIST_FILE = "Phone Stats WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp.extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats.watchkitapp";
 				PRODUCT_NAME = "Phone Status Glance";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.telliott.Phone-Stats.watchkitapp";
 				SDKROOT = watchos;
