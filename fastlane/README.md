@@ -11,6 +11,11 @@ sudo gem install fastlane
 fastlane ios getmatch
 ```
 
+### ios setmatch
+```
+fastlane ios setmatch
+```
+
 ### ios bump_patch
 ```
 fastlane ios bump_patch
