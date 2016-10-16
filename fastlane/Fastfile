@@ -52,6 +52,18 @@ platform :ios do
     match(app_identifier: "io.telliott.GroupFileViewer", readonly: true, type: "appstore")
   end
 
+  lane :setmatch do
+    match(app_identifier: "io.telliott.Phone-Stats", type: "development")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkit", type: "development")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkit.watchkitextension", type: "development", type: "development")
+    match(app_identifier: "io.telliott.GroupFileViewer", type: "development")
+
+    match(app_identifier: "io.telliott.Phone-Stats", type: "appstore")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkit", type: "appstore")
+    match(app_identifier: "io.telliott.Phone-Stats.watchkit.watchkitextension", type: "appstore")
+    match(app_identifier: "io.telliott.GroupFileViewer", type: "appstore")
+  end
+
   desc "Increment patch version number"
   lane :bump_patch do
     bump_version(project_file, "patch")
