@@ -104,7 +104,7 @@ platform :ios do
       getmatch
     end
     bump_build(project_file)
-    snapshot(skip_open_summary: ENV["TRAVIS"])
+    snapshot()
     gym(scheme: "Phone Status Glance", use_legacy_build_api: true) # Build your app - more options available
     deliver(force: true)
   end

@@ -19,7 +19,7 @@ if [[ "$TRAVIS_BRANCH" == "beta" ]] || [[ "$TRAVIS_BRANCH" = */beta ]]; then
 fi
 
 # Release for review
-if [[ "$TRAVIS_BRANCH" == "release" ]] || [[ "$TRAVIS_BRANCH" = */deploy ]]; then
+if [[ "$TRAVIS_BRANCH" == "release" ]] || [[ "$TRAVIS_BRANCH" = */release ]]; then
   bundle exec fastlane deploy
   exit $?
 fi
