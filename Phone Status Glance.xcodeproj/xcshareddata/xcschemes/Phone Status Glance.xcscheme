@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25F795F1D0A391B00B46652"
-               BuildableName = "Phone Status Glance.app"
+               BuildableName = "Phone Status.app"
                BlueprintName = "Phone Status Glance"
                ReferencedContainer = "container:Phone Status Glance.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25F79731D0A391B00B46652"
-               BuildableName = "Phone Status Glance.xctest"
+               BuildableName = "Phone Status.xctest"
                BlueprintName = "Phone Status GlanceTests"
                ReferencedContainer = "container:Phone Status Glance.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25F795F1D0A391B00B46652"
-            BuildableName = "Phone Status Glance.app"
+            BuildableName = "Phone Status.app"
             BlueprintName = "Phone Status Glance"
             ReferencedContainer = "container:Phone Status Glance.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25F795F1D0A391B00B46652"
-            BuildableName = "Phone Status Glance.app"
+            BuildableName = "Phone Status.app"
             BlueprintName = "Phone Status Glance"
             ReferencedContainer = "container:Phone Status Glance.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25F795F1D0A391B00B46652"
-            BuildableName = "Phone Status Glance.app"
+            BuildableName = "Phone Status.app"
             BlueprintName = "Phone Status Glance"
             ReferencedContainer = "container:Phone Status Glance.xcodeproj">
          </BuildableReference>

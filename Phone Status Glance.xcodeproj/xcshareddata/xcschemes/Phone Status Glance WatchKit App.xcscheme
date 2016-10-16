@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25F797C1D0A391B00B46652"
-               BuildableName = "Phone Status Glance.app"
+               BuildableName = "Phone Status.app"
                BlueprintName = "Phone Status Glance WatchKit App"
                ReferencedContainer = "container:Phone Status Glance.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25F798B1D0A391B00B46652"
-               BuildableName = "Phone Status Glance.appex"
+               BuildableName = "Phone Status.appex"
                BlueprintName = "Phone Status Glance WatchKit Extension"
                ReferencedContainer = "container:Phone Status Glance.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25F795F1D0A391B00B46652"
-               BuildableName = "Phone Status Glance.app"
+               BuildableName = "Phone Status.app"
                BlueprintName = "Phone Status Glance"
                ReferencedContainer = "container:Phone Status Glance.xcodeproj">
             </BuildableReference>
@@ -71,7 +71,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25F797C1D0A391B00B46652"
-            BuildableName = "Phone Status Glance.app"
+            BuildableName = "Phone Status.app"
             BlueprintName = "Phone Status Glance WatchKit App"
             ReferencedContainer = "container:Phone Status Glance.xcodeproj">
          </BuildableReference>
@@ -96,7 +96,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25F797C1D0A391B00B46652"
-            BuildableName = "Phone Status Glance.app"
+            BuildableName = "Phone Status.app"
             BlueprintName = "Phone Status Glance WatchKit App"
             ReferencedContainer = "container:Phone Status Glance.xcodeproj">
          </BuildableReference>
@@ -105,7 +105,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25F797C1D0A391B00B46652"
-            BuildableName = "Phone Status Glance.app"
+            BuildableName = "Phone Status.app"
             BlueprintName = "Phone Status Glance WatchKit App"
             ReferencedContainer = "container:Phone Status Glance.xcodeproj">
          </BuildableReference>
@@ -126,7 +126,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25F797C1D0A391B00B46652"
-            BuildableName = "Phone Status Glance.app"
+            BuildableName = "Phone Status.app"
             BlueprintName = "Phone Status Glance WatchKit App"
             ReferencedContainer = "container:Phone Status Glance.xcodeproj">
          </BuildableReference>
@@ -135,7 +135,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E25F797C1D0A391B00B46652"
-            BuildableName = "Phone Status Glance.app"
+            BuildableName = "Phone Status.app"
             BlueprintName = "Phone Status Glance WatchKit App"
             ReferencedContainer = "container:Phone Status Glance.xcodeproj">
          </BuildableReference>
