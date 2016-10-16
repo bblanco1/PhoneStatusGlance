@@ -1158,7 +1158,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
 				PRODUCT_NAME = "Phone Status Glance";
-				PROVISIONING_PROFILE = "808d9fda-ff3d-4272-a9e2-633960e1ecfb";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.telliott.Phone-Stats";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1178,7 +1177,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.telliott.Phone-Stats";
 				PRODUCT_NAME = "Phone Status Glance";
-				PROVISIONING_PROFILE = "bf3c602d-e2e2-4e00-bdea-66e5d579991a";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore io.telliott.Phone-Stats";
 				SWIFT_VERSION = 3.0;
 			};
